@@ -54,6 +54,12 @@ PWA per iPhone che segue le partite della società VIRTUS CASERTA. Squadra in ev
   l'emulazione via DevTools Protocol (`Emulation.setDeviceMetricsOverride` 390×844).
 
 ## Trappole già pagate
+- GitHub Pages manda `Cache-Control: max-age=600`. Il service worker installa il guscio
+  con `cache: "reload"`, altrimenti una versione pubblicata a meno di 10 minuti dalla
+  precedente si riempie coi file vecchi e resta bloccata (08/11/2026: sw v4 con lo stile
+  della v3, pulsanti rimasti grandi sull'iPhone). L'app cerca versioni nuove anche al
+  ritorno in primo piano e, quando il service worker nuovo prende il comando, si ricarica
+  da sola una volta (`controllerchange`).
 - I giri programmati di GitHub Actions non sono garantiti: l'08/11/2026, con cron
   `*/20`, ne sono partiti 2 in 10 ore e il risultato della Virtus non arrivava. Per
   questo l'app legge da sé (`dalvivo.js`); il bot serve per tutto il resto.

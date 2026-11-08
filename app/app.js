@@ -19,6 +19,7 @@ const S = {
   vivoInCorso: false,
   fermaScorrimento: false,
   primaVolta: true,
+  registrazione: null,   // service worker, per cercare versioni nuove
 };
 
 /* ------------------------------------------------------------ utilità */
@@ -455,8 +456,13 @@ $("#bt-aggiorna").onclick = () => caricaDati(true);
 $("#vai-annulla").onclick = chiudiPortami;
 $("#foglio").onclick = (e) => { if (e.target.id === "foglio") chiudiPortami(); };
 ["vai-google", "vai-apple"].forEach((id) => ($("#" + id).onclick = () => setTimeout(chiudiPortami, 300)));
-// tornando all'app dopo un po', rilegge i dati
-document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && S.dati) caricaDati(); });
+// tornando all'app dopo un po', rilegge i dati e guarda se c'è una versione nuova dell'app
+// (l'iPhone spesso riprende l'app dalla memoria senza riaprirla: senza questo non la cercherebbe)
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState !== "visible") return;
+  if (S.dati) caricaDati();
+  if (S.registrazione) S.registrazione.update().catch(() => {});
+});
 
 // app aperta durante una partita: ogni minuto guarda se è il momento di un controllo
 // (dalvivo.js lo fa al massimo ogni 5 minuti, e solo se c'è una gara appena finita)
@@ -464,5 +470,18 @@ setInterval(() => {
   if (document.visibilityState === "visible" && S.dati && !S.vivoInCorso && DalVivo.serve(S.dati)) dalVivo("partite");
 }, 60e3);
 
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+/* Versione nuova dell'app: quando il service worker nuovo prende il comando, la pagina si
+   ricarica una volta da sola (solo se ce n'era già uno: alla prima installazione no). */
+if ("serviceWorker" in navigator) {
+  const cerAltro = !!navigator.serviceWorker.controller;
+  let ricaricata = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (!cerAltro || ricaricata) return;
+    ricaricata = true;
+    location.reload();
+  });
+  navigator.serviceWorker.register("sw.js", { updateViaCache: "none" })
+    .then((r) => { S.registrazione = r; r.update().catch(() => {}); })
+    .catch(() => {});
+}
 caricaDati();
