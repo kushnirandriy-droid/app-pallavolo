@@ -678,16 +678,29 @@
   }
  },
  "cr-131621080": {
-  "letto": "2026-11-08T18:25:12+01:00",
+  "letto": "2026-11-08T22:07:32+01:00",
   "set": [
-   null,
-   null
+   3,
+   0
   ],
   "dati": {
    "numero": 1014,
    "giornata": 4,
    "data": "2026-11-08T17:30:00+01:00",
-   "parziali": [],
+   "parziali": [
+    [
+     25,
+     18
+    ],
+    [
+     25,
+     23
+    ],
+    [
+     25,
+     10
+    ]
+   ],
    "palestra": {
     "nome": "PALAZZETTO DELLO SPORT",
     "citta": "TELESE TERME",
@@ -739,16 +752,33 @@
   }
  },
  "cr-131621083": {
-  "letto": "2026-11-08T12:13:40+01:00",
+  "letto": "2026-11-08T22:07:32+01:00",
   "set": [
-   null,
-   null
+   3,
+   1
   ],
   "dati": {
    "numero": 1017,
    "giornata": 4,
    "data": "2026-11-08T18:00:00+01:00",
-   "parziali": [],
+   "parziali": [
+    [
+     25,
+     15
+    ],
+    [
+     25,
+     16
+    ],
+    [
+     23,
+     25
+    ],
+    [
+     25,
+     23
+    ]
+   ],
    "palestra": {
     "nome": "PALESTRA COMUNALE PITTONI",
     "citta": "TORRE ANNUNZIATA",
@@ -761,16 +791,37 @@
   }
  },
  "cr-131621084": {
-  "letto": "2026-11-08T18:25:12+01:00",
+  "letto": "2026-11-08T22:07:32+01:00",
   "set": [
-   null,
-   null
+   2,
+   3
   ],
   "dati": {
    "numero": 1018,
    "giornata": 4,
    "data": "2026-11-08T16:30:00+01:00",
-   "parziali": [],
+   "parziali": [
+    [
+     26,
+     24
+    ],
+    [
+     19,
+     25
+    ],
+    [
+     25,
+     15
+    ],
+    [
+     19,
+     25
+    ],
+    [
+     10,
+     15
+    ]
+   ],
    "palestra": {
     "nome": "PALESTRA LS GAROFANO",
     "citta": "CAPUA",
@@ -805,16 +856,33 @@
   }
  },
  "cr-131621086": {
-  "letto": "2026-11-08T12:13:40+01:00",
+  "letto": "2026-11-08T22:07:32+01:00",
   "set": [
-   null,
-   null
+   1,
+   3
   ],
   "dati": {
    "numero": 1020,
    "giornata": 4,
    "data": "2026-11-08T18:30:00+01:00",
-   "parziali": [],
+   "parziali": [
+    [
+     20,
+     25
+    ],
+    [
+     24,
+     26
+    ],
+    [
+     25,
+     19
+    ],
+    [
+     14,
+     25
+    ]
+   ],
    "palestra": {
     "nome": "PALESTRA VITTORIO ALFIERI",
     "citta": "CICCIANO CICCIANO",

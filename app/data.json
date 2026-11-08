@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-08T18:25:12+01:00",
- "ultimo_giro_completo": "2026-11-08T12:52:02+01:00",
+ "aggiornato": "2026-11-08T22:07:10+01:00",
+ "ultimo_giro_completo": "2026-11-08T22:07:10+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -16,66 +16,66 @@
     {
      "pos": 1,
      "squadra": "cr-pallavolo-telese",
-     "punti": 9,
-     "g": 3,
-     "v": 3,
+     "punti": 12,
+     "g": 4,
+     "v": 4,
      "p": 0,
-     "sf": 9,
+     "sf": 12,
      "ss": 1,
-     "pf": 252,
-     "ps": 187,
+     "pf": 327,
+     "ps": 238,
      "pen": 0
     },
     {
      "pos": 2,
      "squadra": "cr-virtus-caserta",
      "punti": 9,
-     "g": 3,
+     "g": 4,
      "v": 3,
-     "p": 0,
-     "sf": 9,
-     "ss": 2,
-     "pf": 273,
-     "ps": 225,
+     "p": 1,
+     "sf": 10,
+     "ss": 5,
+     "pf": 352,
+     "ps": 323,
      "pen": 0
     },
     {
      "pos": 3,
-     "squadra": "cr-vesuvio-volley",
-     "punti": 7,
-     "g": 3,
-     "v": 2,
+     "squadra": "cr-volley4all-frattamaggiore",
+     "punti": 8,
+     "g": 4,
+     "v": 3,
      "p": 1,
-     "sf": 8,
-     "ss": 4,
-     "pf": 283,
-     "ps": 233,
+     "sf": 10,
+     "ss": 6,
+     "pf": 356,
+     "ps": 332,
      "pen": 0
     },
     {
      "pos": 4,
      "squadra": "cr-folgore-vairano",
-     "punti": 6,
-     "g": 3,
-     "v": 2,
+     "punti": 8,
+     "g": 4,
+     "v": 3,
      "p": 1,
-     "sf": 6,
-     "ss": 4,
-     "pf": 216,
-     "ps": 230,
+     "sf": 9,
+     "ss": 6,
+     "pf": 320,
+     "ps": 329,
      "pen": 0
     },
     {
      "pos": 5,
-     "squadra": "cr-volley4all-frattamaggiore",
-     "punti": 5,
-     "g": 3,
+     "squadra": "cr-vesuvio-volley",
+     "punti": 7,
+     "g": 4,
      "v": 2,
-     "p": 1,
-     "sf": 7,
-     "ss": 5,
-     "pf": 261,
-     "ps": 249,
+     "p": 2,
+     "sf": 8,
+     "ss": 7,
+     "pf": 334,
+     "ps": 308,
      "pen": 0
     },
     {
@@ -93,6 +93,19 @@
     },
     {
      "pos": 7,
+     "squadra": "cr-academy-volley-fiamma",
+     "punti": 5,
+     "g": 4,
+     "v": 2,
+     "p": 2,
+     "sf": 8,
+     "ss": 9,
+     "pf": 377,
+     "ps": 367,
+     "pen": 0
+    },
+    {
+     "pos": 8,
      "squadra": "cr-elisa-volley-pomigliano",
      "punti": 4,
      "g": 3,
@@ -105,7 +118,7 @@
      "pen": 0
     },
     {
-     "pos": 8,
+     "pos": 9,
      "squadra": "cr-casapane-san-marco-volley",
      "punti": 4,
      "g": 3,
@@ -118,20 +131,20 @@
      "pen": 0
     },
     {
-     "pos": 9,
+     "pos": 10,
      "squadra": "cr-il-gladiatore",
-     "punti": 3,
-     "g": 2,
+     "punti": 4,
+     "g": 3,
      "v": 1,
-     "p": 1,
-     "sf": 3,
-     "ss": 4,
-     "pf": 141,
-     "ps": 150,
+     "p": 2,
+     "sf": 5,
+     "ss": 7,
+     "pf": 240,
+     "ps": 254,
      "pen": 0
     },
     {
-     "pos": 10,
+     "pos": 11,
      "squadra": "cr-carbat-matese",
      "punti": 3,
      "g": 3,
@@ -144,29 +157,16 @@
      "pen": 0
     },
     {
-     "pos": 11,
-     "squadra": "cr-academy-volley-fiamma",
-     "punti": 2,
-     "g": 3,
-     "v": 1,
-     "p": 2,
-     "sf": 5,
-     "ss": 8,
-     "pf": 279,
-     "ps": 288,
-     "pen": 0
-    },
-    {
      "pos": 12,
      "squadra": "cr-belenergia",
      "punti": 0,
-     "g": 2,
+     "g": 3,
      "v": 0,
-     "p": 2,
-     "sf": 1,
-     "ss": 6,
-     "pf": 154,
-     "ps": 176,
+     "p": 3,
+     "sf": 2,
+     "ss": 9,
+     "pf": 237,
+     "ps": 271,
      "pen": 0
     },
     {
@@ -2512,12 +2512,33 @@
    "casa": "cr-il-gladiatore",
    "ospite": "cr-folgore-vairano",
    "set": [
-    null,
-    null
+    2,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "parziali": [
+    [
+     26,
+     24
+    ],
+    [
+     19,
+     25
+    ],
+    [
+     25,
+     15
+    ],
+    [
+     19,
+     25
+    ],
+    [
+     10,
+     15
+    ]
+   ],
+   "stato": "disputata",
+   "stato_testo": "disputata",
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-palestra-ls-garofano-capua",
@@ -2532,12 +2553,25 @@
    "casa": "cr-pallavolo-telese",
    "ospite": "cr-vesuvio-volley",
    "set": [
-    null,
-    null
+    3,
+    0
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "parziali": [
+    [
+     25,
+     18
+    ],
+    [
+     25,
+     23
+    ],
+    [
+     25,
+     10
+    ]
+   ],
+   "stato": "disputata",
+   "stato_testo": "disputata",
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-palazzetto-dello-sport-telese-terme",
@@ -2552,12 +2586,29 @@
    "casa": "cr-academy-volley-fiamma",
    "ospite": "cr-virtus-caserta",
    "set": [
-    null,
-    null
+    3,
+    1
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "parziali": [
+    [
+     25,
+     15
+    ],
+    [
+     25,
+     16
+    ],
+    [
+     23,
+     25
+    ],
+    [
+     25,
+     23
+    ]
+   ],
+   "stato": "disputata",
+   "stato_testo": "disputata",
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-palestra-comunale-pittoni-torre-annunziata",
@@ -2572,12 +2623,29 @@
    "casa": "cr-belenergia",
    "ospite": "cr-volley4all-frattamaggiore",
    "set": [
-    null,
-    null
+    1,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "parziali": [
+    [
+     20,
+     25
+    ],
+    [
+     24,
+     26
+    ],
+    [
+     25,
+     19
+    ],
+    [
+     14,
+     25
+    ]
+   ],
+   "stato": "disputata",
+   "stato_testo": "disputata",
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-palestra-vittorio-alfieri-cicciano-cicciano",
@@ -2637,9 +2705,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-ic-de-mare-ex-luigi-caterino-san-cipriano-d-aversa",
    "url": null
   },
@@ -2697,9 +2765,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-tendostruttura-comunale-san-potito-sannitico",
    "url": null
   },
@@ -2737,9 +2805,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-sm-cimarosa-aversa",
    "url": null
   },
@@ -2817,9 +2885,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palavolley-franco-papa-succivo",
    "url": null
   },
