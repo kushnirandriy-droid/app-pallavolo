@@ -16,6 +16,10 @@ volte al giorno, anche a computer spento.
 Sulla Home compare l'icona. L'app si apre a schermo intero, senza la barra di Safari.
 Se manca la rete mostra gli ultimi dati scaricati.
 
+**Risultati appena finiti:** tocca il tasto ↻ in alto a destra. L'app legge subito i
+siti FIPAV e in un paio di secondi mostra risultati e classifiche aggiornati. Se tieni
+l'app aperta durante una partita, controlla da sola ogni 5 minuti.
+
 **Aggiornare l'app:** non serve fare nulla. Se una novità non compare, chiudi l'app
 (scorri verso l'alto dal fondo e togli la scheda) e riaprila.
 
@@ -27,6 +31,8 @@ Se manca la rete mostra gli ultimi dati scaricati.
 - GitHub Actions lo lancia a orari programmati: poche volte al giorno, più spesso
   nelle fasce delle partite.
 - GitHub Pages pubblica l'app, che legge `data.json`.
+- L'app legge anche da sé i siti FIPAV (tasto ↻, e da sola dopo le partite), così i
+  risultati arrivano anche quando GitHub ritarda i suoi giri.
 
 Dettagli tecnici e note sulle fonti sono in `CLAUDE.md`. Il formato dei dati è in
 `docs/FORMATO_DATI.md`.

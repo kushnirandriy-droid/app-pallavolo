@@ -2,8 +2,8 @@
    - data.json: prima la rete, se manca l'ultima copia salvata;
    - tutto il resto (pagina, stile, loghi): prima la copia salvata, poi la rete.
    Cambiare VERSIONE a ogni modifica di index.html / app.js / style.css. */
-const VERSIONE = "v1";
-const GUSCIO = ["./", "index.html", "style.css", "app.js", "manifest.webmanifest",
+const VERSIONE = "v2";
+const GUSCIO = ["./", "index.html", "style.css", "app.js", "dalvivo.js", "manifest.webmanifest",
   "icone/icona-192.png", "icone/icona-512.png", "icone/apple-touch-icon.png"];
 
 self.addEventListener("install", (e) => {

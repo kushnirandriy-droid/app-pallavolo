@@ -25,11 +25,24 @@ PWA per iPhone che segue le partite della società VIRTUS CASERTA. Squadra in ev
     perché scarica i 156 dettagli della Serie D.
 - `scraper/loghi_manuali.json` — loghi trovati a mano (Serie D: il sito Campania non ne
   ha). Vince su ogni abbinamento automatico. File in `app/loghi/manuali/` (≤256 px).
-- `.github/workflows/aggiorna.yml` — ogni 20 minuti lancia `auto`; se i dati cambiano
+- `.github/workflows/aggiorna.yml` — ogni 20 minuti (minuti 7/27/47) lancia `auto`; se i dati cambiano
   committa e pubblica `app/` su GitHub Pages (sorgente Pages = "GitHub Actions").
   A ogni push su `app/**` ripubblica. Il bot committa su main: prima di pushare,
   `git pull --rebase`.
-- `app/` — PWA senza build: `index.html`, `style.css`, `app.js`, `sw.js`, manifest,
+- `app/dalvivo.js` — **aggiornamento dal vivo**: il telefono legge direttamente i siti
+  FIPAV (entrambi rispondono `Access-Control-Allow-Origin: *`). È la stessa lettura di
+  `campania.py`/`caserta.py` ridotta a risultati, parziali, stato, data e classifiche
+  (gare, palestre e loghi nuovi restano al bot). **Se cambia il parser Python, si
+  allinea anche `dalvivo.js`.** Collaudo: confronto campo per campo con lo scraper
+  (08/11/2026: 306 gare e 12 classifiche identiche).
+  - Tasto ↻: rilegge `data.json`, poi tutto dai siti (~18 richieste, 2 alla volta,
+    Serie D per prima) e mostra un avviso col risultato.
+  - Da solo: all'apertura e ogni minuto ad app aperta, se c'è una gara iniziata da
+    40 min a 6 ore fa senza risultato, legge solo quei campionati (al massimo ogni 5 min).
+  - Le letture si salvano nel telefono (`localStorage` `virtus-dalvivo-v1`, ~50 KB) con
+    l'ora; all'apertura vincono su `data.json` se più recenti del giro del bot, o se
+    portano un risultato che il bot non ha. Scadono dopo 3 giorni.
+- `app/` — PWA senza build: `index.html`, `style.css`, `app.js`, `dalvivo.js`, `sw.js`, manifest,
   `icone/` (generate da `strumenti/crea_icone.py`). **Dopo ogni modifica a
   index/app/style alzare `VERSIONE` in `sw.js`**, altrimenti l'iPhone tiene la vecchia.
 - Prova in locale: `python -m http.server 8765` dentro `app/`. Su Windows Chrome headless
@@ -37,6 +50,11 @@ PWA per iPhone che segue le partite della società VIRTUS CASERTA. Squadra in ev
   l'emulazione via DevTools Protocol (`Emulation.setDeviceMetricsOverride` 390×844).
 
 ## Trappole già pagate
+- I giri programmati di GitHub Actions non sono garantiti: l'08/11/2026, con cron
+  `*/20`, ne sono partiti 2 in 10 ore e il risultato della Virtus non arrivava. Per
+  questo l'app legge da sé (`dalvivo.js`); il bot serve per tutto il resto.
+- `const S` in uno script classico non sta su `window`: nei test Playwright
+  `typeof S !== 'undefined' && S.dati`, non `window.S`.
 - Griglie a tre colonne (casa | punteggio | ospite): `minmax(0, 1fr)`, non `1fr`,
   altrimenti un nome lungo allarga la riga oltre lo schermo.
 - Confronto tra giorni: chiave `AAAA-MM-GG` (Intl `en-CA`), mai il formato italiano

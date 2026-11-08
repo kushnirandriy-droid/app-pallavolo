@@ -4,9 +4,12 @@ name: Aggiorna e pubblica
 # (giro completo ogni 6 ore, giro "partite" solo intorno alle gare): quasi sempre
 # esce subito senza fare richieste. Pubblica l'app solo se i dati sono cambiati
 # o se è cambiato il codice.
+# Minuti 7/27/47 e non */20: all'inizio dell'ora GitHub è affollato e ritarda o salta
+# i giri programmati (l'08/11/2026 ne ha fatti 2 in 10 ore). I giri restano comunque
+# "al meglio": i risultati freschi li legge l'app stessa (app/dalvivo.js).
 on:
   schedule:
-    - cron: "*/20 * * * *"
+    - cron: "7,27,47 * * * *"
   workflow_dispatch:
     inputs:
       modo:

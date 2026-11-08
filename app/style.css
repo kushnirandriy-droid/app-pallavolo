@@ -232,3 +232,17 @@ button { font: inherit; color: inherit; }
 .foglio-bt.annulla { margin-top: 8px; border-radius: 14px; border: 0; color: var(--arancio); font-weight: 800; }
 
 .piede { text-align: center; color: var(--testo-3); font-size: 11px; margin: 24px 0 6px; }
+
+/* ---------- avviso dopo l'aggiornamento ---------- */
+.avviso {
+  position: fixed; left: 16px; right: 16px; z-index: 40;
+  bottom: calc(var(--basso) + 78px);
+  margin: 0 auto; max-width: 420px; padding: 12px 16px; border-radius: 14px;
+  background: var(--testo); color: var(--sfondo); border: 0;
+  text-align: center; font-size: 14px; font-weight: 700;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .45);
+  animation: avviso-entra .25s ease-out;
+}
+.avviso[hidden] { display: none; }
+.avviso.esce { opacity: 0; transform: translateY(8px); transition: opacity .3s, transform .3s; }
+@keyframes avviso-entra { from { opacity: 0; transform: translateY(8px); } }

@@ -7,6 +7,8 @@ const S = {
   cal: { gruppo: "virtus", girone: null, soloVirtus: true },
   cla: { gruppo: null, girone: null },
   timer: null,
+  vivoInCorso: false,
+  fermaScorrimento: false,
   primaVolta: true,
 };
 
@@ -59,16 +61,44 @@ function logo(id, cls = "") {
 }
 
 /* ------------------------------------------------------------ dati */
+// ora dell'ultimo dato: il giro del bot o l'ultima lettura dal vivo, se più recente
+const ultimoDato = () => Math.max(Date.parse(S.dati.aggiornato) || 0, S.dati._dalvivo || 0);
+
+function intestazione() {
+  $("#testata-sotto").textContent = `Stagione ${S.dati.stagione} · aggiornato ${fAggiornato.format(new Date(ultimoDato()))}`;
+}
+
+/* Ridisegna senza far saltare lo scorrimento (serve quando arrivano dati dal vivo). */
+function ridisegna() {
+  const y = window.scrollY;
+  S.fermaScorrimento = true;
+  disegna();
+  S.fermaScorrimento = false;
+  window.scrollTo(0, y);
+}
+
+let avvisoTimer = null;
+function avviso(testo) {
+  const el = $("#avviso");
+  el.textContent = testo;
+  el.hidden = false;
+  el.classList.remove("esce");
+  clearTimeout(avvisoTimer);
+  avvisoTimer = setTimeout(() => { el.classList.add("esce"); setTimeout(() => (el.hidden = true), 300); }, 3500);
+}
+
+/* forza = tasto Aggiorna: rilegge data.json e poi chiede tutto ai siti FIPAV. */
 async function caricaDati(forza = false) {
   const bt = $("#bt-aggiorna");
   bt.classList.add("gira");
   try {
     const r = await fetch("data.json" + (forza ? "?t=" + Date.now() : ""), { cache: "no-cache" });
     if (!r.ok) throw new Error(r.status);
-    S.dati = await r.json();
-    S.dati.gare.forEach((g) => (g._d = quando(g)));
-    const agg = new Date(S.dati.aggiornato);
-    $("#testata-sotto").textContent = `Stagione ${S.dati.stagione} · aggiornato ${fAggiornato.format(agg)}`;
+    const nuovi = await r.json();
+    nuovi.gare.forEach((g) => (g._d = quando(g)));
+    DalVivo.applica(nuovi);       // letture fatte dal telefono più recenti del bot
+    S.dati = nuovi;
+    intestazione();
     if (!S.cla.gruppo) {
       const ev = camp(S.dati.campionato_evidenza);
       S.cla.gruppo = ev ? ev.gruppo : S.dati.campionati[0].gruppo;
@@ -77,6 +107,44 @@ async function caricaDati(forza = false) {
   } catch (e) {
     if (!S.dati) $("#vista").innerHTML = `<div class="vuoto">Impossibile leggere i dati.<br>Controlla la connessione e riprova.</div>`;
   } finally {
+    bt.classList.remove("gira");
+  }
+  if (!S.dati) return;
+  if (forza) await dalVivo("tutto");
+  else if (DalVivo.serve(S.dati)) dalVivo("partite");
+}
+
+/* Legge i siti FIPAV direttamente dal telefono (vedi dalvivo.js). */
+async function dalVivo(modo) {
+  if (S.vivoInCorso) return;
+  S.vivoInCorso = true;
+  const bt = $("#bt-aggiorna");
+  bt.classList.add("gira");
+  if (modo === "tutto") $("#testata-sotto").textContent = "Aggiorno dai siti FIPAV…";
+  try {
+    const esito = await DalVivo.aggiorna(S.dati, modo, (P) => {
+      if (P.cambiate.size || P.classificheCambiate) ridisegna();
+      if (modo === "tutto") $("#testata-sotto").textContent = "Serie D aggiornata · ora i campionati provinciali…";
+    });
+    intestazione();
+    if (esito.cambiate || esito.classifiche) ridisegna();
+    if (modo === "tutto") {
+      if (esito.falliti === esito.richieste) {
+        avviso("Siti FIPAV non raggiungibili: restano i dati delle " + fOra.format(new Date(ultimoDato())));
+      } else {
+        let t = esito.nuovi === 1 ? "1 risultato nuovo" : esito.nuovi > 1 ? `${esito.nuovi} risultati nuovi`
+          : esito.cambiate || esito.classifiche ? "Dati aggiornati" : "Già tutto aggiornato";
+        t += " · ore " + fOra.format(new Date(ultimoDato()));
+        if (esito.falliti) t += " · un sito non ha risposto del tutto";
+        avviso(t);
+      }
+    }
+  } catch (e) {
+    console.warn(e);
+    intestazione();
+    if (modo === "tutto") avviso("Aggiornamento non riuscito, riprova tra poco");
+  } finally {
+    S.vivoInCorso = false;
     bt.classList.remove("gira");
   }
 }
@@ -247,7 +315,7 @@ function vistaCalendario() {
   }));
   document.querySelectorAll("#pill-virtus button").forEach((b) => (b.onclick = () => { f.soloVirtus = b.dataset.v === "1"; disegna(); }));
   const ancora = $("#da-oggi");
-  if (ancora) {
+  if (ancora && !S.fermaScorrimento) {
     const y = ancora.offsetTop - (parseFloat(getComputedStyle(document.body).paddingTop) || 0);
     window.scrollTo({ top: Math.max(0, y) });
   }
@@ -342,7 +410,7 @@ function apriPortami(p) {
 function chiudiPortami() { $("#foglio").hidden = true; }
 
 function piede() {
-  return `<div class="piede">Dati: FIPAV Caserta e FIPAV Campania · aggiornati ${esc(fAggiornato.format(new Date(S.dati.aggiornato)))}</div>`;
+  return `<div class="piede">Dati: FIPAV Caserta e FIPAV Campania · aggiornati ${esc(fAggiornato.format(new Date(ultimoDato())))}${S.dati._dalvivo && S.dati._dalvivo > Date.parse(S.dati.aggiornato) ? " (letti dal telefono)" : ""}</div>`;
 }
 
 /* ------------------------------------------------------------ router */
@@ -365,6 +433,12 @@ $("#foglio").onclick = (e) => { if (e.target.id === "foglio") chiudiPortami(); }
 ["vai-google", "vai-apple"].forEach((id) => ($("#" + id).onclick = () => setTimeout(chiudiPortami, 300)));
 // tornando all'app dopo un po', rilegge i dati
 document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && S.dati) caricaDati(); });
+
+// app aperta durante una partita: ogni minuto guarda se è il momento di un controllo
+// (dalvivo.js lo fa al massimo ogni 5 minuti, e solo se c'è una gara appena finita)
+setInterval(() => {
+  if (document.visibilityState === "visible" && S.dati && !S.vivoInCorso && DalVivo.serve(S.dati)) dalVivo("partite");
+}, 60e3);
 
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
 caricaDati();
