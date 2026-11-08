@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>Virtus Caserta</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0a0e1f">
+  <meta name="description" content="Calendario, risultati e classifiche delle squadre Virtus Caserta">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Virtus">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icone/icona-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="icone/apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="testata">
+    <img class="testata-logo" src="loghi/ce-5150.png" alt="">
+    <div class="testata-titoli">
+      <div class="testata-nome">VIRTUS CASERTA</div>
+      <div class="testata-sotto" id="testata-sotto">Stagione 2026/27</div>
+    </div>
+    <button class="testata-aggiorna" id="bt-aggiorna" aria-label="Aggiorna">↻</button>
+  </header>
+
+  <main id="vista" class="vista"><div class="caricamento">Caricamento…</div></main>
+
+  <nav class="schede">
+    <a href="#home" data-vista="home"><span class="ico">⌂</span>Home</a>
+    <a href="#calendario" data-vista="calendario"><span class="ico">▦</span>Calendario</a>
+    <a href="#classifiche" data-vista="classifiche"><span class="ico">≡</span>Classifiche</a>
+  </nav>
+
+  <div class="foglio-sfondo" id="foglio" hidden>
+    <div class="foglio">
+      <div class="foglio-titolo">Portami lì con…</div>
+      <a class="foglio-bt" id="vai-google" target="_blank" rel="noopener">Google Maps</a>
+      <a class="foglio-bt" id="vai-apple" target="_blank" rel="noopener">Mappe di Apple</a>
+      <button class="foglio-bt annulla" id="vai-annulla">Annulla</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

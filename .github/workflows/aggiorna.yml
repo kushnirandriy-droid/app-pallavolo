@@ -1,0 +1,71 @@
+name: Aggiorna e pubblica
+
+# Ogni 20 minuti lo scraper decide da solo se serve interrogare i siti FIPAV
+# (giro completo ogni 6 ore, giro "partite" solo intorno alle gare): quasi sempre
+# esce subito senza fare richieste. Pubblica l'app solo se i dati sono cambiati
+# o se è cambiato il codice.
+on:
+  schedule:
+    - cron: "*/20 * * * *"
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "auto | completo | partite"
+        default: "auto"
+  push:
+    branches: [main]
+    paths: ["app/**", ".github/workflows/**"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: aggiorna
+  cancel-in-progress: false
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.pubblica.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        if: github.event_name != 'push'
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scraper/requirements.txt
+
+      - name: Scarica i dati FIPAV
+        id: dati
+        if: github.event_name != 'push'
+        run: |
+          pip install -q -r scraper/requirements.txt
+          python scraper/aggiorna.py "${{ github.event.inputs.modo || 'auto' }}"
+          git add app/data.json app/loghi dati
+          if git diff --cached --quiet; then
+            echo "cambiati=false" >> "$GITHUB_OUTPUT"
+          else
+            git config user.name "aggiorna-dati[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -q -m "Dati aggiornati $(TZ=Europe/Rome date '+%d/%m %H:%M')"
+            git pull -q --rebase && git push -q
+            echo "cambiati=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/configure-pages@v5
+        if: github.event_name == 'push' || steps.dati.outputs.cambiati == 'true'
+
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name == 'push' || steps.dati.outputs.cambiati == 'true'
+        with:
+          path: app
+
+      - id: pubblica
+        uses: actions/deploy-pages@v4
+        if: github.event_name == 'push' || steps.dati.outputs.cambiati == 'true'

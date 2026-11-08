@@ -1,0 +1,3733 @@
+{
+ "cr-131621059": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   3,
+   1
+  ],
+  "dati": {
+   "numero": 993,
+   "giornata": 1,
+   "data": "2026-10-16T21:00:00+02:00",
+   "parziali": [
+    [
+     25,
+     23
+    ],
+    [
+     13,
+     25
+    ],
+    [
+     25,
+     17
+    ],
+    [
+     25,
+     21
+    ]
+   ],
+   "palestra": {
+    "nome": "PALASPORT \"WALTER MORELLI\"",
+    "citta": "VAIRANO SCALO VAIRANO PATENORA",
+    "prov": "CE",
+    "via": "VIA ABRUZZI",
+    "lat": 41.320839,
+    "lon": 14.105695
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621060": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   3,
+   1
+  ],
+  "dati": {
+   "numero": 994,
+   "giornata": 1,
+   "data": "2026-10-18T17:30:00+02:00",
+   "parziali": [
+    [
+     25,
+     19
+    ],
+    [
+     25,
+     15
+    ],
+    [
+     22,
+     25
+    ],
+    [
+     30,
+     28
+    ]
+   ],
+   "palestra": {
+    "nome": "PALAZZETTO DELLO SPORT",
+    "citta": "TELESE TERME",
+    "prov": "BN",
+    "via": "VIA LAGNI, SNC",
+    "lat": 41.217602,
+    "lon": 14.518729
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621061": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   3,
+   1
+  ],
+  "dati": {
+   "numero": 995,
+   "giornata": 1,
+   "data": "2026-10-18T20:00:00+02:00",
+   "parziali": [
+    [
+     22,
+     25
+    ],
+    [
+     25,
+     19
+    ],
+    [
+     25,
+     18
+    ],
+    [
+     25,
+     18
+    ]
+   ],
+   "palestra": {
+    "nome": "PALESTRA ISIS A.MANZONI",
+    "citta": "CASERTA",
+    "prov": "CE",
+    "via": "VIA DE GASPERI",
+    "lat": 41.078282,
+    "lon": 14.337956
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621062": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   3,
+   0
+  ],
+  "dati": {
+   "numero": 996,
+   "giornata": 1,
+   "data": "2026-10-18T20:00:00+02:00",
+   "parziali": [
+    [
+     25,
+     21
+    ],
+    [
+     25,
+     11
+    ],
+    [
+     25,
+     16
+    ]
+   ],
+   "palestra": {
+    "nome": "PALESTRA LICEO S.S. FILIPPO BRUNELLESCHI",
+    "citta": "AFRAGOLA",
+    "prov": "NA",
+    "via": "VIA FIRENZE, 23",
+    "lat": 40.915521,
+    "lon": 14.307317
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621063": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   3,
+   0
+  ],
+  "dati": {
+   "numero": 997,
+   "giornata": 1,
+   "data": "2026-10-18T19:30:00+02:00",
+   "parziali": [
+    [
+     25,
+     11
+    ],
+    [
+     25,
+     16
+    ],
+    [
+     25,
+     12
+    ]
+   ],
+   "palestra": {
+    "nome": "PALESTRA ITCG V.BACHELET",
+    "citta": "SANTA MARIA A VICO",
+    "prov": "CE",
+    "via": "VIA CLAUDIO",
+    "lat": 41.028396,
+    "lon": 14.466507
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621065": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   0,
+   3
+  ],
+  "dati": {
+   "numero": 999,
+   "giornata": 1,
+   "data": "2026-10-18T18:00:00+02:00",
+   "parziali": [
+    [
+     14,
+     25
+    ],
+    [
+     18,
+     25
+    ],
+    [
+     20,
+     25
+    ]
+   ],
+   "palestra": {
+    "nome": "PALESTRA SE EINAUDI",
+    "citta": "SAN NICOLA LA STRADA",
+    "prov": "CE",
+    "via": "VIA EINAUDI",
+    "lat": 41.058931,
+    "lon": 14.334797
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621066": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   3,
+   0
+  ],
+  "dati": {
+   "numero": 1000,
+   "giornata": 2,
+   "data": "2026-10-25T18:00:00+01:00",
+   "parziali": [
+    [
+     25,
+     12
+    ],
+    [
+     25,
+     16
+    ],
+    [
+     25,
+     23
+    ]
+   ],
+   "palestra": {
+    "nome": "PALESTRA ISIS G. FILANGIERI",
+    "citta": "FRATTAMAGGIORE",
+    "prov": "NA",
+    "via": "VIA ROSSINI",
+    "lat": 40.934698,
+    "lon": 14.278442
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621067": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   3,
+   2
+  ],
+  "dati": {
+   "numero": 1001,
+   "giornata": 2,
+   "data": "2026-10-25T18:00:00+01:00",
+   "parziali": [
+    [
+     21,
+     25
+    ],
+    [
+     25,
+     14
+    ],
+    [
+     22,
+     25
+    ],
+    [
+     25,
+     16
+    ],
+    [
+     15,
+     7
+    ]
+   ],
+   "palestra": {
+    "nome": "PALESTRA COMUNALE PITTONI",
+    "citta": "TORRE ANNUNZIATA",
+    "prov": "NA",
+    "via": "VIA BOTTARO 96",
+    "lat": 40.74275,
+    "lon": 14.477962
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621068": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   3,
+   0
+  ],
+  "dati": {
+   "numero": 1002,
+   "giornata": 2,
+   "data": "2026-10-25T17:30:00+01:00",
+   "parziali": [
+    [
+     25,
+     20
+    ],
+    [
+     25,
+     13
+    ],
+    [
+     25,
+     22
+    ]
+   ],
+   "palestra": {
+    "nome": "PALA FALCONE",
+    "citta": "POMIGLIANO D'ARCO",
+    "prov": "NA",
+    "via": "VIALE GIOVANNI FALCONE, 27",
+    "lat": 40.905898,
+    "lon": 14.364779
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621069": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   0,
+   3
+  ],
+  "dati": {
+   "numero": 1003,
+   "giornata": 2,
+   "data": "2026-10-25T18:00:00+01:00",
+   "parziali": [
+    [
+     22,
+     25
+    ],
+    [
+     18,
+     25
+    ],
+    [
+     8,
+     25
+    ]
+   ],
+   "palestra": {
+    "nome": "PALAMATESE",
+    "citta": "PIEDIMONTE MATESE",
+    "prov": "CE",
+    "via": "VIA BADEN POWELL",
+    "lat": 41.354753,
+    "lon": 14.370451
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621070": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   3,
+   2
+  ],
+  "dati": {
+   "numero": 1004,
+   "giornata": 2,
+   "data": "2026-10-25T21:00:00+01:00",
+   "parziali": [
+    [
+     25,
+     23
+    ],
+    [
+     16,
+     25
+    ],
+    [
+     20,
+     25
+    ],
+    [
+     25,
+     23
+    ],
+    [
+     15,
+     13
+    ]
+   ],
+   "palestra": {
+    "nome": "PALASPORT ELIA ALIPERTI MARIGLIANO",
+    "citta": "MARIGLIANO",
+    "prov": "NA",
+    "via": "VIA SUOR FELICIA MAUTONE",
+    "lat": 40.931296,
+    "lon": 14.451006
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621072": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   1,
+   3
+  ],
+  "dati": {
+   "numero": 1006,
+   "giornata": 2,
+   "data": "2026-10-25T18:30:00+01:00",
+   "parziali": [
+    [
+     26,
+     24
+    ],
+    [
+     17,
+     25
+    ],
+    [
+     22,
+     25
+    ],
+    [
+     20,
+     25
+    ]
+   ],
+   "palestra": {
+    "nome": "PALESTRA VITTORIO ALFIERI",
+    "citta": "CICCIANO CICCIANO",
+    "prov": "NA",
+    "via": "VIA DANTE ALIGHIERI",
+    "lat": 40.962003,
+    "lon": 14.536086
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621073": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   0,
+   3
+  ],
+  "dati": {
+   "numero": 1007,
+   "giornata": 3,
+   "data": "2026-11-01T18:30:00+01:00",
+   "parziali": [
+    [
+     19,
+     25
+    ],
+    [
+     21,
+     25
+    ],
+    [
+     12,
+     25
+    ]
+   ],
+   "palestra": {
+    "nome": "PALESTRA ITCG V.BACHELET",
+    "citta": "SANTA MARIA A VICO",
+    "prov": "CE",
+    "via": "VIA CLAUDIO",
+    "lat": 41.028396,
+    "lon": 14.466507
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621074": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   3,
+   2
+  ],
+  "dati": {
+   "numero": 1008,
+   "giornata": 3,
+   "data": "2026-11-01T18:00:00+01:00",
+   "parziali": [
+    [
+     22,
+     25
+    ],
+    [
+     25,
+     19
+    ],
+    [
+     19,
+     25
+    ],
+    [
+     25,
+     20
+    ],
+    [
+     15,
+     12
+    ]
+   ],
+   "palestra": {
+    "nome": "PALESTRA ISIS G. FILANGIERI",
+    "citta": "FRATTAMAGGIORE",
+    "prov": "NA",
+    "via": "VIA ROSSINI",
+    "lat": 40.934698,
+    "lon": 14.278442
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621075": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   3,
+   1
+  ],
+  "dati": {
+   "numero": 1009,
+   "giornata": 3,
+   "data": "2026-11-01T20:00:00+01:00",
+   "parziali": [
+    [
+     23,
+     25
+    ],
+    [
+     25,
+     15
+    ],
+    [
+     25,
+     20
+    ],
+    [
+     26,
+     24
+    ]
+   ],
+   "palestra": {
+    "nome": "PALESTRA LICEO S.S. FILIPPO BRUNELLESCHI",
+    "citta": "AFRAGOLA",
+    "prov": "NA",
+    "via": "VIA FIRENZE, 23",
+    "lat": 40.915521,
+    "lon": 14.307317
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621077": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   1,
+   3
+  ],
+  "dati": {
+   "numero": 1011,
+   "giornata": 3,
+   "data": "2026-11-01T18:00:00+01:00",
+   "parziali": [
+    [
+     29,
+     27
+    ],
+    [
+     16,
+     25
+    ],
+    [
+     16,
+     25
+    ],
+    [
+     14,
+     25
+    ]
+   ],
+   "palestra": {
+    "nome": "PALESTRA SE EINAUDI",
+    "citta": "SAN NICOLA LA STRADA",
+    "prov": "CE",
+    "via": "VIA EINAUDI",
+    "lat": 41.058931,
+    "lon": 14.334797
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621078": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   3,
+   0
+  ],
+  "dati": {
+   "numero": 1012,
+   "giornata": 3,
+   "data": "2026-10-30T21:00:00+01:00",
+   "parziali": [
+    [
+     25,
+     22
+    ],
+    [
+     27,
+     25
+    ],
+    [
+     25,
+     22
+    ]
+   ],
+   "palestra": {
+    "nome": "PALASPORT \"WALTER MORELLI\"",
+    "citta": "VAIRANO SCALO VAIRANO PATENORA",
+    "prov": "CE",
+    "via": "VIA ABRUZZI",
+    "lat": 41.320839,
+    "lon": 14.105695
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621079": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   3,
+   0
+  ],
+  "dati": {
+   "numero": 1013,
+   "giornata": 3,
+   "data": "2026-11-01T20:00:00+01:00",
+   "parziali": [
+    [
+     25,
+     19
+    ],
+    [
+     27,
+     25
+    ],
+    [
+     25,
+     16
+    ]
+   ],
+   "palestra": {
+    "nome": "PALESTRA ISIS A.MANZONI",
+    "citta": "CASERTA",
+    "prov": "CE",
+    "via": "VIA DE GASPERI",
+    "lat": 41.078282,
+    "lon": 14.337956
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621080": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1014,
+   "giornata": 4,
+   "data": "2026-11-08T17:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAZZETTO DELLO SPORT",
+    "citta": "TELESE TERME",
+    "prov": "BN",
+    "via": "VIA LAGNI, SNC",
+    "lat": 41.217602,
+    "lon": 14.518729
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621082": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   3,
+   1
+  ],
+  "dati": {
+   "numero": 1016,
+   "giornata": 4,
+   "data": "2026-11-04T21:00:00+01:00",
+   "parziali": [
+    [
+     26,
+     24
+    ],
+    [
+     21,
+     25
+    ],
+    [
+     25,
+     20
+    ],
+    [
+     25,
+     19
+    ]
+   ],
+   "palestra": {
+    "nome": "TENDOSTRUTTURA MATESE - PIEDIMONTE MATESE",
+    "citta": "PIEDIMONTE MATESE",
+    "prov": "CE",
+    "via": "VIA BADEN-POWELL",
+    "lat": 41.354753,
+    "lon": 14.370451
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621083": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1017,
+   "giornata": 4,
+   "data": "2026-11-08T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA COMUNALE PITTONI",
+    "citta": "TORRE ANNUNZIATA",
+    "prov": "NA",
+    "via": "VIA BOTTARO 96",
+    "lat": 40.74275,
+    "lon": 14.477962
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621084": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1018,
+   "giornata": 4,
+   "data": "2026-11-08T16:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LS GAROFANO",
+    "citta": "CAPUA",
+    "prov": "CE",
+    "via": "VIA NAPOLI PIAZZA D'ARMI",
+    "lat": 41.102645,
+    "lon": 14.217178
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621085": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1019,
+   "giornata": 4,
+   "data": "2026-11-08T21:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT ELIA ALIPERTI MARIGLIANO",
+    "citta": "MARIGLIANO",
+    "prov": "NA",
+    "via": "VIA SUOR FELICIA MAUTONE",
+    "lat": 40.931296,
+    "lon": 14.451006
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621086": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1020,
+   "giornata": 4,
+   "data": "2026-11-08T18:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA VITTORIO ALFIERI",
+    "citta": "CICCIANO CICCIANO",
+    "prov": "NA",
+    "via": "VIA DANTE ALIGHIERI",
+    "lat": 40.962003,
+    "lon": 14.536086
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621087": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1021,
+   "giornata": 5,
+   "data": "2026-11-15T20:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LICEO S.S. FILIPPO BRUNELLESCHI",
+    "citta": "AFRAGOLA",
+    "prov": "NA",
+    "via": "VIA FIRENZE, 23",
+    "lat": 40.915521,
+    "lon": 14.307317
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621089": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1023,
+   "giornata": 5,
+   "data": "2026-11-15T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA SE EINAUDI",
+    "citta": "SAN NICOLA LA STRADA",
+    "prov": "CE",
+    "via": "VIA EINAUDI",
+    "lat": 41.058931,
+    "lon": 14.334797
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621090": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1024,
+   "giornata": 5,
+   "data": "2026-11-13T21:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT \"WALTER MORELLI\"",
+    "citta": "VAIRANO SCALO VAIRANO PATENORA",
+    "prov": "CE",
+    "via": "VIA ABRUZZI",
+    "lat": 41.320839,
+    "lon": 14.105695
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621091": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1025,
+   "giornata": 5,
+   "data": "2026-11-15T20:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ISIS A.MANZONI",
+    "citta": "CASERTA",
+    "prov": "CE",
+    "via": "VIA DE GASPERI",
+    "lat": 41.078282,
+    "lon": 14.337956
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621092": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1026,
+   "giornata": 5,
+   "data": "2026-11-15T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ISIS G. FILANGIERI",
+    "citta": "FRATTAMAGGIORE",
+    "prov": "NA",
+    "via": "VIA ROSSINI",
+    "lat": 40.934698,
+    "lon": 14.278442
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621093": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1027,
+   "giornata": 5,
+   "data": "2026-11-15T17:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALA FALCONE",
+    "citta": "POMIGLIANO D'ARCO",
+    "prov": "NA",
+    "via": "VIALE GIOVANNI FALCONE, 27",
+    "lat": 40.905898,
+    "lon": 14.364779
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621095": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1029,
+   "giornata": 6,
+   "data": "2026-11-22T17:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAZZETTO DELLO SPORT",
+    "citta": "TELESE TERME",
+    "prov": "BN",
+    "via": "VIA LAGNI, SNC",
+    "lat": 41.217602,
+    "lon": 14.518729
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621096": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1030,
+   "giornata": 6,
+   "data": "2026-11-22T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAMATESE",
+    "citta": "PIEDIMONTE MATESE",
+    "prov": "CE",
+    "via": "VIA BADEN POWELL",
+    "lat": 41.354753,
+    "lon": 14.370451
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621097": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1031,
+   "giornata": 6,
+   "data": "2026-11-22T21:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT ELIA ALIPERTI MARIGLIANO",
+    "citta": "MARIGLIANO",
+    "prov": "NA",
+    "via": "VIA SUOR FELICIA MAUTONE",
+    "lat": 40.931296,
+    "lon": 14.451006
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621098": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1032,
+   "giornata": 6,
+   "data": "2026-11-22T18:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ITCG V.BACHELET",
+    "citta": "SANTA MARIA A VICO",
+    "prov": "CE",
+    "via": "VIA CLAUDIO",
+    "lat": 41.028396,
+    "lon": 14.466507
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621099": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1033,
+   "giornata": 6,
+   "data": "2026-11-22T19:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LS GAROFANO",
+    "citta": "CAPUA",
+    "prov": "CE",
+    "via": "VIA NAPOLI PIAZZA D'ARMI",
+    "lat": 41.102645,
+    "lon": 14.217178
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621100": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1034,
+   "giornata": 6,
+   "data": "2026-11-22T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA COMUNALE PITTONI",
+    "citta": "TORRE ANNUNZIATA",
+    "prov": "NA",
+    "via": "VIA BOTTARO 96",
+    "lat": 40.74275,
+    "lon": 14.477962
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621102": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1036,
+   "giornata": 7,
+   "data": "2026-11-29T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA SE EINAUDI",
+    "citta": "SAN NICOLA LA STRADA",
+    "prov": "CE",
+    "via": "VIA EINAUDI",
+    "lat": 41.058931,
+    "lon": 14.334797
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621103": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1037,
+   "giornata": 7,
+   "data": "2026-11-29T20:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ISIS A.MANZONI",
+    "citta": "CASERTA",
+    "prov": "CE",
+    "via": "VIA DE GASPERI",
+    "lat": 41.078282,
+    "lon": 14.337956
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621104": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1038,
+   "giornata": 7,
+   "data": "2026-11-27T21:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT \"WALTER MORELLI\"",
+    "citta": "VAIRANO SCALO VAIRANO PATENORA",
+    "prov": "CE",
+    "via": "VIA ABRUZZI",
+    "lat": 41.320839,
+    "lon": 14.105695
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621105": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1039,
+   "giornata": 7,
+   "data": "2026-11-29T18:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA VITTORIO ALFIERI",
+    "citta": "CICCIANO CICCIANO",
+    "prov": "NA",
+    "via": "VIA DANTE ALIGHIERI",
+    "lat": 40.962003,
+    "lon": 14.536086
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621106": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1040,
+   "giornata": 7,
+   "data": "2026-11-29T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ISIS G. FILANGIERI",
+    "citta": "FRATTAMAGGIORE",
+    "prov": "NA",
+    "via": "VIA ROSSINI",
+    "lat": 40.934698,
+    "lon": 14.278442
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621107": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1041,
+   "giornata": 7,
+   "data": "2026-11-29T17:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALA FALCONE",
+    "citta": "POMIGLIANO D'ARCO",
+    "prov": "NA",
+    "via": "VIALE GIOVANNI FALCONE, 27",
+    "lat": 40.905898,
+    "lon": 14.364779
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621109": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1043,
+   "giornata": 8,
+   "data": "2026-12-06T20:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LICEO S.S. FILIPPO BRUNELLESCHI",
+    "citta": "AFRAGOLA",
+    "prov": "NA",
+    "via": "VIA FIRENZE, 23",
+    "lat": 40.915521,
+    "lon": 14.307317
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621110": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1044,
+   "giornata": 8,
+   "data": "2026-12-02T21:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAZZETTO DELLO SPORT",
+    "citta": "TELESE TERME",
+    "prov": "BN",
+    "via": "VIA LAGNI, SNC",
+    "lat": 41.217602,
+    "lon": 14.518729
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621111": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1045,
+   "giornata": 8,
+   "data": "2026-12-06T18:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ITCG V.BACHELET",
+    "citta": "SANTA MARIA A VICO",
+    "prov": "CE",
+    "via": "VIA CLAUDIO",
+    "lat": 41.028396,
+    "lon": 14.466507
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621112": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1046,
+   "giornata": 8,
+   "data": "2026-12-06T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAMATESE",
+    "citta": "PIEDIMONTE MATESE",
+    "prov": "CE",
+    "via": "VIA BADEN POWELL",
+    "lat": 41.354753,
+    "lon": 14.370451
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621113": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1047,
+   "giornata": 8,
+   "data": "2026-12-06T19:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LS GAROFANO",
+    "citta": "CAPUA",
+    "prov": "CE",
+    "via": "VIA NAPOLI PIAZZA D'ARMI",
+    "lat": 41.102645,
+    "lon": 14.217178
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621114": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1048,
+   "giornata": 8,
+   "data": "2026-12-06T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA COMUNALE PITTONI",
+    "citta": "TORRE ANNUNZIATA",
+    "prov": "NA",
+    "via": "VIA BOTTARO 96",
+    "lat": 40.74275,
+    "lon": 14.477962
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621115": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1049,
+   "giornata": 9,
+   "data": "2026-12-13T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA SE EINAUDI",
+    "citta": "SAN NICOLA LA STRADA",
+    "prov": "CE",
+    "via": "VIA EINAUDI",
+    "lat": 41.058931,
+    "lon": 14.334797
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621117": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1051,
+   "giornata": 9,
+   "data": "2026-12-11T21:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT \"WALTER MORELLI\"",
+    "citta": "VAIRANO SCALO VAIRANO PATENORA",
+    "prov": "CE",
+    "via": "VIA ABRUZZI",
+    "lat": 41.320839,
+    "lon": 14.105695
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621118": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1052,
+   "giornata": 9,
+   "data": "2026-12-13T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ISIS G. FILANGIERI",
+    "citta": "FRATTAMAGGIORE",
+    "prov": "NA",
+    "via": "VIA ROSSINI",
+    "lat": 40.934698,
+    "lon": 14.278442
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621119": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1053,
+   "giornata": 9,
+   "data": "2026-12-13T21:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT ELIA ALIPERTI MARIGLIANO",
+    "citta": "MARIGLIANO",
+    "prov": "NA",
+    "via": "VIA SUOR FELICIA MAUTONE",
+    "lat": 40.931296,
+    "lon": 14.451006
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621120": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1054,
+   "giornata": 9,
+   "data": "2026-12-13T17:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALA FALCONE",
+    "citta": "POMIGLIANO D'ARCO",
+    "prov": "NA",
+    "via": "VIALE GIOVANNI FALCONE, 27",
+    "lat": 40.905898,
+    "lon": 14.364779
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621121": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1055,
+   "giornata": 9,
+   "data": "2026-12-13T18:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA VITTORIO ALFIERI",
+    "citta": "CICCIANO CICCIANO",
+    "prov": "NA",
+    "via": "VIA DANTE ALIGHIERI",
+    "lat": 40.962003,
+    "lon": 14.536086
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621122": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1056,
+   "giornata": 10,
+   "data": "2026-12-20T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA SE EINAUDI",
+    "citta": "SAN NICOLA LA STRADA",
+    "prov": "CE",
+    "via": "VIA EINAUDI",
+    "lat": 41.058931,
+    "lon": 14.334797
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621124": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1058,
+   "giornata": 10,
+   "data": "2026-12-20T20:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LICEO S.S. FILIPPO BRUNELLESCHI",
+    "citta": "AFRAGOLA",
+    "prov": "NA",
+    "via": "VIA FIRENZE, 23",
+    "lat": 40.915521,
+    "lon": 14.307317
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621125": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1059,
+   "giornata": 10,
+   "data": "2026-12-20T18:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ITCG V.BACHELET",
+    "citta": "SANTA MARIA A VICO",
+    "prov": "CE",
+    "via": "VIA CLAUDIO",
+    "lat": 41.028396,
+    "lon": 14.466507
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621126": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1060,
+   "giornata": 10,
+   "data": "2026-12-20T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAMATESE",
+    "citta": "PIEDIMONTE MATESE",
+    "prov": "CE",
+    "via": "VIA BADEN POWELL",
+    "lat": 41.354753,
+    "lon": 14.370451
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621127": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1061,
+   "giornata": 10,
+   "data": "2026-12-20T17:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAZZETTO DELLO SPORT",
+    "citta": "TELESE TERME",
+    "prov": "BN",
+    "via": "VIA LAGNI, SNC",
+    "lat": 41.217602,
+    "lon": 14.518729
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621128": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1062,
+   "giornata": 10,
+   "data": "2026-12-20T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA COMUNALE PITTONI",
+    "citta": "TORRE ANNUNZIATA",
+    "prov": "NA",
+    "via": "VIA BOTTARO 96",
+    "lat": 40.74275,
+    "lon": 14.477962
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621129": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1063,
+   "giornata": 11,
+   "data": "2027-01-08T21:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT \"WALTER MORELLI\"",
+    "citta": "VAIRANO SCALO VAIRANO PATENORA",
+    "prov": "CE",
+    "via": "VIA ABRUZZI",
+    "lat": 41.320839,
+    "lon": 14.105695
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621131": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1065,
+   "giornata": 11,
+   "data": "2027-01-10T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ISIS G. FILANGIERI",
+    "citta": "FRATTAMAGGIORE",
+    "prov": "NA",
+    "via": "VIA ROSSINI",
+    "lat": 40.934698,
+    "lon": 14.278442
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621132": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1066,
+   "giornata": 11,
+   "data": "2027-01-10T20:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ISIS A.MANZONI",
+    "citta": "CASERTA",
+    "prov": "CE",
+    "via": "VIA DE GASPERI",
+    "lat": 41.078282,
+    "lon": 14.337956
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621133": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1067,
+   "giornata": 11,
+   "data": "2027-01-10T19:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LS GAROFANO",
+    "citta": "CAPUA",
+    "prov": "CE",
+    "via": "VIA NAPOLI PIAZZA D'ARMI",
+    "lat": 41.102645,
+    "lon": 14.217178
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621134": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1068,
+   "giornata": 11,
+   "data": "2027-01-10T20:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT ELIA ALIPERTI MARIGLIANO",
+    "citta": "MARIGLIANO",
+    "prov": "NA",
+    "via": "VIA SUOR FELICIA MAUTONE",
+    "lat": 40.931296,
+    "lon": 14.451006
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621135": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1069,
+   "giornata": 11,
+   "data": "2027-01-10T18:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA VITTORIO ALFIERI",
+    "citta": "CICCIANO CICCIANO",
+    "prov": "NA",
+    "via": "VIA DANTE ALIGHIERI",
+    "lat": 40.962003,
+    "lon": 14.536086
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621136": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1070,
+   "giornata": 12,
+   "data": "2027-01-17T20:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ISIS A.MANZONI",
+    "citta": "CASERTA",
+    "prov": "CE",
+    "via": "VIA DE GASPERI",
+    "lat": 41.078282,
+    "lon": 14.337956
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621137": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1071,
+   "giornata": 12,
+   "data": "2027-01-17T20:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LICEO S.S. FILIPPO BRUNELLESCHI",
+    "citta": "AFRAGOLA",
+    "prov": "NA",
+    "via": "VIA FIRENZE, 23",
+    "lat": 40.915521,
+    "lon": 14.307317
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621138": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1072,
+   "giornata": 12,
+   "data": "2027-01-17T18:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ITCG V.BACHELET",
+    "citta": "SANTA MARIA A VICO",
+    "prov": "CE",
+    "via": "VIA CLAUDIO",
+    "lat": 41.028396,
+    "lon": 14.466507
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621140": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1074,
+   "giornata": 12,
+   "data": "2027-01-17T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA SE EINAUDI",
+    "citta": "SAN NICOLA LA STRADA",
+    "prov": "CE",
+    "via": "VIA EINAUDI",
+    "lat": 41.058931,
+    "lon": 14.334797
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621141": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1075,
+   "giornata": 12,
+   "data": "2027-01-17T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA COMUNALE PITTONI",
+    "citta": "TORRE ANNUNZIATA",
+    "prov": "NA",
+    "via": "VIA BOTTARO 96",
+    "lat": 40.74275,
+    "lon": 14.477962
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621142": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1076,
+   "giornata": 12,
+   "data": "2027-01-17T17:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAZZETTO DELLO SPORT",
+    "citta": "TELESE TERME",
+    "prov": "BN",
+    "via": "VIA LAGNI, SNC",
+    "lat": 41.217602,
+    "lon": 14.518729
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621143": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1077,
+   "giornata": 13,
+   "data": "2027-01-22T21:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT \"WALTER MORELLI\"",
+    "citta": "VAIRANO SCALO VAIRANO PATENORA",
+    "prov": "CE",
+    "via": "VIA ABRUZZI",
+    "lat": 41.320839,
+    "lon": 14.105695
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621144": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1078,
+   "giornata": 13,
+   "data": "2027-01-24T17:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALA FALCONE",
+    "citta": "POMIGLIANO D'ARCO",
+    "prov": "NA",
+    "via": "VIALE GIOVANNI FALCONE, 27",
+    "lat": 40.905898,
+    "lon": 14.364779
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621145": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1079,
+   "giornata": 13,
+   "data": "2027-01-24T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAMATESE",
+    "citta": "PIEDIMONTE MATESE",
+    "prov": "CE",
+    "via": "VIA BADEN POWELL",
+    "lat": 41.354753,
+    "lon": 14.370451
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621147": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1081,
+   "giornata": 13,
+   "data": "2027-01-24T20:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT ELIA ALIPERTI MARIGLIANO",
+    "citta": "MARIGLIANO",
+    "prov": "NA",
+    "via": "VIA SUOR FELICIA MAUTONE",
+    "lat": 40.931296,
+    "lon": 14.451006
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621148": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1082,
+   "giornata": 13,
+   "data": "2027-01-24T19:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LS GAROFANO",
+    "citta": "CAPUA",
+    "prov": "CE",
+    "via": "VIA NAPOLI PIAZZA D'ARMI",
+    "lat": 41.102645,
+    "lon": 14.217178
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621149": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1083,
+   "giornata": 13,
+   "data": "2027-01-24T18:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA VITTORIO ALFIERI",
+    "citta": "CICCIANO CICCIANO",
+    "prov": "NA",
+    "via": "VIA DANTE ALIGHIERI",
+    "lat": 40.962003,
+    "lon": 14.536086
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621150": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1084,
+   "giornata": 14,
+   "data": "2027-02-14T17:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALA FALCONE",
+    "citta": "POMIGLIANO D'ARCO",
+    "prov": "NA",
+    "via": "VIALE GIOVANNI FALCONE, 27",
+    "lat": 40.905898,
+    "lon": 14.364779
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621151": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1085,
+   "giornata": 14,
+   "data": "2027-02-14T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA COMUNALE PITTONI",
+    "citta": "TORRE ANNUNZIATA",
+    "prov": "NA",
+    "via": "VIA BOTTARO 96",
+    "lat": 40.74275,
+    "lon": 14.477962
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621152": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1086,
+   "giornata": 14,
+   "data": "2027-02-14T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ISIS G. FILANGIERI",
+    "citta": "FRATTAMAGGIORE",
+    "prov": "NA",
+    "via": "VIA ROSSINI",
+    "lat": 40.934698,
+    "lon": 14.278442
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621153": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1087,
+   "giornata": 14,
+   "data": "2027-02-14T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAMATESE",
+    "citta": "PIEDIMONTE MATESE",
+    "prov": "CE",
+    "via": "VIA BADEN POWELL",
+    "lat": 41.354753,
+    "lon": 14.370451
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621154": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1088,
+   "giornata": 14,
+   "data": "2027-02-14T19:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LS GAROFANO",
+    "citta": "CAPUA",
+    "prov": "CE",
+    "via": "VIA NAPOLI PIAZZA D'ARMI",
+    "lat": 41.102645,
+    "lon": 14.217178
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621156": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1090,
+   "giornata": 14,
+   "data": "2027-02-14T20:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT ELIA ALIPERTI MARIGLIANO",
+    "citta": "MARIGLIANO",
+    "prov": "NA",
+    "via": "VIA SUOR FELICIA MAUTONE",
+    "lat": 40.931296,
+    "lon": 14.451006
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621157": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1091,
+   "giornata": 15,
+   "data": "2027-02-19T21:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT \"WALTER MORELLI\"",
+    "citta": "VAIRANO SCALO VAIRANO PATENORA",
+    "prov": "CE",
+    "via": "VIA ABRUZZI",
+    "lat": 41.320839,
+    "lon": 14.105695
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621158": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1092,
+   "giornata": 15,
+   "data": "2027-02-21T18:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ITCG V.BACHELET",
+    "citta": "SANTA MARIA A VICO",
+    "prov": "CE",
+    "via": "VIA CLAUDIO",
+    "lat": 41.028396,
+    "lon": 14.466507
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621159": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1093,
+   "giornata": 15,
+   "data": "2027-02-21T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA SE EINAUDI",
+    "citta": "SAN NICOLA LA STRADA",
+    "prov": "CE",
+    "via": "VIA EINAUDI",
+    "lat": 41.058931,
+    "lon": 14.334797
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621160": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1094,
+   "giornata": 15,
+   "data": "2027-02-21T17:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAZZETTO DELLO SPORT",
+    "citta": "TELESE TERME",
+    "prov": "BN",
+    "via": "VIA LAGNI, SNC",
+    "lat": 41.217602,
+    "lon": 14.518729
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621161": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1095,
+   "giornata": 15,
+   "data": "2027-02-21T20:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LICEO S.S. FILIPPO BRUNELLESCHI",
+    "citta": "AFRAGOLA",
+    "prov": "NA",
+    "via": "VIA FIRENZE, 23",
+    "lat": 40.915521,
+    "lon": 14.307317
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621163": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1097,
+   "giornata": 15,
+   "data": "2027-02-21T20:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ISIS A.MANZONI",
+    "citta": "CASERTA",
+    "prov": "CE",
+    "via": "VIA DE GASPERI",
+    "lat": 41.078282,
+    "lon": 14.337956
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621164": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1098,
+   "giornata": 16,
+   "data": "2027-02-28T17:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAZZETTO DELLO SPORT",
+    "citta": "TELESE TERME",
+    "prov": "BN",
+    "via": "VIA LAGNI, SNC",
+    "lat": 41.217602,
+    "lon": 14.518729
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621165": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1099,
+   "giornata": 16,
+   "data": "2027-02-28T17:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALA FALCONE",
+    "citta": "POMIGLIANO D'ARCO",
+    "prov": "NA",
+    "via": "VIALE GIOVANNI FALCONE, 27",
+    "lat": 40.905898,
+    "lon": 14.364779
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621166": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1100,
+   "giornata": 16,
+   "data": "2027-02-28T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA COMUNALE PITTONI",
+    "citta": "TORRE ANNUNZIATA",
+    "prov": "NA",
+    "via": "VIA BOTTARO 96",
+    "lat": 40.74275,
+    "lon": 14.477962
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621168": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1102,
+   "giornata": 16,
+   "data": "2027-02-28T19:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LS GAROFANO",
+    "citta": "CAPUA",
+    "prov": "CE",
+    "via": "VIA NAPOLI PIAZZA D'ARMI",
+    "lat": 41.102645,
+    "lon": 14.217178
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621169": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1103,
+   "giornata": 16,
+   "data": "2027-02-28T18:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA VITTORIO ALFIERI",
+    "citta": "CICCIANO CICCIANO",
+    "prov": "NA",
+    "via": "VIA DANTE ALIGHIERI",
+    "lat": 40.962003,
+    "lon": 14.536086
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621170": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1104,
+   "giornata": 16,
+   "data": "2027-02-28T20:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT ELIA ALIPERTI MARIGLIANO",
+    "citta": "MARIGLIANO",
+    "prov": "NA",
+    "via": "VIA SUOR FELICIA MAUTONE",
+    "lat": 40.931296,
+    "lon": 14.451006
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621171": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1105,
+   "giornata": 17,
+   "data": "2027-03-07T20:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LICEO S.S. FILIPPO BRUNELLESCHI",
+    "citta": "AFRAGOLA",
+    "prov": "NA",
+    "via": "VIA FIRENZE, 23",
+    "lat": 40.915521,
+    "lon": 14.307317
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621173": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1107,
+   "giornata": 17,
+   "data": "2027-03-07T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA SE EINAUDI",
+    "citta": "SAN NICOLA LA STRADA",
+    "prov": "CE",
+    "via": "VIA EINAUDI",
+    "lat": 41.058931,
+    "lon": 14.334797
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621174": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1108,
+   "giornata": 17,
+   "data": "2027-03-07T20:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ISIS A.MANZONI",
+    "citta": "CASERTA",
+    "prov": "CE",
+    "via": "VIA DE GASPERI",
+    "lat": 41.078282,
+    "lon": 14.337956
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621175": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1109,
+   "giornata": 17,
+   "data": "2027-03-05T21:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT \"WALTER MORELLI\"",
+    "citta": "VAIRANO SCALO VAIRANO PATENORA",
+    "prov": "CE",
+    "via": "VIA ABRUZZI",
+    "lat": 41.320839,
+    "lon": 14.105695
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621176": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1110,
+   "giornata": 17,
+   "data": "2027-03-07T17:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALA FALCONE",
+    "citta": "POMIGLIANO D'ARCO",
+    "prov": "NA",
+    "via": "VIALE GIOVANNI FALCONE, 27",
+    "lat": 40.905898,
+    "lon": 14.364779
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621177": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1111,
+   "giornata": 17,
+   "data": "2027-03-07T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ISIS G. FILANGIERI",
+    "citta": "FRATTAMAGGIORE",
+    "prov": "NA",
+    "via": "VIA ROSSINI",
+    "lat": 40.934698,
+    "lon": 14.278442
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621178": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1112,
+   "giornata": 18,
+   "data": "2027-03-14T18:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ITCG V.BACHELET",
+    "citta": "SANTA MARIA A VICO",
+    "prov": "CE",
+    "via": "VIA CLAUDIO",
+    "lat": 41.028396,
+    "lon": 14.466507
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621180": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1114,
+   "giornata": 18,
+   "data": "2027-03-14T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA COMUNALE PITTONI",
+    "citta": "TORRE ANNUNZIATA",
+    "prov": "NA",
+    "via": "VIA BOTTARO 96",
+    "lat": 40.74275,
+    "lon": 14.477962
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621181": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1115,
+   "giornata": 18,
+   "data": "2027-03-14T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAMATESE",
+    "citta": "PIEDIMONTE MATESE",
+    "prov": "CE",
+    "via": "VIA BADEN POWELL",
+    "lat": 41.354753,
+    "lon": 14.370451
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621182": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1116,
+   "giornata": 18,
+   "data": "2027-03-14T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LS GAROFANO",
+    "citta": "CAPUA",
+    "prov": "CE",
+    "via": "VIA NAPOLI PIAZZA D'ARMI",
+    "lat": 41.102645,
+    "lon": 14.217178
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621183": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1117,
+   "giornata": 18,
+   "data": "2027-03-14T20:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT ELIA ALIPERTI MARIGLIANO",
+    "citta": "MARIGLIANO",
+    "prov": "NA",
+    "via": "VIA SUOR FELICIA MAUTONE",
+    "lat": 40.931296,
+    "lon": 14.451006
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621184": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1118,
+   "giornata": 18,
+   "data": "2027-03-14T18:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA VITTORIO ALFIERI",
+    "citta": "CICCIANO CICCIANO",
+    "prov": "NA",
+    "via": "VIA DANTE ALIGHIERI",
+    "lat": 40.962003,
+    "lon": 14.536086
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621186": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1120,
+   "giornata": 19,
+   "data": "2027-03-21T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA SE EINAUDI",
+    "citta": "SAN NICOLA LA STRADA",
+    "prov": "CE",
+    "via": "VIA EINAUDI",
+    "lat": 41.058931,
+    "lon": 14.334797
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621187": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1121,
+   "giornata": 19,
+   "data": "2027-03-21T20:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ISIS A.MANZONI",
+    "citta": "CASERTA",
+    "prov": "CE",
+    "via": "VIA DE GASPERI",
+    "lat": 41.078282,
+    "lon": 14.337956
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621188": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1122,
+   "giornata": 19,
+   "data": "2027-03-19T21:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT \"WALTER MORELLI\"",
+    "citta": "VAIRANO SCALO VAIRANO PATENORA",
+    "prov": "CE",
+    "via": "VIA ABRUZZI",
+    "lat": 41.320839,
+    "lon": 14.105695
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621189": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1123,
+   "giornata": 19,
+   "data": "2027-03-21T18:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA VITTORIO ALFIERI",
+    "citta": "CICCIANO CICCIANO",
+    "prov": "NA",
+    "via": "VIA DANTE ALIGHIERI",
+    "lat": 40.962003,
+    "lon": 14.536086
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621190": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1124,
+   "giornata": 19,
+   "data": "2027-03-21T18:00:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ISIS G. FILANGIERI",
+    "citta": "FRATTAMAGGIORE",
+    "prov": "NA",
+    "via": "VIA ROSSINI",
+    "lat": 40.934698,
+    "lon": 14.278442
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621191": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1125,
+   "giornata": 19,
+   "data": "2027-03-21T17:30:00+01:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALA FALCONE",
+    "citta": "POMIGLIANO D'ARCO",
+    "prov": "NA",
+    "via": "VIALE GIOVANNI FALCONE, 27",
+    "lat": 40.905898,
+    "lon": 14.364779
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621193": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1127,
+   "giornata": 20,
+   "data": "2027-04-04T20:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LICEO S.S. FILIPPO BRUNELLESCHI",
+    "citta": "AFRAGOLA",
+    "prov": "NA",
+    "via": "VIA FIRENZE, 23",
+    "lat": 40.915521,
+    "lon": 14.307317
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621194": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1128,
+   "giornata": 20,
+   "data": "2027-04-04T17:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAZZETTO DELLO SPORT",
+    "citta": "TELESE TERME",
+    "prov": "BN",
+    "via": "VIA LAGNI, SNC",
+    "lat": 41.217602,
+    "lon": 14.518729
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621195": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1129,
+   "giornata": 20,
+   "data": "2027-04-04T18:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ITCG V.BACHELET",
+    "citta": "SANTA MARIA A VICO",
+    "prov": "CE",
+    "via": "VIA CLAUDIO",
+    "lat": 41.028396,
+    "lon": 14.466507
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621196": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1130,
+   "giornata": 20,
+   "data": "2027-04-04T21:00:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT ELIA ALIPERTI MARIGLIANO",
+    "citta": "MARIGLIANO",
+    "prov": "NA",
+    "via": "VIA SUOR FELICIA MAUTONE",
+    "lat": 40.931296,
+    "lon": 14.451006
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621197": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1131,
+   "giornata": 20,
+   "data": "2027-04-04T18:00:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAMATESE",
+    "citta": "PIEDIMONTE MATESE",
+    "prov": "CE",
+    "via": "VIA BADEN POWELL",
+    "lat": 41.354753,
+    "lon": 14.370451
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621198": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1132,
+   "giornata": 20,
+   "data": "2027-04-05T20:45:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LS GAROFANO",
+    "citta": "CAPUA",
+    "prov": "CE",
+    "via": "VIA NAPOLI PIAZZA D'ARMI",
+    "lat": 41.102645,
+    "lon": 14.217178
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621200": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1134,
+   "giornata": 21,
+   "data": "2027-04-11T20:00:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ISIS A.MANZONI",
+    "citta": "CASERTA",
+    "prov": "CE",
+    "via": "VIA DE GASPERI",
+    "lat": 41.078282,
+    "lon": 14.337956
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621201": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1135,
+   "giornata": 21,
+   "data": "2027-04-09T21:00:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT \"WALTER MORELLI\"",
+    "citta": "VAIRANO SCALO VAIRANO PATENORA",
+    "prov": "CE",
+    "via": "VIA ABRUZZI",
+    "lat": 41.320839,
+    "lon": 14.105695
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621202": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1136,
+   "giornata": 21,
+   "data": "2027-04-11T17:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALA FALCONE",
+    "citta": "POMIGLIANO D'ARCO",
+    "prov": "NA",
+    "via": "VIALE GIOVANNI FALCONE, 27",
+    "lat": 40.905898,
+    "lon": 14.364779
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621203": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1137,
+   "giornata": 21,
+   "data": "2027-04-11T20:00:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT ELIA ALIPERTI MARIGLIANO",
+    "citta": "MARIGLIANO",
+    "prov": "NA",
+    "via": "VIA SUOR FELICIA MAUTONE",
+    "lat": 40.931296,
+    "lon": 14.451006
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621204": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1138,
+   "giornata": 21,
+   "data": "2027-04-11T18:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA VITTORIO ALFIERI",
+    "citta": "CICCIANO CICCIANO",
+    "prov": "NA",
+    "via": "VIA DANTE ALIGHIERI",
+    "lat": 40.962003,
+    "lon": 14.536086
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621205": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1139,
+   "giornata": 21,
+   "data": "2027-04-11T18:00:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ISIS G. FILANGIERI",
+    "citta": "FRATTAMAGGIORE",
+    "prov": "NA",
+    "via": "VIA ROSSINI",
+    "lat": 40.934698,
+    "lon": 14.278442
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621206": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1140,
+   "giornata": 22,
+   "data": "2027-04-18T18:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ITCG V.BACHELET",
+    "citta": "SANTA MARIA A VICO",
+    "prov": "CE",
+    "via": "VIA CLAUDIO",
+    "lat": 41.028396,
+    "lon": 14.466507
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621208": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1142,
+   "giornata": 22,
+   "data": "2027-04-18T20:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LICEO S.S. FILIPPO BRUNELLESCHI",
+    "citta": "AFRAGOLA",
+    "prov": "NA",
+    "via": "VIA FIRENZE, 23",
+    "lat": 40.915521,
+    "lon": 14.307317
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621209": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1143,
+   "giornata": 22,
+   "data": "2027-04-18T17:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAZZETTO DELLO SPORT",
+    "citta": "TELESE TERME",
+    "prov": "BN",
+    "via": "VIA LAGNI, SNC",
+    "lat": 41.217602,
+    "lon": 14.518729
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621210": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1144,
+   "giornata": 22,
+   "data": "2027-04-18T19:00:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LS GAROFANO",
+    "citta": "CAPUA",
+    "prov": "CE",
+    "via": "VIA NAPOLI PIAZZA D'ARMI",
+    "lat": 41.102645,
+    "lon": 14.217178
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621211": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1145,
+   "giornata": 22,
+   "data": "2027-04-18T18:00:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAMATESE",
+    "citta": "PIEDIMONTE MATESE",
+    "prov": "CE",
+    "via": "VIA BADEN POWELL",
+    "lat": 41.354753,
+    "lon": 14.370451
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621212": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1146,
+   "giornata": 22,
+   "data": "2027-04-18T18:00:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA COMUNALE PITTONI",
+    "citta": "TORRE ANNUNZIATA",
+    "prov": "NA",
+    "via": "VIA BOTTARO 96",
+    "lat": 40.74275,
+    "lon": 14.477962
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621213": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1147,
+   "giornata": 23,
+   "data": "2027-04-25T20:00:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ISIS A.MANZONI",
+    "citta": "CASERTA",
+    "prov": "CE",
+    "via": "VIA DE GASPERI",
+    "lat": 41.078282,
+    "lon": 14.337956
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621215": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1149,
+   "giornata": 23,
+   "data": "2027-04-25T17:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALA FALCONE",
+    "citta": "POMIGLIANO D'ARCO",
+    "prov": "NA",
+    "via": "VIALE GIOVANNI FALCONE, 27",
+    "lat": 40.905898,
+    "lon": 14.364779
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621216": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1150,
+   "giornata": 23,
+   "data": "2027-04-25T18:00:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ISIS G. FILANGIERI",
+    "citta": "FRATTAMAGGIORE",
+    "prov": "NA",
+    "via": "VIA ROSSINI",
+    "lat": 40.934698,
+    "lon": 14.278442
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621217": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1151,
+   "giornata": 23,
+   "data": "2027-04-25T19:00:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LS GAROFANO",
+    "citta": "CAPUA",
+    "prov": "CE",
+    "via": "VIA NAPOLI PIAZZA D'ARMI",
+    "lat": 41.102645,
+    "lon": 14.217178
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621218": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1152,
+   "giornata": 23,
+   "data": "2027-04-25T18:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA VITTORIO ALFIERI",
+    "citta": "CICCIANO CICCIANO",
+    "prov": "NA",
+    "via": "VIA DANTE ALIGHIERI",
+    "lat": 40.962003,
+    "lon": 14.536086
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621219": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1153,
+   "giornata": 23,
+   "data": "2027-04-23T21:00:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT \"WALTER MORELLI\"",
+    "citta": "VAIRANO SCALO VAIRANO PATENORA",
+    "prov": "CE",
+    "via": "VIA ABRUZZI",
+    "lat": 41.320839,
+    "lon": 14.105695
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621220": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1154,
+   "giornata": 24,
+   "data": "2027-05-02T18:00:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA SE EINAUDI",
+    "citta": "SAN NICOLA LA STRADA",
+    "prov": "CE",
+    "via": "VIA EINAUDI",
+    "lat": 41.058931,
+    "lon": 14.334797
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621222": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1156,
+   "giornata": 24,
+   "data": "2027-05-02T19:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LICEO S.S. FILIPPO BRUNELLESCHI",
+    "citta": "AFRAGOLA",
+    "prov": "NA",
+    "via": "VIA FIRENZE, 23",
+    "lat": 40.915521,
+    "lon": 14.307317
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621223": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1157,
+   "giornata": 24,
+   "data": "2027-05-02T18:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ITCG V.BACHELET",
+    "citta": "SANTA MARIA A VICO",
+    "prov": "CE",
+    "via": "VIA CLAUDIO",
+    "lat": 41.028396,
+    "lon": 14.466507
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621224": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1158,
+   "giornata": 24,
+   "data": "2027-05-02T18:00:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA COMUNALE PITTONI",
+    "citta": "TORRE ANNUNZIATA",
+    "prov": "NA",
+    "via": "VIA BOTTARO 96",
+    "lat": 40.74275,
+    "lon": 14.477962
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621225": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1159,
+   "giornata": 24,
+   "data": "2027-05-02T17:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAZZETTO DELLO SPORT",
+    "citta": "TELESE TERME",
+    "prov": "BN",
+    "via": "VIA LAGNI, SNC",
+    "lat": 41.217602,
+    "lon": 14.518729
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621226": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1160,
+   "giornata": 24,
+   "data": "2027-05-02T18:00:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAMATESE",
+    "citta": "PIEDIMONTE MATESE",
+    "prov": "CE",
+    "via": "VIA BADEN POWELL",
+    "lat": 41.354753,
+    "lon": 14.370451
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621227": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1161,
+   "giornata": 25,
+   "data": "2027-05-09T18:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALA FALCONE",
+    "citta": "POMIGLIANO D'ARCO",
+    "prov": "NA",
+    "via": "VIALE GIOVANNI FALCONE, 27",
+    "lat": 40.905898,
+    "lon": 14.364779
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621228": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1162,
+   "giornata": 25,
+   "data": "2027-05-09T18:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA VITTORIO ALFIERI",
+    "citta": "CICCIANO CICCIANO",
+    "prov": "NA",
+    "via": "VIA DANTE ALIGHIERI",
+    "lat": 40.962003,
+    "lon": 14.536086
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621229": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1163,
+   "giornata": 25,
+   "data": "2027-05-09T18:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAMATESE",
+    "citta": "PIEDIMONTE MATESE",
+    "prov": "CE",
+    "via": "VIA BADEN POWELL",
+    "lat": 41.354753,
+    "lon": 14.370451
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621231": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1165,
+   "giornata": 25,
+   "data": "2027-05-09T18:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ISIS G. FILANGIERI",
+    "citta": "FRATTAMAGGIORE",
+    "prov": "NA",
+    "via": "VIA ROSSINI",
+    "lat": 40.934698,
+    "lon": 14.278442
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621232": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1166,
+   "giornata": 25,
+   "data": "2027-05-09T18:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALASPORT ELIA ALIPERTI MARIGLIANO",
+    "citta": "MARIGLIANO",
+    "prov": "NA",
+    "via": "VIA SUOR FELICIA MAUTONE",
+    "lat": 40.931296,
+    "lon": 14.451006
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621233": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1167,
+   "giornata": 25,
+   "data": "2027-05-09T18:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LS GAROFANO",
+    "citta": "CAPUA",
+    "prov": "CE",
+    "via": "VIA NAPOLI PIAZZA D'ARMI",
+    "lat": 41.102645,
+    "lon": 14.217178
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621234": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1168,
+   "giornata": 26,
+   "data": "2027-05-16T18:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ISIS A.MANZONI",
+    "citta": "CASERTA",
+    "prov": "CE",
+    "via": "VIA DE GASPERI",
+    "lat": 41.078282,
+    "lon": 14.337956
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621235": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1169,
+   "giornata": 26,
+   "data": "2027-05-16T18:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALAZZETTO DELLO SPORT",
+    "citta": "TELESE TERME",
+    "prov": "BN",
+    "via": "VIA LAGNI, SNC",
+    "lat": 41.217602,
+    "lon": 14.518729
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621236": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1170,
+   "giornata": 26,
+   "data": "2027-05-16T18:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA COMUNALE PITTONI",
+    "citta": "TORRE ANNUNZIATA",
+    "prov": "NA",
+    "via": "VIA BOTTARO 96",
+    "lat": 40.74275,
+    "lon": 14.477962
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621238": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1172,
+   "giornata": 26,
+   "data": "2027-05-16T18:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA ITCG V.BACHELET",
+    "citta": "SANTA MARIA A VICO",
+    "prov": "CE",
+    "via": "VIA CLAUDIO",
+    "lat": 41.028396,
+    "lon": 14.466507
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621239": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1173,
+   "giornata": 26,
+   "data": "2027-05-16T18:30:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA LICEO S.S. FILIPPO BRUNELLESCHI",
+    "citta": "AFRAGOLA",
+    "prov": "NA",
+    "via": "VIA FIRENZE, 23",
+    "lat": 40.915521,
+    "lon": 14.307317
+   },
+   "ora_nota": true
+  }
+ },
+ "cr-131621240": {
+  "letto": "2026-11-08T12:13:40+01:00",
+  "set": [
+   null,
+   null
+  ],
+  "dati": {
+   "numero": 1174,
+   "giornata": 26,
+   "data": "2027-05-16T18:00:00+02:00",
+   "parziali": [],
+   "palestra": {
+    "nome": "PALESTRA SE EINAUDI",
+    "citta": "SAN NICOLA LA STRADA",
+    "prov": "CE",
+    "via": "VIA EINAUDI",
+    "lat": 41.058931,
+    "lon": 14.334797
+   },
+   "ora_nota": true
+  }
+ }
+}
