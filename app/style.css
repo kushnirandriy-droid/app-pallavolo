@@ -180,6 +180,10 @@ button { font: inherit; color: inherit; }
 .pillole button.on { background: var(--arancio); border-color: var(--arancio); color: #1a0d03; font-weight: 700; }
 .pillole button .punto { color: var(--arancio); }
 .pillole button.on .punto { color: #1a0d03; }
+/* Femminile / Maschile / Tutti: tre pulsanti larghi uguali, a tutta riga */
+.pillole.sesso { background: var(--carta); border: 1px solid var(--bordo); border-radius: 99px; padding: 3px; gap: 3px; }
+.pillole.sesso button { flex: 1; border-color: transparent; background: transparent; padding: 8px 6px; font-size: 14px; }
+.pillole.sesso button.on { background: var(--arancio); border-color: var(--arancio); }
 
 /* ---------- classifica ---------- */
 .tabella { width: 100%; border-collapse: separate; border-spacing: 0 4px; font-size: 13px; }

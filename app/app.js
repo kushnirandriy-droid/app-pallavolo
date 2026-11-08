@@ -1,10 +1,19 @@
 /* Virtus Caserta — PWA. Legge data.json (scritto dallo scraper) e disegna le tre schede. */
 "use strict";
 
+/* Filtro Femminile / Maschile / Tutti del calendario: di partenza Femminile,
+   poi il telefono ricorda l'ultima scelta (solo comodità: se manca, si riparte da F). */
+const CHIAVE_SESSO = "virtus-sesso-v1";
+function leggiSesso() {
+  try { const v = localStorage.getItem(CHIAVE_SESSO); if (["F", "M", "tutti"].includes(v)) return v; } catch (e) {}
+  return "F";
+}
+function salvaSesso(v) { try { localStorage.setItem(CHIAVE_SESSO, v); } catch (e) {} }
+
 const TZ = "Europe/Rome";
 const S = {
   dati: null,
-  cal: { gruppo: "virtus", girone: null, soloVirtus: true },
+  cal: { gruppo: "virtus", girone: null, soloVirtus: true, sesso: leggiSesso() },
   cla: { gruppo: null, girone: null },
   timer: null,
   vivoInCorso: false,
@@ -29,6 +38,9 @@ const isVirtus = (id) => !!sq(id).virtus;
 const garaVirtus = (g) => isVirtus(g.casa) || isVirtus(g.ospite);
 const giocata = (g) => g.set && g.set[0] !== null;
 const quando = (g) => (g.data ? new Date(g.data) : null);
+// sesso del campionato dal nome; "" = non si capisce (misto, ecc.) → compare sempre
+const sessoCamp = (c) => (!c ? "" : /maschil/i.test(c.nome) ? "M" : /femminil/i.test(c.nome) ? "F" : "");
+const delSesso = (c, s) => !s || s === "tutti" || !sessoCamp(c) || sessoCamp(c) === s;
 
 function nomeBreve(c) {
   if (!c) return "";
@@ -150,9 +162,10 @@ async function dalVivo(modo) {
 }
 
 /* gruppi = campionati con più gironi (es. Under 15 F: A, B, C, D) */
-function gruppi() {
+function gruppi(sesso) {
   const m = new Map();
   for (const c of S.dati.campionati) {
+    if (!delSesso(c, sesso)) continue;
     if (!m.has(c.gruppo)) m.set(c.gruppo, []);
     m.get(c.gruppo).push(c);
   }
@@ -252,9 +265,10 @@ function vistaHome() {
 }
 
 /* ------------------------------------------------------------ CALENDARIO */
-function selettoreGruppo(valore, conVirtus) {
-  let o = conVirtus ? `<option value="virtus" ${valore === "virtus" ? "selected" : ""}>Tutte le squadre Virtus</option>` : "";
-  for (const [k, lista] of gruppi()) {
+function selettoreGruppo(valore, conVirtus, sesso) {
+  const quali = sesso === "F" ? " femminili" : sesso === "M" ? " maschili" : "";
+  let o = conVirtus ? `<option value="virtus" ${valore === "virtus" ? "selected" : ""}>Tutte le squadre Virtus${quali}</option>` : "";
+  for (const [k, lista] of gruppi(sesso)) {
     o += `<option value="${esc(k)}" ${valore === k ? "selected" : ""}>${esc(lista[0].nome)}</option>`;
   }
   return `<select class="selettore" id="sel-gruppo">${o}</select>`;
@@ -268,13 +282,15 @@ function pilloleGironi(lista, scelto) {
 
 function vistaCalendario() {
   const f = S.cal;
-  const gr = gruppi();
+  const gr = gruppi(f.sesso);
   let gare;
-  let filtri = selettoreGruppo(f.gruppo, true);
+  if (f.gruppo !== "virtus" && !gr.has(f.gruppo)) f.gruppo = "virtus";
+  let filtri = `<div class="pillole sesso" id="pill-sesso">${[["F", "Femminile"], ["M", "Maschile"], ["tutti", "Tutti"]]
+    .map(([v, t]) => `<button data-s="${v}" class="${f.sesso === v ? "on" : ""}">${t}</button>`).join("")}</div>`;
+  filtri += selettoreGruppo(f.gruppo, true, f.sesso);
   let mostraToggle = false;
-  if (f.gruppo === "virtus" || !gr.has(f.gruppo)) {
-    f.gruppo = "virtus";
-    gare = S.dati.gare.filter(garaVirtus);
+  if (f.gruppo === "virtus") {
+    gare = S.dati.gare.filter((g) => garaVirtus(g) && delSesso(camp(g.campionato), f.sesso));
   } else {
     const lista = gr.get(f.gruppo);
     if (!f.girone || !lista.some((c) => c.id === f.girone)) f.girone = gironeDefault(lista);
@@ -308,6 +324,14 @@ function vistaCalendario() {
   $("#vista").innerHTML = html;
 
   $("#sel-gruppo").onchange = (e) => { f.gruppo = e.target.value; f.girone = null; f.soloVirtus = true; disegna(); };
+  document.querySelectorAll("#pill-sesso button").forEach((b) => (b.onclick = () => {
+    if (f.sesso === b.dataset.s) return;
+    f.sesso = b.dataset.s;
+    salvaSesso(f.sesso);
+    // il campionato scelto resta solo se è dello stesso sesso; altrimenti si torna a tutte le squadre
+    if (f.gruppo !== "virtus" && !gruppi(f.sesso).has(f.gruppo)) { f.gruppo = "virtus"; f.girone = null; f.soloVirtus = true; }
+    disegna();
+  }));
   document.querySelectorAll("#pill-gironi button").forEach((b) => (b.onclick = () => {
     f.girone = b.dataset.id;
     f.soloVirtus = camp(f.girone).virtus;   // girone senza Virtus: si vede tutto
@@ -330,7 +354,7 @@ function vistaClassifiche() {
   if (!f.girone || !lista.some((c) => c.id === f.girone)) f.girone = gironeDefault(lista);
   const c = camp(f.girone);
 
-  let html = `<div class="filtri">${selettoreGruppo(f.gruppo, false)}${pilloleGironi(lista, f.girone)}</div>`;
+  let html = `<div class="filtri">${selettoreGruppo(f.gruppo, false, "tutti")}${pilloleGironi(lista, f.girone)}</div>`;
   if (!c.classifica.length) {
     html += `<div class="vuoto">Classifica non ancora disponibile.</div>`;
   } else {

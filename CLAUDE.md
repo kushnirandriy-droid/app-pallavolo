@@ -42,6 +42,10 @@ PWA per iPhone che segue le partite della società VIRTUS CASERTA. Squadra in ev
   - Le letture si salvano nel telefono (`localStorage` `virtus-dalvivo-v1`, ~50 KB) con
     l'ora; all'apertura vincono su `data.json` se più recenti del giro del bot, o se
     portano un risultato che il bot non ha. Scadono dopo 3 giorni.
+- Calendario: filtro **Femminile / Maschile / Tutti** (di partenza Femminile, l'ultima
+  scelta resta nel telefono, `localStorage` `virtus-sesso-v1`). Il sesso si ricava dal
+  nome del campionato («Femminile»/«Maschile»); un campionato senza nessuno dei due
+  compare sempre. Filtra sia «Tutte le squadre Virtus» sia la tendina dei campionati.
 - `app/` — PWA senza build: `index.html`, `style.css`, `app.js`, `dalvivo.js`, `sw.js`, manifest,
   `icone/` (generate da `strumenti/crea_icone.py`). **Dopo ogni modifica a
   index/app/style alzare `VERSIONE` in `sw.js`**, altrimenti l'iPhone tiene la vecchia.
