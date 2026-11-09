@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-09T09:41:36+01:00",
- "ultimo_giro_completo": "2026-11-09T09:41:36+01:00",
+ "aggiornato": "2026-11-09T20:12:43+01:00",
+ "ultimo_giro_completo": "2026-11-09T20:12:43+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -1462,6 +1462,15 @@
   }
  },
  "palestre": {
+  "pal-ic-de-mare-plesso-starza-san-cipriano-daversa-san-cipriano-d-aversa-san-cipriano-d-aversa": {
+   "nome": "IC \"De Mare\" Plesso Starza - San Cipriano dAversa",
+   "citta": "San Cipriano D'Aversa SAN CIPRIANO D'AVERSA",
+   "prov": "CE",
+   "via": "via Leopardi 10",
+   "lat": null,
+   "lon": null,
+   "maps": "https://www.google.com/maps/search/?api=1&query=IC+%22De+Mare%22+Plesso+Starza+-+San+Cipriano+dAversa+via+Leopardi+10+San+Cipriano+D%27Aversa+SAN+CIPRIANO+D%27AVERSA+CE"
+  },
   "pal-itc-terra-di-lavoro-caserta": {
    "nome": "ITC \"Terra di Lavoro\"",
    "citta": "CASERTA",
@@ -1560,15 +1569,6 @@
    "lat": null,
    "lon": null,
    "maps": "https://www.google.com/maps/search/?api=1&query=Palestra+Comunale+-+via+Calvario+-+Dragoni+via+Calvario+DRAGONI+CE"
-  },
-  "pal-palestra-ic-de-mare-ex-luigi-caterino-san-cipriano-d-aversa": {
-   "nome": "Palestra IC \"De Mare\" ex \"Luigi Caterino\"",
-   "citta": "SAN CIPRIANO D'AVERSA",
-   "prov": "CE",
-   "via": "via Schipa",
-   "lat": null,
-   "lon": null,
-   "maps": "https://www.google.com/maps/search/?api=1&query=Palestra+IC+%22De+Mare%22+ex+%22Luigi+Caterino%22+via+Schipa+SAN+CIPRIANO+D%27AVERSA+CE"
   },
   "pal-palestra-ic-mazzocchi-santa-maria-cv-santa-maria-capua-vetere-santa-maria-capua-vetere": {
    "nome": "Palestra IC \" Mazzocchi\" - Santa Maria CV",
@@ -2725,7 +2725,7 @@
    "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
    "arbitro": true,
-   "palestra": "pal-palestra-ic-de-mare-ex-luigi-caterino-san-cipriano-d-aversa",
+   "palestra": "pal-ic-de-mare-plesso-starza-san-cipriano-daversa-san-cipriano-d-aversa-san-cipriano-d-aversa",
    "url": null
   },
   {
@@ -2742,9 +2742,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-tendostruttura-matese-piedimonte-matese-piedimonte-matese",
    "url": null
   },
@@ -2762,9 +2762,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-sms-a-moro-maddaloni",
    "url": null
   },
@@ -2813,7 +2813,7 @@
    "campionato": "ce-94300",
    "numero": 630,
    "giornata": 1,
-   "data": "2026-11-13T19:00:00+01:00",
+   "data": "2026-11-13T19:30:00+01:00",
    "casa": "ce-1342-normanni-veritas-aversa",
    "ospite": "ce-2970-hidros",
    "set": [
@@ -2822,9 +2822,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "stato_testo": "da disputare",
    "golden_set": false,
-   "arbitro": true,
+   "arbitro": false,
    "palestra": "pal-palestra-sm-cimarosa-aversa",
    "url": null
   },
@@ -3125,7 +3125,7 @@
    "stato_testo": "da disputare",
    "golden_set": false,
    "arbitro": false,
-   "palestra": "pal-palestra-ic-de-mare-ex-luigi-caterino-san-cipriano-d-aversa",
+   "palestra": "pal-ic-de-mare-plesso-starza-san-cipriano-daversa-san-cipriano-d-aversa-san-cipriano-d-aversa",
    "url": null
   },
   {
@@ -3133,7 +3133,7 @@
    "campionato": "ce-94233",
    "numero": 604,
    "giornata": 2,
-   "data": "2026-11-19T18:30:00+01:00",
+   "data": "2026-11-19T17:45:00+01:00",
    "casa": "ce-1429-volley-sessa",
    "ospite": "ce-725-mc-automotive-succivo",
    "set": [
@@ -3465,7 +3465,7 @@
    "stato_testo": "da disputare",
    "golden_set": false,
    "arbitro": false,
-   "palestra": "pal-palestra-ic-de-mare-ex-luigi-caterino-san-cipriano-d-aversa",
+   "palestra": "pal-ic-de-mare-plesso-starza-san-cipriano-daversa-san-cipriano-d-aversa-san-cipriano-d-aversa",
    "url": null
   },
   {
@@ -3529,26 +3529,6 @@
    "url": null
   },
   {
-   "id": "ce-131675292",
-   "campionato": "ce-94301",
-   "numero": 654,
-   "giornata": 3,
-   "data": "2026-11-26T18:30:00+01:00",
-   "casa": "ce-1315-italrobotvolalto-ic-p2000",
-   "ospite": "ce-724-gs-aversa-volley",
-   "set": [
-    null,
-    null
-   ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
-   "golden_set": false,
-   "arbitro": false,
-   "palestra": "pal-itc-terra-di-lavoro-caserta",
-   "url": null
-  },
-  {
    "id": "ce-131675313",
    "campionato": "ce-94302",
    "numero": 675,
@@ -3566,6 +3546,26 @@
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-tendostruttura-matese-piedimonte-matese-piedimonte-matese",
+   "url": null
+  },
+  {
+   "id": "ce-131675292",
+   "campionato": "ce-94301",
+   "numero": 654,
+   "giornata": 3,
+   "data": "2026-11-26T19:00:00+01:00",
+   "casa": "ce-1315-italrobotvolalto-ic-p2000",
+   "ospite": "ce-724-gs-aversa-volley",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-itc-terra-di-lavoro-caserta",
    "url": null
   },
   {
@@ -3589,26 +3589,6 @@
    "url": null
   },
   {
-   "id": "ce-131675293",
-   "campionato": "ce-94301",
-   "numero": 655,
-   "giornata": 3,
-   "data": "2026-11-27T18:30:00+01:00",
-   "casa": "ce-5467-aquila-marcianise-bianca",
-   "ospite": "ce-5358-vcm",
-   "set": [
-    null,
-    null
-   ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
-   "golden_set": false,
-   "arbitro": false,
-   "palestra": "pal-palestra-lp-novelli-marcianise",
-   "url": null
-  },
-  {
    "id": "ce-131674586",
    "campionato": "ce-94222",
    "numero": 405,
@@ -3626,6 +3606,26 @@
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-palestra-ic-mazzocchi-santa-maria-cv-santa-maria-capua-vetere-santa-maria-capua-vetere",
+   "url": null
+  },
+  {
+   "id": "ce-131675293",
+   "campionato": "ce-94301",
+   "numero": 655,
+   "giornata": 3,
+   "data": "2026-11-27T18:45:00+01:00",
+   "casa": "ce-5358-vcm",
+   "ospite": "ce-5467-aquila-marcianise-bianca",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-palestra-sms-a-moro-maddaloni",
    "url": null
   },
   {
@@ -4593,7 +4593,7 @@
    "campionato": "ce-94301",
    "numero": 659,
    "giornata": 5,
-   "data": "2026-12-17T18:30:00+01:00",
+   "data": "2026-12-17T19:00:00+01:00",
    "casa": "ce-1315-italrobotvolalto-ic-p2000",
    "ospite": "ce-5467-aquila-marcianise-bianca",
    "set": [
@@ -5485,7 +5485,7 @@
    "stato_testo": "da disputare",
    "golden_set": false,
    "arbitro": false,
-   "palestra": "pal-palestra-ic-de-mare-ex-luigi-caterino-san-cipriano-d-aversa",
+   "palestra": "pal-ic-de-mare-plesso-starza-san-cipriano-daversa-san-cipriano-d-aversa-san-cipriano-d-aversa",
    "url": null
   },
   {
@@ -5593,7 +5593,7 @@
    "campionato": "ce-94301",
    "numero": 663,
    "giornata": 7,
-   "data": "2027-01-21T18:30:00+01:00",
+   "data": "2027-01-21T19:00:00+01:00",
    "casa": "ce-1315-italrobotvolalto-ic-p2000",
    "ospite": "ce-4079-alp-normanna",
    "set": [
@@ -6289,26 +6289,6 @@
    "url": null
   },
   {
-   "id": "ce-131675305",
-   "campionato": "ce-94301",
-   "numero": 667,
-   "giornata": 9,
-   "data": "2027-02-11T18:30:00+01:00",
-   "casa": "ce-1315-italrobotvolalto-ic-p2000",
-   "ospite": "ce-5358-vcm",
-   "set": [
-    null,
-    null
-   ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
-   "golden_set": false,
-   "arbitro": false,
-   "palestra": "pal-itc-terra-di-lavoro-caserta",
-   "url": null
-  },
-  {
    "id": "ce-131674526",
    "campionato": "ce-94396",
    "numero": 329,
@@ -6326,6 +6306,26 @@
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-palestra-lp-novelli-marcianise",
+   "url": null
+  },
+  {
+   "id": "ce-131675305",
+   "campionato": "ce-94301",
+   "numero": 667,
+   "giornata": 9,
+   "data": "2027-02-11T19:00:00+01:00",
+   "casa": "ce-1315-italrobotvolalto-ic-p2000",
+   "ospite": "ce-5358-vcm",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-itc-terra-di-lavoro-caserta",
    "url": null
   },
   {
@@ -6545,7 +6545,7 @@
    "stato_testo": "da disputare",
    "golden_set": false,
    "arbitro": false,
-   "palestra": "pal-palestra-ic-de-mare-ex-luigi-caterino-san-cipriano-d-aversa",
+   "palestra": "pal-ic-de-mare-plesso-starza-san-cipriano-daversa-san-cipriano-d-aversa-san-cipriano-d-aversa",
    "url": null
   },
   {
