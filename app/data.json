@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-08T22:21:23+01:00",
- "ultimo_giro_completo": "2026-11-08T22:07:10+01:00",
+ "aggiornato": "2026-11-09T09:41:36+01:00",
+ "ultimo_giro_completo": "2026-11-09T09:41:36+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -67,6 +67,19 @@
     },
     {
      "pos": 5,
+     "squadra": "cr-elisa-volley-pomigliano",
+     "punti": 7,
+     "g": 4,
+     "v": 2,
+     "p": 2,
+     "sf": 9,
+     "ss": 7,
+     "pf": 358,
+     "ps": 326,
+     "pen": 0
+    },
+    {
+     "pos": 6,
      "squadra": "cr-vesuvio-volley",
      "punti": 7,
      "g": 4,
@@ -76,19 +89,6 @@
      "ss": 7,
      "pf": 334,
      "ps": 308,
-     "pen": 0
-    },
-    {
-     "pos": 6,
-     "squadra": "cr-asd-pallavolo-marigliano",
-     "punti": 5,
-     "g": 3,
-     "v": 2,
-     "p": 1,
-     "sf": 6,
-     "ss": 5,
-     "pf": 236,
-     "ps": 238,
      "pen": 0
     },
     {
@@ -106,15 +106,15 @@
     },
     {
      "pos": 8,
-     "squadra": "cr-elisa-volley-pomigliano",
-     "punti": 4,
-     "g": 3,
-     "v": 1,
+     "squadra": "cr-asd-pallavolo-marigliano",
+     "punti": 5,
+     "g": 4,
+     "v": 2,
      "p": 2,
-     "sf": 6,
-     "ss": 6,
-     "pf": 262,
-     "ps": 249,
+     "sf": 7,
+     "ss": 8,
+     "pf": 313,
+     "ps": 334,
      "pen": 0
     },
     {
@@ -222,7 +222,7 @@
     },
     {
      "pos": 3,
-     "squadra": "ce-x-new-volley-san-potito",
+     "squadra": "ce-3705-new-volley-san-potito",
      "punti": 0,
      "g": 0,
      "v": 0,
@@ -428,7 +428,7 @@
     },
     {
      "pos": 4,
-     "squadra": "ce-x-new-volley-san-potito",
+     "squadra": "ce-3705-new-volley-san-potito",
      "punti": 0,
      "g": 0,
      "v": 0,
@@ -775,7 +775,7 @@
     },
     {
      "pos": 5,
-     "squadra": "ce-x-new-volley-san-potito",
+     "squadra": "ce-3705-new-volley-san-potito",
      "punti": 0,
      "g": 0,
      "v": 0,
@@ -1215,6 +1215,13 @@
    "virtus": false,
    "logo": "loghi/ce-3438.jpg"
   },
+  "ce-3705-new-volley-san-potito": {
+   "nome": "NEW VOLLEY SAN POTITO",
+   "societa": "NEW VOLLEY PIEDIMONTE MATESE",
+   "societa_id": 3705,
+   "virtus": false,
+   "logo": null
+  },
   "ce-3812-virtus-aversa": {
    "nome": "VIRTUS AVERSA",
    "societa": "VIRTUS AVERSA SRL",
@@ -1340,13 +1347,6 @@
    "societa_id": null,
    "virtus": false,
    "logo": "loghi/manuali/il-gladiatore.png"
-  },
-  "ce-x-new-volley-san-potito": {
-   "nome": "NEW VOLLEY SAN POTITO",
-   "societa": "NEW VOLLEY PIEDIMONTE MATESE",
-   "societa_id": null,
-   "virtus": false,
-   "logo": null
   },
   "ce-x-pallavolo-calvi-risorta": {
    "nome": "PALLAVOLO CALVI RISORTA",
@@ -2660,12 +2660,29 @@
    "casa": "cr-asd-pallavolo-marigliano",
    "ospite": "cr-elisa-volley-pomigliano",
    "set": [
-    null,
-    null
+    1,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "parziali": [
+    [
+     25,
+     21
+    ],
+    [
+     14,
+     25
+    ],
+    [
+     21,
+     25
+    ],
+    [
+     17,
+     25
+    ]
+   ],
+   "stato": "disputata",
+   "stato_testo": "disputata",
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-palasport-elia-aliperti-marigliano-marigliano",
@@ -2757,7 +2774,7 @@
    "numero": 670,
    "giornata": 1,
    "data": "2026-11-13T17:45:00+01:00",
-   "casa": "ce-x-new-volley-san-potito",
+   "casa": "ce-3705-new-volley-san-potito",
    "ospite": "ce-730-asd-sparanise-volley",
    "set": [
     null,
@@ -3037,7 +3054,7 @@
    "numero": 734,
    "giornata": 1,
    "data": "2026-11-18T17:30:00+01:00",
-   "casa": "ce-x-new-volley-san-potito",
+   "casa": "ce-3705-new-volley-san-potito",
    "ospite": "ce-5150-virtus-caserta-academy",
    "set": [
     null,
@@ -3538,7 +3555,7 @@
    "giornata": 3,
    "data": "2026-11-26T18:45:00+01:00",
    "casa": "ce-4900-carbat-matese",
-   "ospite": "ce-x-new-volley-san-potito",
+   "ospite": "ce-3705-new-volley-san-potito",
    "set": [
     null,
     null
@@ -3698,7 +3715,7 @@
    "giornata": 3,
    "data": "2026-11-28T19:00:00+01:00",
    "casa": "ce-5150-virtus-caserta",
-   "ospite": "ce-x-new-volley-san-potito",
+   "ospite": "ce-3705-new-volley-san-potito",
    "set": [
     null,
     null
@@ -4237,7 +4254,7 @@
    "numero": 677,
    "giornata": 4,
    "data": "2026-12-11T17:45:00+01:00",
-   "casa": "ce-x-new-volley-san-potito",
+   "casa": "ce-3705-new-volley-san-potito",
    "ospite": "ce-5361-ldi-alvignano",
    "set": [
     null,
@@ -4598,7 +4615,7 @@
    "giornata": 5,
    "data": "2026-12-18T17:00:00+01:00",
    "casa": "ce-x-gladiatore-volley",
-   "ospite": "ce-x-new-volley-san-potito",
+   "ospite": "ce-3705-new-volley-san-potito",
    "set": [
     null,
     null
@@ -5118,7 +5135,7 @@
    "giornata": 6,
    "data": "2027-01-12T19:00:00+01:00",
    "casa": "ce-730-asd-sparanise-volley",
-   "ospite": "ce-x-new-volley-san-potito",
+   "ospite": "ce-3705-new-volley-san-potito",
    "set": [
     null,
     null
@@ -5337,7 +5354,7 @@
    "numero": 123,
    "giornata": 8,
    "data": "2027-01-17T18:00:00+01:00",
-   "casa": "ce-x-new-volley-san-potito",
+   "casa": "ce-3705-new-volley-san-potito",
    "ospite": "ce-5150-virtus-caserta",
    "set": [
     null,
@@ -5937,7 +5954,7 @@
    "numero": 685,
    "giornata": 8,
    "data": "2027-01-29T17:45:00+01:00",
-   "casa": "ce-x-new-volley-san-potito",
+   "casa": "ce-3705-new-volley-san-potito",
    "ospite": "ce-4900-carbat-matese",
    "set": [
     null,
@@ -6038,7 +6055,7 @@
    "giornata": 8,
    "data": "2027-01-31T10:00:00+01:00",
    "casa": "ce-5150-virtus-caserta-academy",
-   "ospite": "ce-x-new-volley-san-potito",
+   "ospite": "ce-3705-new-volley-san-potito",
    "set": [
     null,
     null
@@ -6218,7 +6235,7 @@
    "giornata": 9,
    "data": "2027-02-10T19:15:00+01:00",
    "casa": "ce-5361-ldi-alvignano",
-   "ospite": "ce-x-new-volley-san-potito",
+   "ospite": "ce-3705-new-volley-san-potito",
    "set": [
     null,
     null
@@ -6597,7 +6614,7 @@
    "numero": 688,
    "giornata": 10,
    "data": "2027-02-19T17:45:00+01:00",
-   "casa": "ce-x-new-volley-san-potito",
+   "casa": "ce-3705-new-volley-san-potito",
    "ospite": "ce-x-gladiatore-volley",
    "set": [
     null,
