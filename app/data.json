@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-10T11:10:35+01:00",
- "ultimo_giro_completo": "2026-11-10T11:10:35+01:00",
+ "aggiornato": "2026-11-10T19:02:28+01:00",
+ "ultimo_giro_completo": "2026-11-10T19:02:28+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -3082,9 +3082,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-ls-emilio-segre-san-cipriano-d-aversa",
    "url": null
   },
@@ -3162,9 +3162,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-se-einaudi-san-nicola-la-strada",
    "url": null
   },
@@ -3222,9 +3222,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-lic-sport-jommelli-aversa",
    "url": null
   },
