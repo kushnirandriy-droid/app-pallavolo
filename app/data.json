@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-11T11:45:49+01:00",
- "ultimo_giro_completo": "2026-11-11T11:45:49+01:00",
+ "aggiornato": "2026-11-11T19:08:28+01:00",
+ "ultimo_giro_completo": "2026-11-11T19:08:28+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -2742,10 +2742,10 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "stato_testo": "da disputare",
    "golden_set": false,
-   "arbitro": true,
-   "palestra": "pal-tendostruttura-matese-piedimonte-matese-piedimonte-matese",
+   "arbitro": false,
+   "palestra": "pal-palestra-sm-vitale-ingresso-v-caruso-piedimonte-matese",
    "url": null
   },
   {
@@ -3029,26 +3029,6 @@
    "url": null
   },
   {
-   "id": "ce-131675310",
-   "campionato": "ce-94302",
-   "numero": 672,
-   "giornata": 2,
-   "data": "2026-11-17T19:00:00+01:00",
-   "casa": "ce-730-asd-sparanise-volley",
-   "ospite": "ce-4900-carbat-matese",
-   "set": [
-    null,
-    null
-   ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
-   "golden_set": false,
-   "arbitro": false,
-   "palestra": "pal-palasport-sparanise-sparanise",
-   "url": null
-  },
-  {
    "id": "ce-131675804",
    "campionato": "ce-94397",
    "numero": 734,
@@ -3146,6 +3126,26 @@
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-palestra-sm-f-de-sanctis-sessa-a-sessa-aurunca",
+   "url": null
+  },
+  {
+   "id": "ce-131675310",
+   "campionato": "ce-94302",
+   "numero": 672,
+   "giornata": 2,
+   "data": "2026-11-19T19:00:00+01:00",
+   "casa": "ce-730-asd-sparanise-volley",
+   "ospite": "ce-4900-carbat-matese",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-palasport-sparanise-sparanise",
    "url": null
   },
   {
