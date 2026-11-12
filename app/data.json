@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-11T19:08:28+01:00",
- "ultimo_giro_completo": "2026-11-11T19:08:28+01:00",
+ "aggiornato": "2026-11-12T01:54:16+01:00",
+ "ultimo_giro_completo": "2026-11-12T01:54:16+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -569,33 +569,33 @@
    "classifica": [
     {
      "pos": 1,
-     "squadra": "ce-3438-dreamvolley-san-cipriano",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
+     "squadra": "ce-3815-ktc-volley-san-cipriano",
+     "punti": 3,
+     "g": 1,
+     "v": 1,
      "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
+     "sf": 3,
+     "ss": 1,
+     "pf": 101,
+     "ps": 93,
      "pen": 0
     },
     {
      "pos": 2,
-     "squadra": "ce-2970-hidros",
+     "squadra": "ce-3438-dreamvolley-san-cipriano",
      "punti": 0,
-     "g": 0,
+     "g": 1,
      "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
+     "p": 1,
+     "sf": 1,
+     "ss": 3,
+     "pf": 93,
+     "ps": 101,
      "pen": 0
     },
     {
      "pos": 3,
-     "squadra": "ce-3815-ktc-volley-san-cipriano",
+     "squadra": "ce-2970-hidros",
      "punti": 0,
      "g": 0,
      "v": 0,
@@ -647,27 +647,27 @@
     {
      "pos": 1,
      "squadra": "ce-4079-alp-normanna",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
+     "punti": 3,
+     "g": 1,
+     "v": 1,
      "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
+     "sf": 3,
+     "ss": 1,
+     "pf": 96,
+     "ps": 73,
      "pen": 0
     },
     {
      "pos": 2,
      "squadra": "ce-5467-aquila-marcianise-bianca",
      "punti": 0,
-     "g": 0,
+     "g": 1,
      "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
+     "p": 1,
+     "sf": 1,
+     "ss": 3,
+     "pf": 73,
+     "ps": 96,
      "pen": 0
     },
     {
@@ -2697,12 +2697,29 @@
    "casa": "ce-5467-aquila-marcianise-bianca",
    "ospite": "ce-4079-alp-normanna",
    "set": [
-    null,
-    null
+    1,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     18,
+     25
+    ],
+    [
+     15,
+     25
+    ],
+    [
+     25,
+     21
+    ],
+    [
+     15,
+     25
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-lp-novelli-marcianise",
@@ -2717,12 +2734,29 @@
    "casa": "ce-3438-dreamvolley-san-cipriano",
    "ospite": "ce-3815-ktc-volley-san-cipriano",
    "set": [
-    null,
-    null
+    1,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     19,
+     25
+    ],
+    [
+     26,
+     24
+    ],
+    [
+     23,
+     25
+    ],
+    [
+     25,
+     27
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-ic-de-mare-plesso-starza-san-cipriano-daversa-san-cipriano-d-aversa-san-cipriano-d-aversa",
@@ -2742,9 +2776,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-sm-vitale-ingresso-v-caruso-piedimonte-matese",
    "url": null
   },
@@ -3142,9 +3176,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palasport-sparanise-sparanise",
    "url": null
   },
@@ -3242,9 +3276,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-ic-mazzocchi-santa-maria-cv-santa-maria-capua-vetere-santa-maria-capua-vetere",
    "url": null
   },
