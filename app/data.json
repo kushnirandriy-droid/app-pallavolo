@@ -1,6 +1,6 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-12T17:56:48+01:00",
+ "aggiornato": "2026-11-12T23:41:13+01:00",
  "ultimo_giro_completo": "2026-11-12T17:56:48+01:00",
  "stagione": "2026/27",
  "societa_principale": {
@@ -646,6 +646,19 @@
    "classifica": [
     {
      "pos": 1,
+     "squadra": "ce-5358-vcm",
+     "punti": 3,
+     "g": 1,
+     "v": 1,
+     "p": 0,
+     "sf": 3,
+     "ss": 0,
+     "pf": 75,
+     "ps": 54,
+     "pen": 0
+    },
+    {
+     "pos": 2,
      "squadra": "ce-4079-alp-normanna",
      "punti": 3,
      "g": 1,
@@ -658,7 +671,7 @@
      "pen": 0
     },
     {
-     "pos": 2,
+     "pos": 3,
      "squadra": "ce-5467-aquila-marcianise-bianca",
      "punti": 0,
      "g": 1,
@@ -671,34 +684,21 @@
      "pen": 0
     },
     {
-     "pos": 3,
+     "pos": 4,
      "squadra": "ce-724-gs-aversa-volley",
      "punti": 0,
-     "g": 0,
+     "g": 1,
      "v": 0,
-     "p": 0,
+     "p": 1,
      "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
-     "pos": 4,
-     "squadra": "ce-1315-italrobotvolalto-ic-p2000",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
+     "ss": 3,
+     "pf": 54,
+     "ps": 75,
      "pen": 0
     },
     {
      "pos": 5,
-     "squadra": "ce-5358-vcm",
+     "squadra": "ce-1315-italrobotvolalto-ic-p2000",
      "punti": 0,
      "g": 0,
      "v": 0,
@@ -723,33 +723,33 @@
    "classifica": [
     {
      "pos": 1,
-     "squadra": "ce-730-asd-sparanise-volley",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
+     "squadra": "ce-x-gladiatore-volley",
+     "punti": 3,
+     "g": 1,
+     "v": 1,
      "p": 0,
-     "sf": 0,
+     "sf": 3,
      "ss": 0,
-     "pf": 0,
-     "ps": 0,
+     "pf": 75,
+     "ps": 23,
      "pen": 0
     },
     {
      "pos": 2,
      "squadra": "ce-4900-carbat-matese",
      "punti": 0,
-     "g": 0,
+     "g": 1,
      "v": 0,
-     "p": 0,
+     "p": 1,
      "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
+     "ss": 3,
+     "pf": 23,
+     "ps": 75,
      "pen": 0
     },
     {
      "pos": 3,
-     "squadra": "ce-x-gladiatore-volley",
+     "squadra": "ce-730-asd-sparanise-volley",
      "punti": 0,
      "g": 0,
      "v": 0,
@@ -2771,12 +2771,25 @@
    "casa": "ce-4900-carbat-matese",
    "ospite": "ce-x-gladiatore-volley",
    "set": [
-    null,
-    null
+    0,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     9,
+     25
+    ],
+    [
+     9,
+     25
+    ],
+    [
+     5,
+     25
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-sm-vitale-ingresso-v-caruso-piedimonte-matese",
@@ -2791,12 +2804,25 @@
    "casa": "ce-5358-vcm",
    "ospite": "ce-724-gs-aversa-volley",
    "set": [
-    null,
-    null
+    3,
+    0
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     25,
+     15
+    ],
+    [
+     25,
+     18
+    ],
+    [
+     25,
+     21
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-sms-a-moro-maddaloni",
