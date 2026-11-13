@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-13T11:51:21+01:00",
- "ultimo_giro_completo": "2026-11-13T11:51:21+01:00",
+ "aggiornato": "2026-11-13T19:29:07+01:00",
+ "ultimo_giro_completo": "2026-11-13T19:29:07+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -736,6 +736,32 @@
     },
     {
      "pos": 2,
+     "squadra": "ce-3705-new-volley-san-potito",
+     "punti": 3,
+     "g": 1,
+     "v": 1,
+     "p": 0,
+     "sf": 3,
+     "ss": 0,
+     "pf": 75,
+     "ps": 46,
+     "pen": 0
+    },
+    {
+     "pos": 3,
+     "squadra": "ce-730-asd-sparanise-volley",
+     "punti": 0,
+     "g": 1,
+     "v": 0,
+     "p": 1,
+     "sf": 0,
+     "ss": 3,
+     "pf": 46,
+     "ps": 75,
+     "pen": 0
+    },
+    {
+     "pos": 4,
      "squadra": "ce-4900-carbat-matese",
      "punti": 0,
      "g": 1,
@@ -748,34 +774,8 @@
      "pen": 0
     },
     {
-     "pos": 3,
-     "squadra": "ce-730-asd-sparanise-volley",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
-     "pos": 4,
-     "squadra": "ce-5361-ldi-alvignano",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
      "pos": 5,
-     "squadra": "ce-3705-new-volley-san-potito",
+     "squadra": "ce-5361-ldi-alvignano",
      "punti": 0,
      "g": 0,
      "v": 0,
@@ -2837,12 +2837,25 @@
    "casa": "ce-3705-new-volley-san-potito",
    "ospite": "ce-730-asd-sparanise-volley",
    "set": [
-    null,
-    null
+    3,
+    0
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     25,
+     23
+    ],
+    [
+     25,
+     13
+    ],
+    [
+     25,
+     10
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-tendostruttura-comunale-san-potito-sannitico",
@@ -3342,9 +3355,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-isis-a-manzoni-caserta",
    "url": null
   },
@@ -3362,9 +3375,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-isis-a-manzoni-caserta",
    "url": null
   },
@@ -4513,7 +4526,7 @@
    "campionato": "ce-94396",
    "numero": 304,
    "giornata": 5,
-   "data": "2026-12-15T17:00:00+01:00",
+   "data": "2026-12-15T18:30:00+01:00",
    "casa": "ce-731-folgore-vairano",
    "ospite": "ce-5150-virtus-caserta",
    "set": [
