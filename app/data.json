@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-12T23:41:13+01:00",
- "ultimo_giro_completo": "2026-11-12T17:56:48+01:00",
+ "aggiornato": "2026-11-13T03:56:57+01:00",
+ "ultimo_giro_completo": "2026-11-13T03:56:57+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -389,6 +389,32 @@
    "classifica": [
     {
      "pos": 1,
+     "squadra": "ce-x-volaltoic-pallavolo2000-a",
+     "punti": 3,
+     "g": 1,
+     "v": 1,
+     "p": 0,
+     "sf": 3,
+     "ss": 0,
+     "pf": 75,
+     "ps": 36,
+     "pen": 0
+    },
+    {
+     "pos": 2,
+     "squadra": "ce-1589-volleytime-casagiove",
+     "punti": 0,
+     "g": 1,
+     "v": 0,
+     "p": 1,
+     "sf": 0,
+     "ss": 3,
+     "pf": 36,
+     "ps": 75,
+     "pen": 0
+    },
+    {
+     "pos": 3,
      "squadra": "ce-2624-amici-del-volley-macerata",
      "punti": 0,
      "g": 0,
@@ -401,7 +427,7 @@
      "pen": 0
     },
     {
-     "pos": 2,
+     "pos": 4,
      "squadra": "ce-5467-aquila-volley-marcianise",
      "punti": 0,
      "g": 0,
@@ -414,7 +440,7 @@
      "pen": 0
     },
     {
-     "pos": 3,
+     "pos": 5,
      "squadra": "ce-4900-carbat-matese",
      "punti": 0,
      "g": 0,
@@ -427,7 +453,7 @@
      "pen": 0
     },
     {
-     "pos": 4,
+     "pos": 6,
      "squadra": "ce-3705-new-volley-san-potito",
      "punti": 0,
      "g": 0,
@@ -440,34 +466,8 @@
      "pen": 0
     },
     {
-     "pos": 5,
-     "squadra": "ce-5150-virtus-caserta-academy",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
-     "pos": 6,
-     "squadra": "ce-x-volaltoic-pallavolo2000-a",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
      "pos": 7,
-     "squadra": "ce-1589-volleytime-casagiove",
+     "squadra": "ce-5150-virtus-caserta-academy",
      "punti": 0,
      "g": 0,
      "v": 0,
