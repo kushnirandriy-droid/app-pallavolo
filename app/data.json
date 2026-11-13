@@ -1,6 +1,6 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-13T19:29:07+01:00",
+ "aggiornato": "2026-11-14T00:55:15+01:00",
  "ultimo_giro_completo": "2026-11-13T19:29:07+01:00",
  "stagione": "2026/27",
  "societa_principale": {
@@ -56,13 +56,13 @@
      "pos": 4,
      "squadra": "cr-folgore-vairano",
      "punti": 8,
-     "g": 4,
+     "g": 5,
      "v": 3,
-     "p": 1,
-     "sf": 9,
-     "ss": 6,
-     "pf": 320,
-     "ps": 329,
+     "p": 2,
+     "sf": 10,
+     "ss": 9,
+     "pf": 397,
+     "ps": 426,
      "pen": 0
     },
     {
@@ -93,6 +93,19 @@
     },
     {
      "pos": 7,
+     "squadra": "cr-carbat-matese",
+     "punti": 6,
+     "g": 4,
+     "v": 2,
+     "p": 2,
+     "sf": 6,
+     "ss": 8,
+     "pf": 290,
+     "ps": 315,
+     "pen": 0
+    },
+    {
+     "pos": 8,
      "squadra": "cr-academy-volley-fiamma",
      "punti": 5,
      "g": 4,
@@ -105,7 +118,7 @@
      "pen": 0
     },
     {
-     "pos": 8,
+     "pos": 9,
      "squadra": "cr-asd-pallavolo-marigliano",
      "punti": 5,
      "g": 4,
@@ -118,7 +131,7 @@
      "pen": 0
     },
     {
-     "pos": 9,
+     "pos": 10,
      "squadra": "cr-casapane-san-marco-volley",
      "punti": 4,
      "g": 3,
@@ -131,7 +144,7 @@
      "pen": 0
     },
     {
-     "pos": 10,
+     "pos": 11,
      "squadra": "cr-il-gladiatore",
      "punti": 4,
      "g": 3,
@@ -141,19 +154,6 @@
      "ss": 7,
      "pf": 240,
      "ps": 254,
-     "pen": 0
-    },
-    {
-     "pos": 11,
-     "squadra": "cr-carbat-matese",
-     "punti": 3,
-     "g": 3,
-     "v": 1,
-     "p": 2,
-     "sf": 3,
-     "ss": 7,
-     "pf": 193,
-     "ps": 238,
      "pen": 0
     },
     {
@@ -1070,6 +1070,19 @@
    "classifica": [
     {
      "pos": 1,
+     "squadra": "ce-4079-alpnormanna-aversa",
+     "punti": 3,
+     "g": 1,
+     "v": 1,
+     "p": 0,
+     "sf": 3,
+     "ss": 1,
+     "pf": 93,
+     "ps": 64,
+     "pen": 0
+    },
+    {
+     "pos": 2,
      "squadra": "ce-2970-hidros",
      "punti": 3,
      "g": 1,
@@ -1082,7 +1095,7 @@
      "pen": 0
     },
     {
-     "pos": 2,
+     "pos": 3,
      "squadra": "ce-724-gs-aversa-volley",
      "punti": 0,
      "g": 1,
@@ -1095,29 +1108,16 @@
      "pen": 0
     },
     {
-     "pos": 3,
-     "squadra": "ce-4079-alpnormanna-aversa",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
      "pos": 4,
      "squadra": "ce-5150-virtus-caserta-academy",
      "punti": 0,
-     "g": 0,
+     "g": 1,
      "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
+     "p": 1,
+     "sf": 1,
+     "ss": 3,
+     "pf": 64,
+     "ps": 93,
      "pen": 0
     }
    ],
@@ -2910,12 +2910,29 @@
    "casa": "ce-5150-virtus-caserta-academy",
    "ospite": "ce-4079-alpnormanna-aversa",
    "set": [
-    null,
-    null
+    1,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     14,
+     25
+    ],
+    [
+     10,
+     25
+    ],
+    [
+     25,
+     18
+    ],
+    [
+     15,
+     25
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-ic-mazzocchi-santa-maria-cv-santa-maria-capua-vetere-santa-maria-capua-vetere",
@@ -2930,12 +2947,29 @@
    "casa": "cr-folgore-vairano",
    "ospite": "cr-carbat-matese",
    "set": [
-    null,
-    null
+    1,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "parziali": [
+    [
+     14,
+     25
+    ],
+    [
+     25,
+     22
+    ],
+    [
+     17,
+     25
+    ],
+    [
+     21,
+     25
+    ]
+   ],
+   "stato": "disputata",
+   "stato_testo": "disputata",
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-palasport-walter-morelli-vairano-scalo-vairano-patenora",
