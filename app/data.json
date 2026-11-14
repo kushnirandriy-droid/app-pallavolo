@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-14T00:55:15+01:00",
- "ultimo_giro_completo": "2026-11-13T19:29:07+01:00",
+ "aggiornato": "2026-11-14T07:08:08+01:00",
+ "ultimo_giro_completo": "2026-11-14T07:08:08+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -402,6 +402,32 @@
     },
     {
      "pos": 2,
+     "squadra": "ce-5467-aquila-volley-marcianise",
+     "punti": 3,
+     "g": 1,
+     "v": 1,
+     "p": 0,
+     "sf": 3,
+     "ss": 1,
+     "pf": 90,
+     "ps": 71,
+     "pen": 0
+    },
+    {
+     "pos": 3,
+     "squadra": "ce-2624-amici-del-volley-macerata",
+     "punti": 0,
+     "g": 1,
+     "v": 0,
+     "p": 1,
+     "sf": 1,
+     "ss": 3,
+     "pf": 71,
+     "ps": 90,
+     "pen": 0
+    },
+    {
+     "pos": 4,
      "squadra": "ce-1589-volleytime-casagiove",
      "punti": 0,
      "g": 1,
@@ -411,32 +437,6 @@
      "ss": 3,
      "pf": 36,
      "ps": 75,
-     "pen": 0
-    },
-    {
-     "pos": 3,
-     "squadra": "ce-2624-amici-del-volley-macerata",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
-     "pos": 4,
-     "squadra": "ce-5467-aquila-volley-marcianise",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
      "pen": 0
     },
     {
@@ -569,6 +569,19 @@
    "classifica": [
     {
      "pos": 1,
+     "squadra": "ce-2970-hidros",
+     "punti": 3,
+     "g": 1,
+     "v": 1,
+     "p": 0,
+     "sf": 3,
+     "ss": 0,
+     "pf": 75,
+     "ps": 41,
+     "pen": 0
+    },
+    {
+     "pos": 2,
      "squadra": "ce-3815-ktc-volley-san-cipriano",
      "punti": 3,
      "g": 1,
@@ -581,7 +594,7 @@
      "pen": 0
     },
     {
-     "pos": 2,
+     "pos": 3,
      "squadra": "ce-3438-dreamvolley-san-cipriano",
      "punti": 0,
      "g": 1,
@@ -594,29 +607,16 @@
      "pen": 0
     },
     {
-     "pos": 3,
-     "squadra": "ce-2970-hidros",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
      "pos": 4,
      "squadra": "ce-1342-normanni-veritas-aversa",
      "punti": 0,
-     "g": 0,
+     "g": 1,
      "v": 0,
-     "p": 0,
+     "p": 1,
      "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
+     "ss": 3,
+     "pf": 41,
+     "ps": 75,
      "pen": 0
     },
     {
@@ -1006,6 +1006,19 @@
    "classifica": [
     {
      "pos": 1,
+     "squadra": "ce-5150-virtus-caserta",
+     "punti": 3,
+     "g": 1,
+     "v": 1,
+     "p": 0,
+     "sf": 3,
+     "ss": 0,
+     "pf": 75,
+     "ps": 19,
+     "pen": 0
+    },
+    {
+     "pos": 2,
      "squadra": "ce-1589-volleytime-casagiove",
      "punti": 3,
      "g": 1,
@@ -1018,7 +1031,7 @@
      "pen": 0
     },
     {
-     "pos": 2,
+     "pos": 3,
      "squadra": "ce-3438-dreamvolley-san-cipriano",
      "punti": 0,
      "g": 1,
@@ -1031,29 +1044,16 @@
      "pen": 0
     },
     {
-     "pos": 3,
+     "pos": 4,
      "squadra": "ce-5773-fmf-volalto-snc",
      "punti": 0,
-     "g": 0,
+     "g": 1,
      "v": 0,
-     "p": 0,
+     "p": 1,
      "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
-     "pos": 4,
-     "squadra": "ce-5150-virtus-caserta",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
+     "ss": 3,
+     "pf": 19,
+     "ps": 75,
      "pen": 0
     }
    ],
@@ -2870,12 +2870,25 @@
    "casa": "ce-5150-virtus-caserta",
    "ospite": "ce-5773-fmf-volalto-snc",
    "set": [
-    null,
-    null
+    3,
+    0
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     25,
+     9
+    ],
+    [
+     25,
+     3
+    ],
+    [
+     25,
+     7
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-ic-mazzocchi-santa-maria-cv-santa-maria-capua-vetere-santa-maria-capua-vetere",
@@ -2890,12 +2903,25 @@
    "casa": "ce-1342-normanni-veritas-aversa",
    "ospite": "ce-2970-hidros",
    "set": [
-    null,
-    null
+    0,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     14,
+     25
+    ],
+    [
+     12,
+     25
+    ],
+    [
+     15,
+     25
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-sm-cimarosa-aversa",
