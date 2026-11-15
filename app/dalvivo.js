@@ -303,20 +303,39 @@ const DalVivo = (() => {
     }
   }
 
+  /* Colonne cercate per NOME d'intestazione, come caserta.py: il sito a volte manda la
+     colonna «Penal.» e a volte no (12 o 13 colonne). Con le posizioni fisse ogni riga
+     veniva scartata e la classifica restava vecchia senza errori (15/11/2026). */
+  const COLONNE_CLA = { POS: "pos", SQUADRA: "squadra", PUNTI: "punti", PG: "g", PV: "v", PP: "p",
+    SF: "sf", SS: "ss", PF: "pf", PS: "ps", PENAL: "pen" };
+  const OBBLIGATORIE = ["pos", "squadra", "punti", "g", "v", "p"];
+
   async function classificaCaserta(P, campId) {
     const d = await scarica(`${CE_BASE}/classifica.aspx?CId=${campId.slice(3)}`);
     const t = d.querySelector("table.tbl-classifica");
-    if (!t) return;
+    if (!t) throw new Error("classifica " + campId + ": tabella assente");
+    let th = [...t.querySelectorAll("thead th")];
+    if (!th.length) th = [...(t.querySelector("tr")?.children || [])].filter((x) => x.nodeName === "TH");
+    const col = {};
+    th.forEach((x, i) => {
+      const k = COLONNE_CLA[pulisci(x.textContent).toUpperCase().replace(/\.$/, "").trim()];
+      if (k) col[k] = i;
+    });
+    const mancano = OBBLIGATORIE.filter((k) => !(k in col));
+    if (mancano.length) throw new Error("classifica " + campId + ": colonne non trovate " + mancano);
+    const ultima = Math.max(...Object.values(col));
     const righe = [];
     for (const tr of t.querySelectorAll("tr")) {
       const td = figliTd(tr);
-      if (td.length < 13) continue;
-      const n = (i) => numero(td[i].textContent);
+      if (td.length <= ultima) continue;
+      const n = (k) => (k in col ? numero(td[col[k]].textContent) : null);
       righe.push({
-        pos: n(0), squadra: squadraCaserta(P, td[1]), punti: n(2), g: n(3), v: n(4), p: n(5),
-        sf: n(6), ss: n(7), pf: n(9), ps: n(10), pen: n(12),
+        pos: n("pos"), squadra: squadraCaserta(P, td[col.squadra]), punti: n("punti"),
+        g: n("g"), v: n("v"), p: n("p"), sf: n("sf"), ss: n("ss"), pf: n("pf"), ps: n("ps"),
+        pen: n("pen") ?? 0,                     // colonna assente = nessuna penalità
       });
     }
+    if (!righe.length) throw new Error("classifica " + campId + ": nessuna riga letta");
     mettiClassifica(P, campId, righe);
   }
 
@@ -328,9 +347,34 @@ const DalVivo = (() => {
     });
   }
 
-  /* C'è una gara appena finita senza risultato e l'ultimo controllo automatico è vecchio? */
+  /* Campionati con la classifica INDIETRO: una squadra Virtus ha più gare con risultato di
+     quante la classifica ne conti (PG). Succede perché il comitato pubblica il risultato
+     prima della classifica: senza questo controllo, una volta arrivato il risultato non si
+     rileggeva più nulla (15/11/2026). Solo se l'ultima di quelle gare è iniziata da meno
+     di CLASSIFICA_ORE, così una classifica che il sito non aggiorna non si chiede all'infinito. */
+  const CLASSIFICA_ORE = 24;
+  function classificheIndietro(dati, adesso = Date.now()) {
+    const out = new Set();
+    for (const c of dati.campionati) {
+      for (const r of c.classifica || []) {
+        if (!dati.squadre[r.squadra]?.virtus) continue;
+        const giocate = dati.gare.filter((g) => g.campionato === c.id && conRisultato(g.set) &&
+          (g.casa === r.squadra || g.ospite === r.squadra));
+        const recente = giocate.some((g) => {
+          const t = g._d ? g._d.getTime() : Date.parse(g.data);
+          return t && adesso - t <= CLASSIFICA_ORE * 36e5;
+        });
+        if (recente && giocate.length > (r.g || 0)) out.add(c.id);
+      }
+    }
+    return out;
+  }
+
+  /* C'è una gara appena finita senza risultato (o una classifica rimasta indietro) e
+     l'ultimo controllo automatico è vecchio? */
   function serve(dati) {
-    return inFinestra(dati).length > 0 && Date.now() - leggiMemoria().ultimoAuto > PAUSA_AUTO_MS;
+    return (inFinestra(dati).length > 0 || classificheIndietro(dati).size > 0) &&
+      Date.now() - leggiMemoria().ultimoAuto > PAUSA_AUTO_MS;
   }
 
   /* modo "tutto": ogni campionato dell'app; modo "partite": solo quelli con una gara
@@ -339,7 +383,7 @@ const DalVivo = (() => {
     const P = nuovaPassata(dati);
     let camp = dati.campionati;
     if (modo === "partite") {
-      const ids = new Set(inFinestra(dati).map((g) => g.campionato));
+      const ids = new Set([...inFinestra(dati).map((g) => g.campionato), ...classificheIndietro(dati)]);
       camp = camp.filter((c) => ids.has(c.id));
     }
     const cr = camp.filter((c) => c.fonte === "campania");
@@ -377,5 +421,5 @@ const DalVivo = (() => {
     };
   }
 
-  return { applica, aggiorna, serve, inFinestra, _prova: { isoRoma, slug, numero } };
+  return { applica, aggiorna, serve, inFinestra, classificheIndietro, _prova: { isoRoma, slug, numero } };
 })();

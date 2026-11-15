@@ -41,6 +41,10 @@ Si cambia in `scraper/config.py` → `CAMPIONATO_EVIDENZA`.
     Serie D per prima) e mostra un avviso col risultato.
   - Da solo: all'apertura e ogni minuto ad app aperta, se c'è una gara iniziata da
     40 min a 6 ore fa senza risultato, legge solo quei campionati (al massimo ogni 5 min).
+    Lo stesso se una **classifica è indietro**: una squadra Virtus ha più gare con
+    risultato di quante la classifica ne conti (PG), per gare di meno di 24 ore
+    (`classificheIndietro`; nel bot `classifiche_indietro`, che fa scattare il giro
+    "partite"). Serve perché il comitato pubblica il risultato prima della classifica.
   - Le letture si salvano nel telefono (`localStorage` `virtus-dalvivo-v1`, ~50 KB) con
     l'ora; all'apertura vincono su `data.json` se più recenti del giro del bot, o se
     portano un risultato che il bot non ha. Scadono dopo 3 giorni.
@@ -76,6 +80,12 @@ Si cambia in `scraper/config.py` → `CAMPIONATO_EVIDENZA`.
   Collaudo: Playwright con `is_mobile`/`has_touch` e `Input.dispatchTouchEvent` a passi
   (start, 12 move, end); `Input.synthesizeScrollGesture` touch in headless non muove nulla,
   nemmeno una pagina vuota, quindi non è una prova.
+- **Classifica Caserta a 12 o 13 colonne** (15/11/2026): `classifica.aspx` a volte ha la
+  colonna «Penal.» in fondo e a volte no, alla stessa pagina e a pochi minuti di distanza.
+  Con le posizioni fisse (`len(td) < 13`) ogni riga veniva scartata e la classifica restava
+  vecchia **senza errori** (U15 F: 3-0 arrivato, Virtus ferma a 0 punti). Ora le colonne
+  si cercano per nome d'intestazione (`COLONNE_CLASSIFICA` / `COLONNE_CLA`), «Penal.»
+  assente = 0, e una tabella illeggibile si segnala (stampa nel bot, errore in dalvivo).
 - `const S` in uno script classico non sta su `window`: nei test Playwright
   `typeof S !== 'undefined' && S.dati`, non `window.S`.
 - Griglie a tre colonne (casa | punteggio | ospite): `minmax(0, 1fr)`, non `1fr`,

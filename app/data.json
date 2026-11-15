@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-15T10:57:03+01:00",
- "ultimo_giro_completo": "2026-11-15T10:57:03+01:00",
+ "aggiornato": "2026-11-15T16:13:45+01:00",
+ "ultimo_giro_completo": "2026-11-15T16:13:45+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -492,33 +492,33 @@
    "classifica": [
     {
      "pos": 1,
-     "squadra": "ce-2624-amici-del-volley-macerata",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
+     "squadra": "ce-5150-virtus-caserta",
+     "punti": 3,
+     "g": 1,
+     "v": 1,
      "p": 0,
-     "sf": 0,
+     "sf": 3,
      "ss": 0,
-     "pf": 0,
-     "ps": 0,
+     "pf": 75,
+     "ps": 58,
      "pen": 0
     },
     {
      "pos": 2,
      "squadra": "ce-725-mc-automotive-succivo",
      "punti": 0,
-     "g": 0,
+     "g": 1,
      "v": 0,
-     "p": 0,
+     "p": 1,
      "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
+     "ss": 3,
+     "pf": 58,
+     "ps": 75,
      "pen": 0
     },
     {
      "pos": 3,
-     "squadra": "ce-5150-virtus-caserta",
+     "squadra": "ce-2624-amici-del-volley-macerata",
      "punti": 0,
      "g": 0,
      "v": 0,
@@ -3043,12 +3043,25 @@
    "casa": "ce-725-mc-automotive-succivo",
    "ospite": "ce-5150-virtus-caserta",
    "set": [
-    null,
-    null
+    0,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     23,
+     25
+    ],
+    [
+     16,
+     25
+    ],
+    [
+     19,
+     25
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palavolley-franco-papa-succivo",

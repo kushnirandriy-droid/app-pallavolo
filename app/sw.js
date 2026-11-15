@@ -5,7 +5,7 @@
    L'installazione scarica il guscio con cache "reload": GitHub Pages manda max-age=600 e,
    senza, il guscio nuovo poteva riempirsi coi file vecchi rimasti nella cache del browser
    (08/11/2026: sw v4 con lo style.css della v3, pulsanti rimasti grandi sull'iPhone). */
-const VERSIONE = "v6";
+const VERSIONE = "v7";
 const GUSCIO = ["./", "index.html", "style.css", "app.js", "dalvivo.js", "manifest.webmanifest",
   "icone/icona-192.png", "icone/icona-512.png", "icone/apple-touch-icon.png"];
 

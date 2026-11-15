@@ -6,7 +6,8 @@
 
 Regola "auto" (è quella che usa GitHub Actions, lanciato ogni 20 minuti):
 - giro completo se l'ultimo ha più di ORE_TRA_GIRI_COMPLETI ore;
-- altrimenti giro "partite" se c'è una gara iniziata da 45 min a 5 ore fa ancora senza risultato;
+- altrimenti giro "partite" se c'è una gara iniziata da 45 min a 5 ore fa ancora senza risultato,
+  o una classifica che non conta ancora una gara Virtus con risultato (gara di meno di 24 ore);
 - altrimenti nessuna richiesta ai siti.
 """
 import json
@@ -41,6 +42,28 @@ def gare_in_finestra(dati, adesso):
         if inizio and g["set"][0] is None and \
                 timedelta(hours=da) <= adesso - inizio <= timedelta(hours=a):
             yield g
+
+
+CLASSIFICA_ORE = 24
+
+
+def classifiche_indietro(dati, adesso):
+    """Campionati in cui una squadra Virtus ha più gare con risultato di quante la classifica
+    ne conti (PG): il comitato pubblica il risultato prima della classifica. Si ricontrolla
+    finché l'ultima di quelle gare ha meno di CLASSIFICA_ORE ore. Come dalvivo.js."""
+    virtus = {k for k, s in dati.get("squadre", {}).items() if s.get("virtus")}
+    out = set()
+    for c in dati.get("campionati", []):
+        for r in c.get("classifica") or []:
+            if r["squadra"] not in virtus:
+                continue
+            giocate = [g for g in dati.get("gare", []) if g["campionato"] == c["id"]
+                       and g["set"][0] is not None and r["squadra"] in (g["casa"], g["ospite"])]
+            recente = any((i := leggi_iso(g.get("data"))) and adesso - i <= timedelta(hours=CLASSIFICA_ORE)
+                          for g in giocate)
+            if recente and len(giocate) > (r.get("g") or 0):
+                out.add(c["id"])
+    return out
 
 
 # ----------------------------------------------------------------- loghi
@@ -123,11 +146,13 @@ def giro_completo(cache):
     return r, societa_ce
 
 
-def giro_partite(precedente, cache, gare):
+def giro_partite(precedente, cache, gare, indietro=()):
     r = Raccolta(precedente)
     per_camp = defaultdict(set)
     for g in gare:
         per_camp[g["campionato"]].add(g["id"])
+    for camp_id in indietro:               # classifica da rileggere anche senza gare in attesa
+        per_camp[camp_id]
     for camp_id, ids in per_camp.items():
         fonte, num = camp_id.split("-", 1)
         num = int(num)
@@ -154,7 +179,7 @@ def main():
         if not precedente or not ultimo_completo or \
                 adesso - ultimo_completo >= timedelta(hours=config.ORE_TRA_GIRI_COMPLETI):
             modo = "completo"
-        elif list(gare_in_finestra(precedente, adesso)):
+        elif list(gare_in_finestra(precedente, adesso)) or classifiche_indietro(precedente, adesso):
             modo = "partite"
         else:
             print("Niente da fare: nessuna gara appena finita e giro completo recente.")
@@ -165,10 +190,13 @@ def main():
         ultimo_completo = adesso
     else:
         gare = list(gare_in_finestra(precedente or {}, adesso))
-        if not gare:
-            print("Nessuna gara in finestra.")
+        indietro = classifiche_indietro(precedente or {}, adesso)
+        if not gare and not indietro:
+            print("Nessuna gara in finestra e nessuna classifica indietro.")
             return 0
-        r = giro_partite(precedente, cache, gare)
+        if indietro:
+            print(f"Classifiche indietro: {sorted(indietro)}")
+        r = giro_partite(precedente, cache, gare, indietro)
         societa_ce = {}
 
     sistema_loghi(r, societa_ce)

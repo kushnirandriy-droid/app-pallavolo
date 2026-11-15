@@ -162,23 +162,48 @@ def leggi_elenco(cid=None, sid=config.CE_SOCIETA, r: Raccolta = None, completo=F
     return trovati
 
 
+# Intestazioni della classifica → campo di data.json. Le colonne si cercano per NOME:
+# il sito a volte manda la colonna «Penal.» e a volte no (12 o 13 colonne), quindi le
+# posizioni fisse scartavano tutte le righe (15/11/2026). Tenere allineato dalvivo.js.
+COLONNE_CLASSIFICA = {"POS": "pos", "SQUADRA": "squadra", "PUNTI": "punti", "PG": "g",
+                      "PV": "v", "PP": "p", "SF": "sf", "SS": "ss", "PF": "pf", "PS": "ps",
+                      "PENAL": "pen"}
+OBBLIGATORIE = ("pos", "squadra", "punti", "g", "v", "p")
+
+
+def _colonne(t) -> dict:
+    """{campo: indice} dalle intestazioni <th> della tabella."""
+    th = t.select("thead th") or (t.find("tr").find_all("th") if t.find("tr") else [])
+    out = {}
+    for i, x in enumerate(th):
+        nome = x.get_text(" ", strip=True).upper().rstrip(".").strip()
+        if nome in COLONNE_CLASSIFICA:
+            out[COLONNE_CLASSIFICA[nome]] = i
+    return out
+
+
 def leggi_classifica(cid: int, r: Raccolta):
     pagina = scarica(url_classifica(cid))
     s = BeautifulSoup(pagina, "html.parser")
     t = s.select_one("table.tbl-classifica")
     righe = []
     if t:
+        col = _colonne(t)
+        mancano = [c for c in OBBLIGATORIE if c not in col]
+        if mancano:
+            print(f"  ! classifica {cid}: colonne non trovate {mancano}, classifica non aggiornata")
+            return
         for tr in t.find_all("tr"):
             td = tr.find_all("td", recursive=False)
-            if len(td) < 13:
+            if len(td) <= max(col.values()):
                 continue
-            sq = _squadra(td[1], r)
+            val = lambda campo: numero(td[col[campo]].get_text()) if campo in col else None
             righe.append({
-                "pos": numero(td[0].get_text()), "squadra": sq,
-                "punti": numero(td[2].get_text()), "g": numero(td[3].get_text()),
-                "v": numero(td[4].get_text()), "p": numero(td[5].get_text()),
-                "sf": numero(td[6].get_text()), "ss": numero(td[7].get_text()),
-                "pf": numero(td[9].get_text()), "ps": numero(td[10].get_text()),
-                "pen": numero(td[12].get_text()),
+                "pos": val("pos"), "squadra": _squadra(td[col["squadra"]], r),
+                "punti": val("punti"), "g": val("g"), "v": val("v"), "p": val("p"),
+                "sf": val("sf"), "ss": val("ss"), "pf": val("pf"), "ps": val("ps"),
+                "pen": val("pen") or 0,          # colonna assente = nessuna penalità
             })
+        if not righe:
+            print(f"  ! classifica {cid}: nessuna riga letta, classifica non aggiornata")
     r.classifica(f"ce-{cid}", righe)
