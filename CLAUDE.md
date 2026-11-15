@@ -42,10 +42,14 @@ PWA per iPhone che segue le partite della società VIRTUS CASERTA. Squadra in ev
   - Le letture si salvano nel telefono (`localStorage` `virtus-dalvivo-v1`, ~50 KB) con
     l'ora; all'apertura vincono su `data.json` se più recenti del giro del bot, o se
     portano un risultato che il bot non ha. Scadono dopo 3 giorni.
-- Calendario: filtro **Femminile / Maschile / Tutti** (di partenza Femminile, l'ultima
-  scelta resta nel telefono, `localStorage` `virtus-sesso-v1`). Il sesso si ricava dal
+- Calendario: filtro **Femminile / Maschile / Tutti** (dal 15/11/2026 di partenza Tutti,
+  così compare anche l'Under 15 M; l'ultima scelta resta nel telefono, `localStorage`
+  `virtus-sesso-v2`). Il sesso si ricava dal
   nome del campionato («Femminile»/«Maschile»); un campionato senza nessuno dei due
   compare sempre. Filtra sia «Tutte le squadre Virtus» sia la tendina dei campionati.
+  - `CAL_ESCLUSI` in `app.js`: gironi tolti dal calendario (U14 F gir. B `ce-94397`,
+    U19 F gir. B `ce-94223`, su richiesta del 15/11/2026). Restano nelle Classifiche e
+    nella Home. Gli id cambiano con la stagione: a settembre vanno ricontrollati.
 - `app/` — PWA senza build: `index.html`, `style.css`, `app.js`, `dalvivo.js`, `sw.js`, manifest,
   `icone/` (generate da `strumenti/crea_icone.py`). **Dopo ogni modifica a
   index/app/style alzare `VERSIONE` in `sw.js`**, altrimenti l'iPhone tiene la vecchia.
@@ -63,6 +67,13 @@ PWA per iPhone che segue le partite della società VIRTUS CASERTA. Squadra in ev
 - I giri programmati di GitHub Actions non sono garantiti: l'08/11/2026, con cron
   `*/20`, ne sono partiti 2 in 10 ore e il risultato della Virtus non arrivava. Per
   questo l'app legge da sé (`dalvivo.js`); il bot serve per tutto il resto.
+- **Android, schermo che non scorre** (15/11/2026, telefono della figlia): `overflow-x: hidden`
+  su `html, body` + `overscroll-behavior-y: none` sul body. Il body diventa un riquadro
+  scorrevole che non ha nulla da scorrere e non passa il gesto alla pagina; l'iPhone non
+  se ne accorge. `overflow-x` e `overscroll-behavior` vanno **solo su `html`**, mai sul body.
+  Collaudo: Playwright con `is_mobile`/`has_touch` e `Input.dispatchTouchEvent` a passi
+  (start, 12 move, end); `Input.synthesizeScrollGesture` touch in headless non muove nulla,
+  nemmeno una pagina vuota, quindi non è una prova.
 - `const S` in uno script classico non sta su `window`: nei test Playwright
   `typeof S !== 'undefined' && S.dati`, non `window.S`.
 - Griglie a tre colonne (casa | punteggio | ospite): `minmax(0, 1fr)`, non `1fr`,
