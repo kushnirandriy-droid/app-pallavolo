@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-15T16:13:45+01:00",
- "ultimo_giro_completo": "2026-11-15T16:13:45+01:00",
+ "aggiornato": "2026-11-15T22:41:40+01:00",
+ "ultimo_giro_completo": "2026-11-15T22:41:40+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -29,31 +29,57 @@
     {
      "pos": 2,
      "squadra": "cr-virtus-caserta",
-     "punti": 9,
-     "g": 4,
-     "v": 3,
+     "punti": 12,
+     "g": 5,
+     "v": 4,
      "p": 1,
-     "sf": 10,
+     "sf": 13,
      "ss": 5,
-     "pf": 352,
-     "ps": 323,
+     "pf": 427,
+     "ps": 364,
      "pen": 0
     },
     {
      "pos": 3,
      "squadra": "cr-volley4all-frattamaggiore",
-     "punti": 8,
-     "g": 4,
-     "v": 3,
+     "punti": 10,
+     "g": 5,
+     "v": 4,
      "p": 1,
-     "sf": 10,
-     "ss": 6,
-     "pf": 356,
-     "ps": 332,
+     "sf": 13,
+     "ss": 8,
+     "pf": 468,
+     "ps": 433,
      "pen": 0
     },
     {
      "pos": 4,
+     "squadra": "cr-elisa-volley-pomigliano",
+     "punti": 10,
+     "g": 5,
+     "v": 3,
+     "p": 2,
+     "sf": 12,
+     "ss": 7,
+     "pf": 433,
+     "ps": 374,
+     "pen": 0
+    },
+    {
+     "pos": 5,
+     "squadra": "cr-academy-volley-fiamma",
+     "punti": 8,
+     "g": 5,
+     "v": 3,
+     "p": 2,
+     "sf": 11,
+     "ss": 9,
+     "pf": 452,
+     "ps": 419,
+     "pen": 0
+    },
+    {
+     "pos": 6,
      "squadra": "cr-folgore-vairano",
      "punti": 8,
      "g": 5,
@@ -66,20 +92,7 @@
      "pen": 0
     },
     {
-     "pos": 5,
-     "squadra": "cr-elisa-volley-pomigliano",
-     "punti": 7,
-     "g": 4,
-     "v": 2,
-     "p": 2,
-     "sf": 9,
-     "ss": 7,
-     "pf": 358,
-     "ps": 326,
-     "pen": 0
-    },
-    {
-     "pos": 6,
+     "pos": 7,
      "squadra": "cr-vesuvio-volley",
      "punti": 7,
      "g": 4,
@@ -92,7 +105,20 @@
      "pen": 0
     },
     {
-     "pos": 7,
+     "pos": 8,
+     "squadra": "cr-asd-pallavolo-marigliano",
+     "punti": 6,
+     "g": 5,
+     "v": 2,
+     "p": 3,
+     "sf": 9,
+     "ss": 11,
+     "pf": 414,
+     "ps": 446,
+     "pen": 0
+    },
+    {
+     "pos": 9,
      "squadra": "cr-carbat-matese",
      "punti": 6,
      "g": 4,
@@ -102,32 +128,6 @@
      "ss": 8,
      "pf": 290,
      "ps": 315,
-     "pen": 0
-    },
-    {
-     "pos": 8,
-     "squadra": "cr-academy-volley-fiamma",
-     "punti": 5,
-     "g": 4,
-     "v": 2,
-     "p": 2,
-     "sf": 8,
-     "ss": 9,
-     "pf": 377,
-     "ps": 367,
-     "pen": 0
-    },
-    {
-     "pos": 9,
-     "squadra": "cr-asd-pallavolo-marigliano",
-     "punti": 5,
-     "g": 4,
-     "v": 2,
-     "p": 2,
-     "sf": 7,
-     "ss": 8,
-     "pf": 313,
-     "ps": 334,
      "pen": 0
     },
     {
@@ -147,39 +147,39 @@
      "pos": 11,
      "squadra": "cr-il-gladiatore",
      "punti": 4,
-     "g": 3,
+     "g": 4,
      "v": 1,
-     "p": 2,
+     "p": 3,
      "sf": 5,
-     "ss": 7,
-     "pf": 240,
-     "ps": 254,
+     "ss": 10,
+     "pf": 281,
+     "ps": 329,
      "pen": 0
     },
     {
      "pos": 12,
      "squadra": "cr-belenergia",
      "punti": 0,
-     "g": 3,
+     "g": 4,
      "v": 0,
-     "p": 3,
+     "p": 4,
      "sf": 2,
-     "ss": 9,
-     "pf": 237,
-     "ps": 271,
+     "ss": 12,
+     "pf": 285,
+     "ps": 346,
      "pen": 0
     },
     {
      "pos": 13,
      "squadra": "cr-fmf-volalto-snc",
      "punti": 0,
-     "g": 4,
+     "g": 5,
      "v": 0,
-     "p": 4,
+     "p": 5,
      "sf": 2,
-     "ss": 12,
-     "pf": 270,
-     "ps": 349,
+     "ss": 15,
+     "pf": 322,
+     "ps": 424,
      "pen": 0
     }
    ],
@@ -222,6 +222,32 @@
     },
     {
      "pos": 3,
+     "squadra": "ce-1589-volleytime-casagiove",
+     "punti": 2,
+     "g": 1,
+     "v": 1,
+     "p": 0,
+     "sf": 3,
+     "ss": 2,
+     "pf": 114,
+     "ps": 104,
+     "pen": 0
+    },
+    {
+     "pos": 4,
+     "squadra": "ce-3438-dreamvolley-villa-literno",
+     "punti": 1,
+     "g": 1,
+     "v": 0,
+     "p": 1,
+     "sf": 2,
+     "ss": 3,
+     "pf": 104,
+     "ps": 114,
+     "pen": 0
+    },
+    {
+     "pos": 5,
      "squadra": "ce-5150-virtus-caserta",
      "punti": 0,
      "g": 1,
@@ -234,7 +260,7 @@
      "pen": 0
     },
     {
-     "pos": 4,
+     "pos": 6,
      "squadra": "ce-1855-fmf-volalto-snc",
      "punti": 0,
      "g": 1,
@@ -244,32 +270,6 @@
      "ss": 3,
      "pf": 31,
      "ps": 75,
-     "pen": 0
-    },
-    {
-     "pos": 5,
-     "squadra": "ce-3438-dreamvolley-villa-literno",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
-     "pos": 6,
-     "squadra": "ce-1589-volleytime-casagiove",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
      "pen": 0
     }
    ],
@@ -3076,12 +3076,25 @@
    "casa": "cr-elisa-volley-pomigliano",
    "ospite": "cr-belenergia",
    "set": [
-    null,
-    null
+    3,
+    0
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "parziali": [
+    [
+     25,
+     14
+    ],
+    [
+     25,
+     21
+    ],
+    [
+     25,
+     13
+    ]
+   ],
+   "stato": "disputata",
+   "stato_testo": "disputata",
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-pala-falcone-pomigliano-d-arco",
@@ -3096,12 +3109,25 @@
    "casa": "cr-fmf-volalto-snc",
    "ospite": "cr-academy-volley-fiamma",
    "set": [
-    null,
-    null
+    0,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "parziali": [
+    [
+     17,
+     25
+    ],
+    [
+     16,
+     25
+    ],
+    [
+     19,
+     25
+    ]
+   ],
+   "stato": "disputata",
+   "stato_testo": "disputata",
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-palestra-se-einaudi-san-nicola-la-strada",
@@ -3116,12 +3142,33 @@
    "casa": "cr-volley4all-frattamaggiore",
    "ospite": "cr-asd-pallavolo-marigliano",
    "set": [
-    null,
-    null
+    3,
+    2
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "parziali": [
+    [
+     25,
+     20
+    ],
+    [
+     25,
+     17
+    ],
+    [
+     22,
+     25
+    ],
+    [
+     25,
+     27
+    ],
+    [
+     15,
+     12
+    ]
+   ],
+   "stato": "disputata",
+   "stato_testo": "disputata",
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-palestra-isis-g-filangieri-frattamaggiore",
@@ -3136,12 +3183,25 @@
    "casa": "cr-virtus-caserta",
    "ospite": "cr-il-gladiatore",
    "set": [
-    null,
-    null
+    3,
+    0
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "parziali": [
+    [
+     25,
+     19
+    ],
+    [
+     25,
+     10
+    ],
+    [
+     25,
+     12
+    ]
+   ],
+   "stato": "disputata",
+   "stato_testo": "disputata",
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-palestra-isis-a-manzoni-caserta",

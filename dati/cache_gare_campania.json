@@ -934,16 +934,29 @@
   }
  },
  "cr-131621089": {
-  "letto": "2026-11-15T16:14:08+01:00",
+  "letto": "2026-11-15T22:42:03+01:00",
   "set": [
-   null,
-   null
+   0,
+   3
   ],
   "dati": {
    "numero": 1023,
    "giornata": 5,
    "data": "2026-11-15T18:00:00+01:00",
-   "parziali": [],
+   "parziali": [
+    [
+     17,
+     25
+    ],
+    [
+     16,
+     25
+    ],
+    [
+     19,
+     25
+    ]
+   ],
    "palestra": {
     "nome": "PALESTRA SE EINAUDI",
     "citta": "SAN NICOLA LA STRADA",
@@ -995,16 +1008,29 @@
   }
  },
  "cr-131621091": {
-  "letto": "2026-11-15T16:14:08+01:00",
+  "letto": "2026-11-15T22:42:03+01:00",
   "set": [
-   null,
-   null
+   3,
+   0
   ],
   "dati": {
    "numero": 1025,
    "giornata": 5,
    "data": "2026-11-15T20:00:00+01:00",
-   "parziali": [],
+   "parziali": [
+    [
+     25,
+     19
+    ],
+    [
+     25,
+     10
+    ],
+    [
+     25,
+     12
+    ]
+   ],
    "palestra": {
     "nome": "PALESTRA ISIS A.MANZONI",
     "citta": "CASERTA",
@@ -1017,16 +1043,37 @@
   }
  },
  "cr-131621092": {
-  "letto": "2026-11-15T16:14:08+01:00",
+  "letto": "2026-11-15T22:42:03+01:00",
   "set": [
-   null,
-   null
+   3,
+   2
   ],
   "dati": {
    "numero": 1026,
    "giornata": 5,
    "data": "2026-11-15T18:00:00+01:00",
-   "parziali": [],
+   "parziali": [
+    [
+     25,
+     20
+    ],
+    [
+     25,
+     17
+    ],
+    [
+     22,
+     25
+    ],
+    [
+     25,
+     27
+    ],
+    [
+     15,
+     12
+    ]
+   ],
    "palestra": {
     "nome": "PALESTRA ISIS G. FILANGIERI",
     "citta": "FRATTAMAGGIORE",
@@ -1039,16 +1086,29 @@
   }
  },
  "cr-131621093": {
-  "letto": "2026-11-15T16:14:08+01:00",
+  "letto": "2026-11-15T22:42:03+01:00",
   "set": [
-   null,
-   null
+   3,
+   0
   ],
   "dati": {
    "numero": 1027,
    "giornata": 5,
    "data": "2026-11-15T17:30:00+01:00",
-   "parziali": [],
+   "parziali": [
+    [
+     25,
+     14
+    ],
+    [
+     25,
+     21
+    ],
+    [
+     25,
+     13
+    ]
+   ],
    "palestra": {
     "nome": "PALA FALCONE",
     "citta": "POMIGLIANO D'ARCO",
