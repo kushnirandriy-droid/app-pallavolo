@@ -13,7 +13,7 @@ pestano: `ce-` = FIPAV Caserta (portalefipav), `cr-` = FIPAV Campania.
   "aggiornato": "2026-11-08T11:40:00+01:00",   // ultimo giro dello scraper
   "stagione": "2026/27",
   "societa_principale": { "nome": "VIRTUS CASERTA", "ce_id": 5150, "logo": "loghi/ce-5150.png" },
-  "campionato_evidenza": "cr-92747",           // Serie D F gir. C → Home
+  "campionato_evidenza": "ce-94233",           // Under 15 F gir. A → Home e Classifiche
 
   "campionati": [
     {

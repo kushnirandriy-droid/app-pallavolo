@@ -24,7 +24,7 @@ CE_GIRONI_COMPLETI = [94233, 94300, 94301, 94302]
 # --- FIPAV Campania (sito mobile) ---
 CR_BASE = "https://www.fipavcampania.it/mobile"
 CR_CAMPIONATI = [92747]   # Serie D Femminile girone C
-CAMPIONATO_EVIDENZA = "cr-92747"
+CAMPIONATO_EVIDENZA = "ce-94233"   # Home e Classifiche: Under 15 F gir. A (dal 15/11/2026; prima Serie D "cr-92747")
 
 NOME_VIRTUS = "VIRTUS CASERTA"
 

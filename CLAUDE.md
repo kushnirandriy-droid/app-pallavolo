@@ -1,7 +1,9 @@
 # App Pallavolo — Virtus Caserta 2026/27
 
-PWA per iPhone che segue le partite della società VIRTUS CASERTA. Squadra in evidenza:
-**Serie D femminile girone C** (FIPAV Campania).
+PWA per iPhone che segue le partite della società VIRTUS CASERTA. Squadra in evidenza
+(Home con il conto alla rovescia, Classifiche di partenza): **Under 15 femminile girone A**
+(FIPAV Caserta, `ce-94233`) dal 15/11/2026; prima era la Serie D femminile girone C.
+Si cambia in `scraper/config.py` → `CAMPIONATO_EVIDENZA`.
 
 ## Regole
 - Repository **pubblico** `kushnirandriy-droid/app-pallavolo`, servito da GitHub Pages.
