@@ -912,16 +912,33 @@
   }
  },
  "cr-131621087": {
-  "letto": "2026-11-15T16:14:08+01:00",
+  "letto": "2026-11-16T09:22:26+01:00",
   "set": [
-   null,
-   null
+   3,
+   1
   ],
   "dati": {
    "numero": 1021,
    "giornata": 5,
    "data": "2026-11-15T20:30:00+01:00",
-   "parziali": [],
+   "parziali": [
+    [
+     25,
+     19
+    ],
+    [
+     18,
+     25
+    ],
+    [
+     25,
+     9
+    ],
+    [
+     25,
+     14
+    ]
+   ],
    "palestra": {
     "nome": "PALESTRA LICEO S.S. FILIPPO BRUNELLESCHI",
     "citta": "AFRAGOLA",
@@ -1121,7 +1138,7 @@
   }
  },
  "cr-131621095": {
-  "letto": "2026-11-14T23:56:39+01:00",
+  "letto": "2026-11-16T09:22:26+01:00",
   "set": [
    null,
    null

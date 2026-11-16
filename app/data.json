@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-15T22:41:40+01:00",
- "ultimo_giro_completo": "2026-11-15T22:41:40+01:00",
+ "aggiornato": "2026-11-16T09:22:04+01:00",
+ "ultimo_giro_completo": "2026-11-16T09:22:04+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -67,6 +67,19 @@
     },
     {
      "pos": 5,
+     "squadra": "cr-vesuvio-volley",
+     "punti": 10,
+     "g": 5,
+     "v": 3,
+     "p": 2,
+     "sf": 11,
+     "ss": 8,
+     "pf": 427,
+     "ps": 375,
+     "pen": 0
+    },
+    {
+     "pos": 6,
      "squadra": "cr-academy-volley-fiamma",
      "punti": 8,
      "g": 5,
@@ -79,7 +92,7 @@
      "pen": 0
     },
     {
-     "pos": 6,
+     "pos": 7,
      "squadra": "cr-folgore-vairano",
      "punti": 8,
      "g": 5,
@@ -89,19 +102,6 @@
      "ss": 9,
      "pf": 397,
      "ps": 426,
-     "pen": 0
-    },
-    {
-     "pos": 7,
-     "squadra": "cr-vesuvio-volley",
-     "punti": 7,
-     "g": 4,
-     "v": 2,
-     "p": 2,
-     "sf": 8,
-     "ss": 7,
-     "pf": 334,
-     "ps": 308,
      "pen": 0
     },
     {
@@ -134,13 +134,13 @@
      "pos": 10,
      "squadra": "cr-casapane-san-marco-volley",
      "punti": 4,
-     "g": 3,
+     "g": 4,
      "v": 1,
-     "p": 2,
-     "sf": 5,
-     "ss": 6,
-     "pf": 214,
-     "ps": 222,
+     "p": 3,
+     "sf": 6,
+     "ss": 9,
+     "pf": 281,
+     "ps": 315,
      "pen": 0
     },
     {
@@ -3216,12 +3216,29 @@
    "casa": "cr-vesuvio-volley",
    "ospite": "cr-casapane-san-marco-volley",
    "set": [
-    null,
-    null
+    3,
+    1
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "parziali": [
+    [
+     25,
+     19
+    ],
+    [
+     18,
+     25
+    ],
+    [
+     25,
+     9
+    ],
+    [
+     25,
+     14
+    ]
+   ],
+   "stato": "disputata",
+   "stato_testo": "disputata",
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-palestra-liceo-s-s-filippo-brunelleschi-afragola",
