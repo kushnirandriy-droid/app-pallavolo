@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-16T09:22:04+01:00",
- "ultimo_giro_completo": "2026-11-16T09:22:04+01:00",
+ "aggiornato": "2026-11-16T19:44:28+01:00",
+ "ultimo_giro_completo": "2026-11-16T19:44:28+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -3678,9 +3678,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-se-einaudi-san-nicola-la-strada",
    "url": null
   },
@@ -3718,9 +3718,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-sms-beethoven-casaluce",
    "url": null
   },
@@ -3758,9 +3758,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-sms-parente-aversa",
    "url": null
   },
@@ -3878,9 +3878,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-se-matteotti-macerata-campania",
    "url": null
   },
