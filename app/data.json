@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-17T03:07:55+01:00",
- "ultimo_giro_completo": "2026-11-17T03:07:55+01:00",
+ "aggiornato": "2026-11-17T11:55:30+01:00",
+ "ultimo_giro_completo": "2026-11-17T11:55:30+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -3838,9 +3838,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-ic-mazzocchi-santa-maria-cv-santa-maria-capua-vetere-santa-maria-capua-vetere",
    "url": null
   },
@@ -3898,9 +3898,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-ic-mazzocchi-santa-maria-cv-santa-maria-capua-vetere-santa-maria-capua-vetere",
    "url": null
   },
