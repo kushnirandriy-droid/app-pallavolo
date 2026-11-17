@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-16T19:44:28+01:00",
- "ultimo_giro_completo": "2026-11-16T19:44:28+01:00",
+ "aggiornato": "2026-11-17T03:07:55+01:00",
+ "ultimo_giro_completo": "2026-11-17T03:07:55+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -916,19 +916,32 @@
    "classifica": [
     {
      "pos": 1,
-     "squadra": "ce-2624-amici-del-volley-macerata",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
+     "squadra": "ce-x-pallavolo-calvi-risorta",
+     "punti": 3,
+     "g": 1,
+     "v": 1,
      "p": 0,
-     "sf": 0,
+     "sf": 3,
      "ss": 0,
-     "pf": 0,
-     "ps": 0,
+     "pf": 77,
+     "ps": 51,
      "pen": 0
     },
     {
      "pos": 2,
+     "squadra": "ce-2624-amici-del-volley-macerata",
+     "punti": 0,
+     "g": 1,
+     "v": 0,
+     "p": 1,
+     "sf": 0,
+     "ss": 3,
+     "pf": 51,
+     "ps": 77,
+     "pen": 0
+    },
+    {
+     "pos": 3,
      "squadra": "ce-731-folgore-vairano",
      "punti": 0,
      "g": 0,
@@ -941,21 +954,8 @@
      "pen": 0
     },
     {
-     "pos": 3,
-     "squadra": "ce-x-gladiatore-volley",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
      "pos": 4,
-     "squadra": "ce-x-pallavolo-calvi-risorta",
+     "squadra": "ce-x-gladiatore-volley",
      "punti": 0,
      "g": 0,
      "v": 0,
@@ -3698,9 +3698,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-ic-de-mare-plesso-starza-san-cipriano-daversa-san-cipriano-d-aversa-san-cipriano-d-aversa",
    "url": null
   },
@@ -3798,9 +3798,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-itc-terra-di-lavoro-caserta",
    "url": null
   },
@@ -3858,9 +3858,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-sms-a-moro-maddaloni",
    "url": null
   },
