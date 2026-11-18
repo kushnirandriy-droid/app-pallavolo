@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-17T20:46:54+01:00",
- "ultimo_giro_completo": "2026-11-17T20:46:54+01:00",
+ "aggiornato": "2026-11-18T02:53:41+01:00",
+ "ultimo_giro_completo": "2026-11-18T02:53:41+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -1071,14 +1071,14 @@
     {
      "pos": 1,
      "squadra": "ce-4079-alpnormanna-aversa",
-     "punti": 3,
-     "g": 1,
-     "v": 1,
+     "punti": 5,
+     "g": 2,
+     "v": 2,
      "p": 0,
-     "sf": 3,
-     "ss": 1,
-     "pf": 93,
-     "ps": 64,
+     "sf": 6,
+     "ss": 3,
+     "pf": 202,
+     "ps": 162,
      "pen": 0
     },
     {
@@ -1097,14 +1097,14 @@
     {
      "pos": 3,
      "squadra": "ce-724-gs-aversa-volley",
-     "punti": 0,
-     "g": 1,
+     "punti": 1,
+     "g": 2,
      "v": 0,
-     "p": 1,
-     "sf": 1,
-     "ss": 3,
-     "pf": 85,
-     "ps": 98,
+     "p": 2,
+     "sf": 3,
+     "ss": 6,
+     "pf": 183,
+     "ps": 207,
      "pen": 0
     },
     {
