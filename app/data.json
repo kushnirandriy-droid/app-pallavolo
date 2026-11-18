@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-18T11:02:06+01:00",
- "ultimo_giro_completo": "2026-11-18T11:02:06+01:00",
+ "aggiornato": "2026-11-18T19:48:43+01:00",
+ "ultimo_giro_completo": "2026-11-18T19:48:43+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -389,6 +389,19 @@
    "classifica": [
     {
      "pos": 1,
+     "squadra": "ce-3705-new-volley-san-potito",
+     "punti": 3,
+     "g": 1,
+     "v": 1,
+     "p": 0,
+     "sf": 3,
+     "ss": 0,
+     "pf": 75,
+     "ps": 29,
+     "pen": 0
+    },
+    {
+     "pos": 2,
      "squadra": "ce-x-volaltoic-pallavolo2000-a",
      "punti": 3,
      "g": 1,
@@ -401,7 +414,7 @@
      "pen": 0
     },
     {
-     "pos": 2,
+     "pos": 3,
      "squadra": "ce-5467-aquila-volley-marcianise",
      "punti": 3,
      "g": 1,
@@ -414,7 +427,7 @@
      "pen": 0
     },
     {
-     "pos": 3,
+     "pos": 4,
      "squadra": "ce-2624-amici-del-volley-macerata",
      "punti": 0,
      "g": 1,
@@ -427,7 +440,7 @@
      "pen": 0
     },
     {
-     "pos": 4,
+     "pos": 5,
      "squadra": "ce-1589-volleytime-casagiove",
      "punti": 0,
      "g": 1,
@@ -440,34 +453,21 @@
      "pen": 0
     },
     {
-     "pos": 5,
-     "squadra": "ce-4900-carbat-matese",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
      "pos": 6,
-     "squadra": "ce-3705-new-volley-san-potito",
+     "squadra": "ce-5150-virtus-caserta-academy",
      "punti": 0,
-     "g": 0,
+     "g": 1,
      "v": 0,
-     "p": 0,
+     "p": 1,
      "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
+     "ss": 3,
+     "pf": 29,
+     "ps": 75,
      "pen": 0
     },
     {
      "pos": 7,
-     "squadra": "ce-5150-virtus-caserta-academy",
+     "squadra": "ce-4900-carbat-matese",
      "punti": 0,
      "g": 0,
      "v": 0,
@@ -3290,12 +3290,25 @@
    "casa": "ce-3705-new-volley-san-potito",
    "ospite": "ce-5150-virtus-caserta-academy",
    "set": [
-    null,
-    null
+    3,
+    0
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     25,
+     3
+    ],
+    [
+     25,
+     13
+    ],
+    [
+     25,
+     13
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-tendostruttura-comunale-san-potito-sannitico",
@@ -3366,7 +3379,7 @@
    "campionato": "ce-94233",
    "numero": 604,
    "giornata": 2,
-   "data": "2026-11-19T17:45:00+01:00",
+   "data": "2026-11-19T18:30:00+01:00",
    "casa": "ce-1429-volley-sessa",
    "ospite": "ce-725-mc-automotive-succivo",
    "set": [
@@ -3375,9 +3388,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "stato_testo": "da disputare",
    "golden_set": false,
-   "arbitro": true,
+   "arbitro": false,
    "palestra": "pal-palestra-sm-f-de-sanctis-sessa-a-sessa-aurunca",
    "url": null
   },
