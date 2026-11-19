@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-19T09:42:38+01:00",
- "ultimo_giro_completo": "2026-11-19T09:42:38+01:00",
+ "aggiornato": "2026-11-19T18:41:56+01:00",
+ "ultimo_giro_completo": "2026-11-19T18:41:56+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -3439,9 +3439,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-sm-f-de-sanctis-sessa-a-sessa-aurunca",
    "url": null
   },
@@ -3826,26 +3826,6 @@
    "url": null
   },
   {
-   "id": "ce-131674487",
-   "campionato": "ce-94396",
-   "numero": 290,
-   "giornata": 2,
-   "data": "2026-11-26T17:30:00+01:00",
-   "casa": "ce-3812-virtus-aversa",
-   "ospite": "ce-5150-virtus-caserta",
-   "set": [
-    null,
-    null
-   ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
-   "golden_set": false,
-   "arbitro": true,
-   "palestra": "pal-palestra-sms-parente-aversa",
-   "url": null
-  },
-  {
    "id": "ce-131675313",
    "campionato": "ce-94302",
    "numero": 675,
@@ -3863,6 +3843,26 @@
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-tendostruttura-matese-piedimonte-matese-piedimonte-matese",
+   "url": null
+  },
+  {
+   "id": "ce-131674487",
+   "campionato": "ce-94396",
+   "numero": 290,
+   "giornata": 2,
+   "data": "2026-11-26T19:00:00+01:00",
+   "casa": "ce-3812-virtus-aversa",
+   "ospite": "ce-5150-virtus-caserta",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare Arbitro designato",
+   "golden_set": false,
+   "arbitro": true,
+   "palestra": "pal-palestra-sms-parente-aversa",
    "url": null
   },
   {
@@ -4086,26 +4086,6 @@
    "url": null
   },
   {
-   "id": "cr-131621107",
-   "campionato": "cr-92747",
-   "numero": 1041,
-   "giornata": 7,
-   "data": "2026-11-29T17:30:00+01:00",
-   "casa": "cr-elisa-volley-pomigliano",
-   "ospite": "cr-il-gladiatore",
-   "set": [
-    null,
-    null
-   ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
-   "golden_set": false,
-   "arbitro": false,
-   "palestra": "pal-pala-falcone-pomigliano-d-arco",
-   "url": "https://www.fipavcampania.it/mobile/risultati.asp?CampionatoId=92747&GaraId=131621107"
-  },
-  {
    "id": "cr-131621102",
    "campionato": "cr-92747",
    "numero": 1036,
@@ -4184,6 +4164,26 @@
    "arbitro": false,
    "palestra": "pal-palestra-isis-a-manzoni-caserta",
    "url": "https://www.fipavcampania.it/mobile/risultati.asp?CampionatoId=92747&GaraId=131621103"
+  },
+  {
+   "id": "cr-131621107",
+   "campionato": "cr-92747",
+   "numero": 1041,
+   "giornata": 7,
+   "data": "2026-11-29T20:00:00+01:00",
+   "casa": "cr-elisa-volley-pomigliano",
+   "ospite": "cr-il-gladiatore",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-pala-falcone-pomigliano-d-arco",
+   "url": "https://www.fipavcampania.it/mobile/risultati.asp?CampionatoId=92747&GaraId=131621107"
   },
   {
    "id": "ce-131675172",
