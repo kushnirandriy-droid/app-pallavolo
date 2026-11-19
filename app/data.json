@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-18T19:48:43+01:00",
- "ultimo_giro_completo": "2026-11-18T19:48:43+01:00",
+ "aggiornato": "2026-11-19T02:05:54+01:00",
+ "ultimo_giro_completo": "2026-11-19T02:05:54+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -583,18 +583,31 @@
     {
      "pos": 2,
      "squadra": "ce-3815-ktc-volley-san-cipriano",
-     "punti": 3,
-     "g": 1,
+     "punti": 4,
+     "g": 2,
      "v": 1,
-     "p": 0,
-     "sf": 3,
-     "ss": 1,
-     "pf": 101,
-     "ps": 93,
+     "p": 1,
+     "sf": 5,
+     "ss": 4,
+     "pf": 196,
+     "ps": 200,
      "pen": 0
     },
     {
      "pos": 3,
+     "squadra": "ce-3333-pallavolo-casaluce",
+     "punti": 2,
+     "g": 1,
+     "v": 1,
+     "p": 0,
+     "sf": 3,
+     "ss": 2,
+     "pf": 107,
+     "ps": 95,
+     "pen": 0
+    },
+    {
+     "pos": 4,
      "squadra": "ce-3438-dreamvolley-san-cipriano",
      "punti": 0,
      "g": 2,
@@ -607,7 +620,7 @@
      "pen": 0
     },
     {
-     "pos": 4,
+     "pos": 5,
      "squadra": "ce-1342-normanni-veritas-aversa",
      "punti": 0,
      "g": 1,
@@ -617,19 +630,6 @@
      "ss": 3,
      "pf": 41,
      "ps": 75,
-     "pen": 0
-    },
-    {
-     "pos": 5,
-     "squadra": "ce-3333-pallavolo-casaluce",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
      "pen": 0
     }
    ],
@@ -659,19 +659,32 @@
     },
     {
      "pos": 2,
-     "squadra": "ce-4079-alp-normanna",
+     "squadra": "ce-1315-italrobotvolalto-ic-p2000",
      "punti": 3,
      "g": 1,
      "v": 1,
      "p": 0,
      "sf": 3,
      "ss": 1,
-     "pf": 96,
-     "ps": 73,
+     "pf": 90,
+     "ps": 76,
      "pen": 0
     },
     {
      "pos": 3,
+     "squadra": "ce-4079-alp-normanna",
+     "punti": 3,
+     "g": 2,
+     "v": 1,
+     "p": 1,
+     "sf": 4,
+     "ss": 4,
+     "pf": 172,
+     "ps": 163,
+     "pen": 0
+    },
+    {
+     "pos": 4,
      "squadra": "ce-5467-aquila-marcianise-bianca",
      "punti": 0,
      "g": 1,
@@ -684,7 +697,7 @@
      "pen": 0
     },
     {
-     "pos": 4,
+     "pos": 5,
      "squadra": "ce-724-gs-aversa-volley",
      "punti": 0,
      "g": 1,
@@ -694,19 +707,6 @@
      "ss": 3,
      "pf": 54,
      "ps": 75,
-     "pen": 0
-    },
-    {
-     "pos": 5,
-     "squadra": "ce-1315-italrobotvolalto-ic-p2000",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
      "pen": 0
     }
    ],
@@ -813,6 +813,32 @@
     },
     {
      "pos": 2,
+     "squadra": "ce-5467-aquila-volley-marcianise",
+     "punti": 3,
+     "g": 1,
+     "v": 1,
+     "p": 0,
+     "sf": 3,
+     "ss": 1,
+     "pf": 88,
+     "ps": 71,
+     "pen": 0
+    },
+    {
+     "pos": 3,
+     "squadra": "ce-2970-hidros",
+     "punti": 0,
+     "g": 1,
+     "v": 0,
+     "p": 1,
+     "sf": 1,
+     "ss": 3,
+     "pf": 71,
+     "ps": 88,
+     "pen": 0
+    },
+    {
+     "pos": 4,
      "squadra": "ce-1338-centro-volley",
      "punti": 0,
      "g": 1,
@@ -822,32 +848,6 @@
      "ss": 3,
      "pf": 36,
      "ps": 75,
-     "pen": 0
-    },
-    {
-     "pos": 3,
-     "squadra": "ce-5467-aquila-volley-marcianise",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
-     "pos": 4,
-     "squadra": "ce-2970-hidros",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
      "pen": 0
     },
     {
@@ -916,6 +916,19 @@
    "classifica": [
     {
      "pos": 1,
+     "squadra": "ce-729-volley-san-marco",
+     "punti": 3,
+     "g": 1,
+     "v": 1,
+     "p": 0,
+     "sf": 3,
+     "ss": 0,
+     "pf": 75,
+     "ps": 42,
+     "pen": 0
+    },
+    {
+     "pos": 2,
      "squadra": "ce-x-pallavolo-calvi-risorta",
      "punti": 3,
      "g": 1,
@@ -928,7 +941,7 @@
      "pen": 0
     },
     {
-     "pos": 2,
+     "pos": 3,
      "squadra": "ce-2624-amici-del-volley-macerata",
      "punti": 0,
      "g": 1,
@@ -941,20 +954,20 @@
      "pen": 0
     },
     {
-     "pos": 3,
+     "pos": 4,
      "squadra": "ce-731-folgore-vairano",
      "punti": 0,
-     "g": 0,
+     "g": 1,
      "v": 0,
-     "p": 0,
+     "p": 1,
      "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
+     "ss": 3,
+     "pf": 42,
+     "ps": 75,
      "pen": 0
     },
     {
-     "pos": 4,
+     "pos": 5,
      "squadra": "ce-x-gladiatore-volley",
      "punti": 0,
      "g": 0,
@@ -967,21 +980,8 @@
      "pen": 0
     },
     {
-     "pos": 5,
-     "squadra": "ce-5150-virtus-caserta",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
      "pos": 6,
-     "squadra": "ce-729-volley-san-marco",
+     "squadra": "ce-5150-virtus-caserta",
      "punti": 0,
      "g": 0,
      "v": 0,
@@ -1007,14 +1007,14 @@
     {
      "pos": 1,
      "squadra": "ce-5150-virtus-caserta",
-     "punti": 3,
-     "g": 1,
-     "v": 1,
+     "punti": 6,
+     "g": 2,
+     "v": 2,
      "p": 0,
-     "sf": 3,
+     "sf": 6,
      "ss": 0,
-     "pf": 75,
-     "ps": 19,
+     "pf": 150,
+     "ps": 50,
      "pen": 0
     },
     {
@@ -1034,13 +1034,13 @@
      "pos": 3,
      "squadra": "ce-3438-dreamvolley-san-cipriano",
      "punti": 0,
-     "g": 1,
+     "g": 2,
      "v": 0,
-     "p": 1,
+     "p": 2,
      "sf": 0,
-     "ss": 3,
-     "pf": 24,
-     "ps": 75,
+     "ss": 6,
+     "pf": 55,
+     "ps": 150,
      "pen": 0
     },
     {
@@ -3323,12 +3323,33 @@
    "casa": "ce-3815-ktc-volley-san-cipriano",
    "ospite": "ce-3333-pallavolo-casaluce",
    "set": [
-    null,
-    null
+    2,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     18,
+     25
+    ],
+    [
+     25,
+     27
+    ],
+    [
+     25,
+     17
+    ],
+    [
+     25,
+     23
+    ],
+    [
+     2,
+     15
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-ls-emilio-segre-san-cipriano-d-aversa",
@@ -3343,12 +3364,29 @@
    "casa": "ce-4079-alp-normanna",
    "ospite": "ce-1315-italrobotvolalto-ic-p2000",
    "set": [
-    null,
-    null
+    1,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     17,
+     25
+    ],
+    [
+     19,
+     25
+    ],
+    [
+     25,
+     15
+    ],
+    [
+     15,
+     25
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-ist-comprensivo-a-de-curtis-aversa",
@@ -3363,12 +3401,25 @@
    "casa": "ce-3438-dreamvolley-san-cipriano",
    "ospite": "ce-5150-virtus-caserta",
    "set": [
-    null,
-    null
+    0,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     8,
+     25
+    ],
+    [
+     9,
+     25
+    ],
+    [
+     14,
+     25
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-ic-de-mare-plesso-starza-san-cipriano-daversa-san-cipriano-d-aversa-san-cipriano-d-aversa",
@@ -3848,9 +3899,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-sms-pascoli-gricignano-di-aversa",
    "url": null
   },
@@ -3968,9 +4019,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-isis-a-manzoni-caserta",
    "url": null
   },
@@ -3988,9 +4039,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-isis-a-manzoni-caserta",
    "url": null
   },
@@ -4008,9 +4059,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-isis-a-manzoni-caserta",
    "url": null
   },
@@ -4028,9 +4079,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-isis-a-manzoni-caserta",
    "url": null
   },
