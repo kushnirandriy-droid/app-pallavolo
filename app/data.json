@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-19T18:41:56+01:00",
- "ultimo_giro_completo": "2026-11-19T18:41:56+01:00",
+ "aggiornato": "2026-11-20T00:53:36+01:00",
+ "ultimo_giro_completo": "2026-11-20T00:53:36+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -286,6 +286,58 @@
    "classifica": [
     {
      "pos": 1,
+     "squadra": "ce-5150-virtus-caserta",
+     "punti": 3,
+     "g": 1,
+     "v": 1,
+     "p": 0,
+     "sf": 3,
+     "ss": 0,
+     "pf": 75,
+     "ps": 24,
+     "pen": 0
+    },
+    {
+     "pos": 2,
+     "squadra": "ce-729-volley-san-marco",
+     "punti": 2,
+     "g": 1,
+     "v": 1,
+     "p": 0,
+     "sf": 3,
+     "ss": 2,
+     "pf": 107,
+     "ps": 100,
+     "pen": 0
+    },
+    {
+     "pos": 3,
+     "squadra": "ce-x-volaltoic-pallavolo2000-b",
+     "punti": 1,
+     "g": 1,
+     "v": 0,
+     "p": 1,
+     "sf": 2,
+     "ss": 3,
+     "pf": 100,
+     "ps": 107,
+     "pen": 0
+    },
+    {
+     "pos": 4,
+     "squadra": "ce-1855-volalto-s-nicola-l-s",
+     "punti": 0,
+     "g": 1,
+     "v": 0,
+     "p": 1,
+     "sf": 0,
+     "ss": 3,
+     "pf": 24,
+     "ps": 75,
+     "pen": 0
+    },
+    {
+     "pos": 5,
      "squadra": "ce-2970-hidros",
      "punti": 0,
      "g": 0,
@@ -298,60 +350,8 @@
      "pen": 0
     },
     {
-     "pos": 2,
-     "squadra": "ce-5358-vcm",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
-     "pos": 3,
-     "squadra": "ce-5150-virtus-caserta",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
-     "pos": 4,
-     "squadra": "ce-1855-volalto-s-nicola-l-s",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
-     "pos": 5,
-     "squadra": "ce-x-volaltoic-pallavolo2000-b",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
      "pos": 6,
-     "squadra": "ce-729-volley-san-marco",
+     "squadra": "ce-5358-vcm",
      "punti": 0,
      "g": 0,
      "v": 0,
@@ -506,18 +506,31 @@
     {
      "pos": 2,
      "squadra": "ce-725-mc-automotive-succivo",
+     "punti": 3,
+     "g": 2,
+     "v": 1,
+     "p": 1,
+     "sf": 3,
+     "ss": 3,
+     "pf": 133,
+     "ps": 132,
+     "pen": 0
+    },
+    {
+     "pos": 3,
+     "squadra": "ce-1429-volley-sessa",
      "punti": 0,
      "g": 1,
      "v": 0,
      "p": 1,
      "sf": 0,
      "ss": 3,
-     "pf": 58,
+     "pf": 57,
      "ps": 75,
      "pen": 0
     },
     {
-     "pos": 3,
+     "pos": 4,
      "squadra": "ce-2624-amici-del-volley-macerata",
      "punti": 0,
      "g": 0,
@@ -530,21 +543,8 @@
      "pen": 0
     },
     {
-     "pos": 4,
-     "squadra": "ce-1855-volalto-s-nicola-l-s",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
      "pos": 5,
-     "squadra": "ce-1429-volley-sessa",
+     "squadra": "ce-1855-volalto-s-nicola-l-s",
      "punti": 0,
      "g": 0,
      "v": 0,
@@ -750,27 +750,27 @@
     {
      "pos": 3,
      "squadra": "ce-730-asd-sparanise-volley",
-     "punti": 0,
-     "g": 1,
-     "v": 0,
+     "punti": 3,
+     "g": 2,
+     "v": 1,
      "p": 1,
-     "sf": 0,
+     "sf": 3,
      "ss": 3,
-     "pf": 46,
-     "ps": 75,
+     "pf": 121,
+     "ps": 116,
      "pen": 0
     },
     {
      "pos": 4,
      "squadra": "ce-4900-carbat-matese",
      "punti": 0,
-     "g": 1,
+     "g": 2,
      "v": 0,
-     "p": 1,
+     "p": 2,
      "sf": 0,
-     "ss": 3,
-     "pf": 23,
-     "ps": 75,
+     "ss": 6,
+     "pf": 64,
+     "ps": 150,
      "pen": 0
     },
     {
@@ -1070,6 +1070,19 @@
    "classifica": [
     {
      "pos": 1,
+     "squadra": "ce-2970-hidros",
+     "punti": 6,
+     "g": 2,
+     "v": 2,
+     "p": 0,
+     "sf": 6,
+     "ss": 1,
+     "pf": 173,
+     "ps": 131,
+     "pen": 0
+    },
+    {
+     "pos": 2,
      "squadra": "ce-4079-alpnormanna-aversa",
      "punti": 5,
      "g": 2,
@@ -1079,19 +1092,6 @@
      "ss": 3,
      "pf": 202,
      "ps": 162,
-     "pen": 0
-    },
-    {
-     "pos": 2,
-     "squadra": "ce-2970-hidros",
-     "punti": 3,
-     "g": 1,
-     "v": 1,
-     "p": 0,
-     "sf": 3,
-     "ss": 1,
-     "pf": 98,
-     "ps": 85,
      "pen": 0
     },
     {
@@ -1111,13 +1111,13 @@
      "pos": 4,
      "squadra": "ce-5150-virtus-caserta-academy",
      "punti": 0,
-     "g": 1,
+     "g": 2,
      "v": 0,
-     "p": 1,
+     "p": 2,
      "sf": 1,
-     "ss": 3,
-     "pf": 64,
-     "ps": 93,
+     "ss": 6,
+     "pf": 110,
+     "ps": 168,
      "pen": 0
     }
    ],
@@ -3434,12 +3434,25 @@
    "casa": "ce-1429-volley-sessa",
    "ospite": "ce-725-mc-automotive-succivo",
    "set": [
-    null,
-    null
+    0,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     18,
+     25
+    ],
+    [
+     19,
+     25
+    ],
+    [
+     20,
+     25
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-sm-f-de-sanctis-sessa-a-sessa-aurunca",
@@ -3454,12 +3467,25 @@
    "casa": "ce-730-asd-sparanise-volley",
    "ospite": "ce-4900-carbat-matese",
    "set": [
-    null,
-    null
+    3,
+    0
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     25,
+     8
+    ],
+    [
+     25,
+     18
+    ],
+    [
+     25,
+     15
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palasport-sparanise-sparanise",
@@ -3474,12 +3500,25 @@
    "casa": "ce-1855-volalto-s-nicola-l-s",
    "ospite": "ce-5150-virtus-caserta",
    "set": [
-    null,
-    null
+    0,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     3,
+     25
+    ],
+    [
+     16,
+     25
+    ],
+    [
+     5,
+     25
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-se-einaudi-san-nicola-la-strada",
@@ -3494,12 +3533,25 @@
    "casa": "ce-2970-hidros",
    "ospite": "ce-5150-virtus-caserta-academy",
    "set": [
-    null,
-    null
+    3,
+    0
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     25,
+     14
+    ],
+    [
+     25,
+     11
+    ],
+    [
+     25,
+     21
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-sms-pascoli-gricignano-di-aversa",
@@ -5490,7 +5542,7 @@
    "campionato": "ce-94396",
    "numero": 311,
    "giornata": 7,
-   "data": "2027-01-13T18:45:00+01:00",
+   "data": "2027-01-13T19:30:00+01:00",
    "casa": "ce-1338-centro-volley",
    "ospite": "ce-5150-virtus-caserta",
    "set": [
