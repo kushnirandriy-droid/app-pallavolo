@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-20T17:03:48+01:00",
- "ultimo_giro_completo": "2026-11-20T17:03:48+01:00",
+ "aggiornato": "2026-11-20T23:38:12+01:00",
+ "ultimo_giro_completo": "2026-11-20T23:38:12+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -488,6 +488,70 @@
    "virtus": true
   },
   {
+   "id": "ce-94844",
+   "classifica": [
+    {
+     "pos": 1,
+     "squadra": "ce-x-asd-pallavolo-2000",
+     "punti": 0,
+     "g": 0,
+     "v": 0,
+     "p": 0,
+     "sf": 0,
+     "ss": 0,
+     "pf": 0,
+     "ps": 0,
+     "pen": 0
+    },
+    {
+     "pos": 2,
+     "squadra": "ce-5150-virtus-caserta",
+     "punti": 0,
+     "g": 0,
+     "v": 0,
+     "p": 0,
+     "sf": 0,
+     "ss": 0,
+     "pf": 0,
+     "ps": 0,
+     "pen": 0
+    },
+    {
+     "pos": 3,
+     "squadra": "ce-5358-volley-club-maddaloni",
+     "punti": 0,
+     "g": 0,
+     "v": 0,
+     "p": 0,
+     "sf": 0,
+     "ss": 0,
+     "pf": 0,
+     "ps": 0,
+     "pen": 0
+    },
+    {
+     "pos": 4,
+     "squadra": "ce-1429-volley-sessa",
+     "punti": 0,
+     "g": 0,
+     "v": 0,
+     "p": 0,
+     "sf": 0,
+     "ss": 0,
+     "pf": 0,
+     "ps": 0,
+     "pen": 0
+    }
+   ],
+   "fonte": "caserta",
+   "nome": "Under 14 Maschile Interterritoriale",
+   "girone": "Unico",
+   "gruppo": "under-14-maschile-interterritoriale",
+   "tutte_le_gare": false,
+   "url": "https://caserta.portalefipav.net/classifica.aspx?CId=94844",
+   "virtus": true
+  },
+  {
    "id": "ce-94233",
    "classifica": [
     {
@@ -672,6 +736,19 @@
     },
     {
      "pos": 3,
+     "squadra": "ce-5467-aquila-marcianise-bianca",
+     "punti": 3,
+     "g": 2,
+     "v": 1,
+     "p": 1,
+     "sf": 4,
+     "ss": 3,
+     "pf": 148,
+     "ps": 136,
+     "pen": 0
+    },
+    {
+     "pos": 4,
      "squadra": "ce-4079-alp-normanna",
      "punti": 3,
      "g": 2,
@@ -684,29 +761,16 @@
      "pen": 0
     },
     {
-     "pos": 4,
-     "squadra": "ce-5467-aquila-marcianise-bianca",
-     "punti": 0,
-     "g": 1,
-     "v": 0,
-     "p": 1,
-     "sf": 1,
-     "ss": 3,
-     "pf": 73,
-     "ps": 96,
-     "pen": 0
-    },
-    {
      "pos": 5,
      "squadra": "ce-724-gs-aversa-volley",
      "punti": 0,
-     "g": 1,
+     "g": 2,
      "v": 0,
-     "p": 1,
+     "p": 2,
      "sf": 0,
-     "ss": 3,
-     "pf": 54,
-     "ps": 75,
+     "ss": 6,
+     "pf": 94,
+     "ps": 150,
      "pen": 0
     }
    ],
@@ -724,14 +788,14 @@
     {
      "pos": 1,
      "squadra": "ce-x-gladiatore-volley",
-     "punti": 3,
-     "g": 1,
-     "v": 1,
+     "punti": 6,
+     "g": 2,
+     "v": 2,
      "p": 0,
-     "sf": 3,
+     "sf": 6,
      "ss": 0,
-     "pf": 75,
-     "ps": 23,
+     "pf": 150,
+     "ps": 80,
      "pen": 0
     },
     {
@@ -762,6 +826,19 @@
     },
     {
      "pos": 4,
+     "squadra": "ce-5361-ldi-alvignano",
+     "punti": 0,
+     "g": 1,
+     "v": 0,
+     "p": 1,
+     "sf": 0,
+     "ss": 3,
+     "pf": 57,
+     "ps": 75,
+     "pen": 0
+    },
+    {
+     "pos": 5,
      "squadra": "ce-4900-carbat-matese",
      "punti": 0,
      "g": 2,
@@ -771,19 +848,6 @@
      "ss": 6,
      "pf": 64,
      "ps": 150,
-     "pen": 0
-    },
-    {
-     "pos": 5,
-     "squadra": "ce-5361-ldi-alvignano",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
      "pen": 0
     }
    ],
@@ -813,6 +877,19 @@
     },
     {
      "pos": 2,
+     "squadra": "ce-5150-virtus-caserta",
+     "punti": 3,
+     "g": 1,
+     "v": 1,
+     "p": 0,
+     "sf": 3,
+     "ss": 0,
+     "pf": 75,
+     "ps": 49,
+     "pen": 0
+    },
+    {
+     "pos": 3,
      "squadra": "ce-5467-aquila-volley-marcianise",
      "punti": 3,
      "g": 1,
@@ -825,7 +902,7 @@
      "pen": 0
     },
     {
-     "pos": 3,
+     "pos": 4,
      "squadra": "ce-2970-hidros",
      "punti": 0,
      "g": 1,
@@ -838,7 +915,20 @@
      "pen": 0
     },
     {
-     "pos": 4,
+     "pos": 5,
+     "squadra": "ce-5361-ldi-alvignano",
+     "punti": 0,
+     "g": 1,
+     "v": 0,
+     "p": 1,
+     "sf": 0,
+     "ss": 3,
+     "pf": 49,
+     "ps": 75,
+     "pen": 0
+    },
+    {
+     "pos": 6,
      "squadra": "ce-1338-centro-volley",
      "punti": 0,
      "g": 1,
@@ -851,20 +941,7 @@
      "pen": 0
     },
     {
-     "pos": 5,
-     "squadra": "ce-5361-ldi-alvignano",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
-     "pos": 6,
+     "pos": 7,
      "squadra": "ce-5358-vcm",
      "punti": 0,
      "g": 0,
@@ -877,21 +954,8 @@
      "pen": 0
     },
     {
-     "pos": 7,
-     "squadra": "ce-3812-virtus-aversa",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
      "pos": 8,
-     "squadra": "ce-5150-virtus-caserta",
+     "squadra": "ce-3812-virtus-aversa",
      "punti": 0,
      "g": 0,
      "v": 0,
@@ -1278,6 +1342,13 @@
    "virtus": false,
    "logo": "loghi/ce-5358.jpg"
   },
+  "ce-5358-volley-club-maddaloni": {
+   "nome": "VOLLEY CLUB MADDALONI",
+   "societa": null,
+   "societa_id": 5358,
+   "virtus": false,
+   "logo": "loghi/ce-5358.jpg"
+  },
   "ce-5361-ldi-alvignano": {
    "nome": "LDI ALVIGNANO",
    "societa": "ASD LABORATORIO DI IDEE ALVIGNANO",
@@ -1340,6 +1411,13 @@
    "societa_id": 731,
    "virtus": false,
    "logo": "loghi/ce-731.jpg"
+  },
+  "ce-x-asd-pallavolo-2000": {
+   "nome": "ASD PALLAVOLO 2000",
+   "societa": null,
+   "societa_id": null,
+   "virtus": false,
+   "logo": null
   },
   "ce-x-gladiatore-volley": {
    "nome": "GLADIATORE VOLLEY",
@@ -1569,6 +1647,15 @@
    "lat": null,
    "lon": null,
    "maps": "https://www.google.com/maps/search/?api=1&query=Palestra+Comunale+-+via+Calvario+-+Dragoni+via+Calvario+DRAGONI+CE"
+  },
+  "pal-palestra-ic-caio-lucilio-sessa-aurunca-sessa-aurunca-sessa-aurunca": {
+   "nome": "Palestra IC \"Caio Lucilio\" Sessa Aurunca",
+   "citta": "Sessa Aurunca SESSA AURUNCA",
+   "prov": "CE",
+   "via": "Via Trieste",
+   "lat": null,
+   "lon": null,
+   "maps": "https://www.google.com/maps/search/?api=1&query=Palestra+IC+%22Caio+Lucilio%22+Sessa+Aurunca+Via+Trieste+Sessa+Aurunca+SESSA+AURUNCA+CE"
   },
   "pal-palestra-ic-mazzocchi-santa-maria-cv-santa-maria-capua-vetere-santa-maria-capua-vetere": {
    "nome": "Palestra IC \" Mazzocchi\" - Santa Maria CV",
@@ -3566,12 +3653,25 @@
    "casa": "ce-x-gladiatore-volley",
    "ospite": "ce-5361-ldi-alvignano",
    "set": [
-    null,
-    null
+    3,
+    0
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     25,
+     14
+    ],
+    [
+     25,
+     22
+    ],
+    [
+     25,
+     21
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-ls-garofano-capua",
@@ -3586,12 +3686,25 @@
    "casa": "ce-724-gs-aversa-volley",
    "ospite": "ce-5467-aquila-marcianise-bianca",
    "set": [
-    null,
-    null
+    0,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     16,
+     25
+    ],
+    [
+     13,
+     25
+    ],
+    [
+     11,
+     25
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-lic-sport-jommelli-aversa",
@@ -3606,12 +3719,25 @@
    "casa": "ce-5150-virtus-caserta",
    "ospite": "ce-5361-ldi-alvignano",
    "set": [
-    null,
-    null
+    3,
+    0
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     25,
+     20
+    ],
+    [
+     25,
+     15
+    ],
+    [
+     25,
+     14
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-ic-mazzocchi-santa-maria-cv-santa-maria-capua-vetere-santa-maria-capua-vetere",
@@ -3655,6 +3781,26 @@
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-isis-a-manzoni-caserta",
+   "url": null
+  },
+  {
+   "id": "ce-131686646",
+   "campionato": "ce-94844",
+   "numero": 775,
+   "giornata": 1,
+   "data": "2026-11-22T11:00:00+01:00",
+   "casa": "ce-1429-volley-sessa",
+   "ospite": "ce-5150-virtus-caserta",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-palestra-ic-caio-lucilio-sessa-aurunca-sessa-aurunca-sessa-aurunca",
    "url": null
   },
   {
