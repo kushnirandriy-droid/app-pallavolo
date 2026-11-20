@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-20T08:01:45+01:00",
- "ultimo_giro_completo": "2026-11-20T08:01:45+01:00",
+ "aggiornato": "2026-11-20T17:03:48+01:00",
+ "ultimo_giro_completo": "2026-11-20T17:03:48+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -3571,9 +3571,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-ls-garofano-capua",
    "url": null
   },
