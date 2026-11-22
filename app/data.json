@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-21T20:06:15+01:00",
- "ultimo_giro_completo": "2026-11-21T20:06:15+01:00",
+ "aggiornato": "2026-11-22T04:31:43+01:00",
+ "ultimo_giro_completo": "2026-11-22T04:31:43+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -222,6 +222,19 @@
     },
     {
      "pos": 3,
+     "squadra": "ce-5150-virtus-caserta",
+     "punti": 3,
+     "g": 2,
+     "v": 1,
+     "p": 1,
+     "sf": 3,
+     "ss": 3,
+     "pf": 113,
+     "ps": 134,
+     "pen": 0
+    },
+    {
+     "pos": 4,
      "squadra": "ce-1589-volleytime-casagiove",
      "punti": 2,
      "g": 1,
@@ -234,7 +247,7 @@
      "pen": 0
     },
     {
-     "pos": 4,
+     "pos": 5,
      "squadra": "ce-3438-dreamvolley-villa-literno",
      "punti": 1,
      "g": 1,
@@ -247,29 +260,16 @@
      "pen": 0
     },
     {
-     "pos": 5,
-     "squadra": "ce-5150-virtus-caserta",
-     "punti": 0,
-     "g": 1,
-     "v": 0,
-     "p": 1,
-     "sf": 0,
-     "ss": 3,
-     "pf": 38,
-     "ps": 75,
-     "pen": 0
-    },
-    {
      "pos": 6,
      "squadra": "ce-1855-fmf-volalto-snc",
      "punti": 0,
-     "g": 1,
+     "g": 2,
      "v": 0,
-     "p": 1,
+     "p": 2,
      "sf": 0,
-     "ss": 3,
-     "pf": 31,
-     "ps": 75,
+     "ss": 6,
+     "pf": 90,
+     "ps": 150,
      "pen": 0
     }
    ],
@@ -3665,12 +3665,25 @@
    "casa": "ce-5150-virtus-caserta",
    "ospite": "ce-1855-fmf-volalto-snc",
    "set": [
-    null,
-    null
+    3,
+    0
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     25,
+     17
+    ],
+    [
+     25,
+     19
+    ],
+    [
+     25,
+     23
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-isis-a-manzoni-caserta",
