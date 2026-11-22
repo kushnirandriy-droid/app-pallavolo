@@ -1138,16 +1138,29 @@
   }
  },
  "cr-131621095": {
-  "letto": "2026-11-22T13:00:47+01:00",
+  "letto": "2026-11-22T20:28:59+01:00",
   "set": [
-   null,
-   null
+   3,
+   0
   ],
   "dati": {
    "numero": 1029,
    "giornata": 6,
    "data": "2026-11-22T17:30:00+01:00",
-   "parziali": [],
+   "parziali": [
+    [
+     25,
+     10
+    ],
+    [
+     25,
+     14
+    ],
+    [
+     25,
+     18
+    ]
+   ],
    "palestra": {
     "nome": "PALAZZETTO DELLO SPORT",
     "citta": "TELESE TERME",
@@ -1160,16 +1173,37 @@
   }
  },
  "cr-131621096": {
-  "letto": "2026-11-22T13:00:47+01:00",
+  "letto": "2026-11-22T20:28:59+01:00",
   "set": [
-   null,
-   null
+   2,
+   3
   ],
   "dati": {
    "numero": 1030,
    "giornata": 6,
    "data": "2026-11-22T18:00:00+01:00",
-   "parziali": [],
+   "parziali": [
+    [
+     25,
+     19
+    ],
+    [
+     25,
+     12
+    ],
+    [
+     11,
+     25
+    ],
+    [
+     16,
+     25
+    ],
+    [
+     13,
+     15
+    ]
+   ],
    "palestra": {
     "nome": "PALAMATESE",
     "citta": "PIEDIMONTE MATESE",
@@ -1204,16 +1238,33 @@
   }
  },
  "cr-131621098": {
-  "letto": "2026-11-22T13:00:47+01:00",
+  "letto": "2026-11-22T20:28:59+01:00",
   "set": [
-   null,
-   null
+   3,
+   1
   ],
   "dati": {
    "numero": 1032,
    "giornata": 6,
    "data": "2026-11-22T18:30:00+01:00",
-   "parziali": [],
+   "parziali": [
+    [
+     25,
+     17
+    ],
+    [
+     25,
+     20
+    ],
+    [
+     20,
+     25
+    ],
+    [
+     25,
+     13
+    ]
+   ],
    "palestra": {
     "nome": "PALESTRA ITCG V.BACHELET",
     "citta": "SANTA MARIA A VICO",
@@ -1226,16 +1277,29 @@
   }
  },
  "cr-131621099": {
-  "letto": "2026-11-22T13:00:47+01:00",
+  "letto": "2026-11-22T20:28:59+01:00",
   "set": [
-   null,
-   null
+   0,
+   3
   ],
   "dati": {
    "numero": 1033,
    "giornata": 6,
    "data": "2026-11-22T19:00:00+01:00",
-   "parziali": [],
+   "parziali": [
+    [
+     15,
+     25
+    ],
+    [
+     24,
+     26
+    ],
+    [
+     23,
+     25
+    ]
+   ],
    "palestra": {
     "nome": "PALESTRA LS GAROFANO",
     "citta": "CAPUA",
@@ -1248,16 +1312,33 @@
   }
  },
  "cr-131621100": {
-  "letto": "2026-11-22T13:00:47+01:00",
+  "letto": "2026-11-22T20:28:59+01:00",
   "set": [
-   null,
-   null
+   3,
+   1
   ],
   "dati": {
    "numero": 1034,
    "giornata": 6,
    "data": "2026-11-22T18:00:00+01:00",
-   "parziali": [],
+   "parziali": [
+    [
+     25,
+     17
+    ],
+    [
+     19,
+     25
+    ],
+    [
+     25,
+     22
+    ],
+    [
+     25,
+     23
+    ]
+   ],
    "palestra": {
     "nome": "PALESTRA COMUNALE PITTONI",
     "citta": "TORRE ANNUNZIATA",
@@ -1314,7 +1395,7 @@
   }
  },
  "cr-131621104": {
-  "letto": "2026-11-21T20:06:38+01:00",
+  "letto": "2026-11-22T20:28:59+01:00",
   "set": [
    null,
    null
