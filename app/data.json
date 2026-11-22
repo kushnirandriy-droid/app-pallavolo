@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-22T04:31:43+01:00",
- "ultimo_giro_completo": "2026-11-22T04:31:43+01:00",
+ "aggiornato": "2026-11-22T13:00:24+01:00",
+ "ultimo_giro_completo": "2026-11-22T13:00:24+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -196,6 +196,19 @@
    "classifica": [
     {
      "pos": 1,
+     "squadra": "ce-1589-volleytime-casagiove",
+     "punti": 5,
+     "g": 2,
+     "v": 2,
+     "p": 0,
+     "sf": 6,
+     "ss": 2,
+     "pf": 189,
+     "ps": 148,
+     "pen": 0
+    },
+    {
+     "pos": 2,
      "squadra": "ce-3705-new-volley-san-potito",
      "punti": 3,
      "g": 1,
@@ -208,20 +221,20 @@
      "pen": 0
     },
     {
-     "pos": 2,
+     "pos": 3,
      "squadra": "ce-3333-pallavolo-casaluce",
      "punti": 3,
-     "g": 1,
+     "g": 2,
      "v": 1,
-     "p": 0,
+     "p": 1,
      "sf": 3,
-     "ss": 0,
-     "pf": 75,
-     "ps": 38,
+     "ss": 3,
+     "pf": 119,
+     "ps": 113,
      "pen": 0
     },
     {
-     "pos": 3,
+     "pos": 4,
      "squadra": "ce-5150-virtus-caserta",
      "punti": 3,
      "g": 2,
@@ -231,19 +244,6 @@
      "ss": 3,
      "pf": 113,
      "ps": 134,
-     "pen": 0
-    },
-    {
-     "pos": 4,
-     "squadra": "ce-1589-volleytime-casagiove",
-     "punti": 2,
-     "g": 1,
-     "v": 1,
-     "p": 0,
-     "sf": 3,
-     "ss": 2,
-     "pf": 114,
-     "ps": 104,
      "pen": 0
     },
     {
@@ -942,6 +942,32 @@
     },
     {
      "pos": 3,
+     "squadra": "ce-x-gladiatore-volley",
+     "punti": 3,
+     "g": 1,
+     "v": 1,
+     "p": 0,
+     "sf": 3,
+     "ss": 1,
+     "pf": 97,
+     "ps": 85,
+     "pen": 0
+    },
+    {
+     "pos": 4,
+     "squadra": "ce-5150-virtus-caserta",
+     "punti": 0,
+     "g": 1,
+     "v": 0,
+     "p": 1,
+     "sf": 1,
+     "ss": 3,
+     "pf": 85,
+     "ps": 97,
+     "pen": 0
+    },
+    {
+     "pos": 5,
      "squadra": "ce-2624-amici-del-volley-macerata",
      "punti": 0,
      "g": 1,
@@ -954,7 +980,7 @@
      "pen": 0
     },
     {
-     "pos": 4,
+     "pos": 6,
      "squadra": "ce-731-folgore-vairano",
      "punti": 0,
      "g": 1,
@@ -964,32 +990,6 @@
      "ss": 3,
      "pf": 42,
      "ps": 75,
-     "pen": 0
-    },
-    {
-     "pos": 5,
-     "squadra": "ce-x-gladiatore-volley",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
-     "pos": 6,
-     "squadra": "ce-5150-virtus-caserta",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
      "pen": 0
     }
    ],
@@ -3698,12 +3698,29 @@
    "casa": "ce-5150-virtus-caserta",
    "ospite": "ce-x-gladiatore-volley",
    "set": [
-    null,
-    null
+    1,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     22,
+     25
+    ],
+    [
+     19,
+     25
+    ],
+    [
+     25,
+     22
+    ],
+    [
+     19,
+     25
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-isis-a-manzoni-caserta",
