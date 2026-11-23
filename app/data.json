@@ -1,6 +1,6 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-22T20:28:36+01:00",
+ "aggiornato": "2026-11-23T01:29:51+01:00",
  "ultimo_giro_completo": "2026-11-22T20:28:36+01:00",
  "stagione": "2026/27",
  "societa_principale": {
@@ -93,19 +93,32 @@
     },
     {
      "pos": 7,
-     "squadra": "cr-folgore-vairano",
-     "punti": 8,
-     "g": 5,
+     "squadra": "cr-asd-pallavolo-marigliano",
+     "punti": 9,
+     "g": 6,
      "v": 3,
-     "p": 2,
-     "sf": 10,
-     "ss": 9,
-     "pf": 397,
-     "ps": 426,
+     "p": 3,
+     "sf": 12,
+     "ss": 11,
+     "pf": 489,
+     "ps": 492,
      "pen": 0
     },
     {
      "pos": 8,
+     "squadra": "cr-folgore-vairano",
+     "punti": 8,
+     "g": 6,
+     "v": 3,
+     "p": 3,
+     "sf": 10,
+     "ss": 12,
+     "pf": 443,
+     "ps": 501,
+     "pen": 0
+    },
+    {
+     "pos": 9,
      "squadra": "cr-casapane-san-marco-volley",
      "punti": 7,
      "g": 5,
@@ -118,7 +131,7 @@
      "pen": 0
     },
     {
-     "pos": 9,
+     "pos": 10,
      "squadra": "cr-carbat-matese",
      "punti": 7,
      "g": 5,
@@ -128,19 +141,6 @@
      "ss": 11,
      "pf": 380,
      "ps": 411,
-     "pen": 0
-    },
-    {
-     "pos": 10,
-     "squadra": "cr-asd-pallavolo-marigliano",
-     "punti": 6,
-     "g": 5,
-     "v": 2,
-     "p": 3,
-     "sf": 9,
-     "ss": 11,
-     "pf": 414,
-     "ps": 446,
      "pen": 0
     },
     {
@@ -3949,12 +3949,25 @@
    "casa": "cr-asd-pallavolo-marigliano",
    "ospite": "cr-folgore-vairano",
    "set": [
-    null,
-    null
+    3,
+    0
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "parziali": [
+    [
+     25,
+     19
+    ],
+    [
+     25,
+     15
+    ],
+    [
+     25,
+     12
+    ]
+   ],
+   "stato": "disputata",
+   "stato_testo": "disputata",
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-palasport-elia-aliperti-marigliano-marigliano",

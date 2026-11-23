@@ -1216,16 +1216,29 @@
   }
  },
  "cr-131621097": {
-  "letto": "2026-11-22T13:00:47+01:00",
+  "letto": "2026-11-23T01:29:51+01:00",
   "set": [
-   null,
-   null
+   3,
+   0
   ],
   "dati": {
    "numero": 1031,
    "giornata": 6,
    "data": "2026-11-22T21:00:00+01:00",
-   "parziali": [],
+   "parziali": [
+    [
+     25,
+     19
+    ],
+    [
+     25,
+     15
+    ],
+    [
+     25,
+     12
+    ]
+   ],
    "palestra": {
     "nome": "PALASPORT ELIA ALIPERTI MARIGLIANO",
     "citta": "MARIGLIANO",
@@ -1505,7 +1518,7 @@
   }
  },
  "cr-131621110": {
-  "letto": "2026-11-08T12:13:40+01:00",
+  "letto": "2026-11-23T01:29:51+01:00",
   "set": [
    null,
    null
