@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-24T05:54:55+01:00",
- "ultimo_giro_completo": "2026-11-24T05:54:55+01:00",
+ "aggiornato": "2026-11-24T16:45:40+01:00",
+ "ultimo_giro_completo": "2026-11-24T16:45:40+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -4427,9 +4427,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-sms-pascoli-gricignano-di-aversa",
    "url": null
   },
@@ -4447,9 +4447,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palestra-sms-a-moro-maddaloni",
    "url": null
   },
@@ -4507,9 +4507,9 @@
    ],
    "parziali": [],
    "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
-   "arbitro": false,
+   "arbitro": true,
    "palestra": "pal-palavolley-franco-papa-succivo",
    "url": null
   },
