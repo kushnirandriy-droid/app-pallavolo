@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-24T16:45:40+01:00",
- "ultimo_giro_completo": "2026-11-24T16:45:40+01:00",
+ "aggiornato": "2026-11-25T01:09:27+01:00",
+ "ultimo_giro_completo": "2026-11-25T01:09:27+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -286,6 +286,19 @@
    "classifica": [
     {
      "pos": 1,
+     "squadra": "ce-5358-vcm",
+     "punti": 3,
+     "g": 1,
+     "v": 1,
+     "p": 0,
+     "sf": 3,
+     "ss": 0,
+     "pf": 75,
+     "ps": 9,
+     "pen": 0
+    },
+    {
+     "pos": 2,
      "squadra": "ce-5150-virtus-caserta",
      "punti": 3,
      "g": 1,
@@ -298,7 +311,7 @@
      "pen": 0
     },
     {
-     "pos": 2,
+     "pos": 3,
      "squadra": "ce-729-volley-san-marco",
      "punti": 2,
      "g": 1,
@@ -311,7 +324,7 @@
      "pen": 0
     },
     {
-     "pos": 3,
+     "pos": 4,
      "squadra": "ce-x-volaltoic-pallavolo2000-b",
      "punti": 1,
      "g": 1,
@@ -324,34 +337,21 @@
      "pen": 0
     },
     {
-     "pos": 4,
+     "pos": 5,
      "squadra": "ce-1855-volalto-s-nicola-l-s",
      "punti": 0,
-     "g": 1,
+     "g": 2,
      "v": 0,
-     "p": 1,
+     "p": 2,
      "sf": 0,
-     "ss": 3,
-     "pf": 24,
-     "ps": 75,
-     "pen": 0
-    },
-    {
-     "pos": 5,
-     "squadra": "ce-2970-hidros",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
+     "ss": 6,
+     "pf": 33,
+     "ps": 150,
      "pen": 0
     },
     {
      "pos": 6,
-     "squadra": "ce-5358-vcm",
+     "squadra": "ce-2970-hidros",
      "punti": 0,
      "g": 0,
      "v": 0,
@@ -506,14 +506,14 @@
     {
      "pos": 2,
      "squadra": "ce-725-mc-automotive-succivo",
-     "punti": 3,
-     "g": 2,
-     "v": 1,
+     "punti": 6,
+     "g": 3,
+     "v": 2,
      "p": 1,
-     "sf": 3,
+     "sf": 6,
      "ss": 3,
-     "pf": 133,
-     "ps": 132,
+     "pf": 208,
+     "ps": 177,
      "pen": 0
     },
     {
@@ -533,13 +533,13 @@
      "pos": 4,
      "squadra": "ce-1855-volalto-s-nicola-l-s",
      "punti": 0,
-     "g": 1,
+     "g": 2,
      "v": 0,
-     "p": 1,
+     "p": 2,
      "sf": 0,
-     "ss": 3,
-     "pf": 18,
-     "ps": 75,
+     "ss": 6,
+     "pf": 63,
+     "ps": 150,
      "pen": 0
     },
     {
@@ -800,6 +800,19 @@
    "classifica": [
     {
      "pos": 1,
+     "squadra": "ce-5467-aquila-volley-marcianise",
+     "punti": 5,
+     "g": 2,
+     "v": 2,
+     "p": 0,
+     "sf": 6,
+     "ss": 3,
+     "pf": 190,
+     "ps": 171,
+     "pen": 0
+    },
+    {
+     "pos": 2,
      "squadra": "ce-731-folgore-vairano",
      "punti": 3,
      "g": 1,
@@ -812,7 +825,7 @@
      "pen": 0
     },
     {
-     "pos": 2,
+     "pos": 3,
      "squadra": "ce-5150-virtus-caserta",
      "punti": 3,
      "g": 1,
@@ -825,20 +838,20 @@
      "pen": 0
     },
     {
-     "pos": 3,
-     "squadra": "ce-5467-aquila-volley-marcianise",
-     "punti": 3,
+     "pos": 4,
+     "squadra": "ce-5358-vcm",
+     "punti": 1,
      "g": 1,
-     "v": 1,
-     "p": 0,
-     "sf": 3,
-     "ss": 1,
-     "pf": 88,
-     "ps": 71,
+     "v": 0,
+     "p": 1,
+     "sf": 2,
+     "ss": 3,
+     "pf": 100,
+     "ps": 102,
      "pen": 0
     },
     {
-     "pos": 4,
+     "pos": 5,
      "squadra": "ce-2970-hidros",
      "punti": 0,
      "g": 1,
@@ -851,7 +864,7 @@
      "pen": 0
     },
     {
-     "pos": 5,
+     "pos": 6,
      "squadra": "ce-5361-ldi-alvignano",
      "punti": 0,
      "g": 1,
@@ -864,7 +877,7 @@
      "pen": 0
     },
     {
-     "pos": 6,
+     "pos": 7,
      "squadra": "ce-1338-centro-volley",
      "punti": 0,
      "g": 1,
@@ -874,19 +887,6 @@
      "ss": 3,
      "pf": 36,
      "ps": 75,
-     "pen": 0
-    },
-    {
-     "pos": 7,
-     "squadra": "ce-5358-vcm",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
      "pen": 0
     },
     {
@@ -1071,27 +1071,27 @@
     {
      "pos": 1,
      "squadra": "ce-2970-hidros",
-     "punti": 6,
-     "g": 2,
-     "v": 2,
+     "punti": 9,
+     "g": 3,
+     "v": 3,
      "p": 0,
-     "sf": 6,
+     "sf": 9,
      "ss": 1,
-     "pf": 173,
-     "ps": 131,
+     "pf": 249,
+     "ps": 179,
      "pen": 0
     },
     {
      "pos": 2,
      "squadra": "ce-4079-alpnormanna-aversa",
      "punti": 5,
-     "g": 2,
+     "g": 3,
      "v": 2,
-     "p": 0,
+     "p": 1,
      "sf": 6,
-     "ss": 3,
-     "pf": 202,
-     "ps": 162,
+     "ss": 6,
+     "pf": 250,
+     "ps": 238,
      "pen": 0
     },
     {
@@ -3982,12 +3982,25 @@
    "casa": "ce-1855-volalto-s-nicola-l-s",
    "ospite": "ce-725-mc-automotive-succivo",
    "set": [
-    null,
-    null
+    0,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     15,
+     25
+    ],
+    [
+     14,
+     25
+    ],
+    [
+     16,
+     25
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-se-einaudi-san-nicola-la-strada",
