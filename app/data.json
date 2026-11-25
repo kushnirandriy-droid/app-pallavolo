@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-25T09:56:05+01:00",
- "ultimo_giro_completo": "2026-11-25T09:56:05+01:00",
+ "aggiornato": "2026-11-25T20:09:00+01:00",
+ "ultimo_giro_completo": "2026-11-25T20:09:00+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -389,15 +389,15 @@
    "classifica": [
     {
      "pos": 1,
-     "squadra": "ce-3705-new-volley-san-potito",
-     "punti": 3,
-     "g": 1,
-     "v": 1,
+     "squadra": "ce-5467-aquila-volley-marcianise",
+     "punti": 6,
+     "g": 2,
+     "v": 2,
      "p": 0,
-     "sf": 3,
-     "ss": 0,
-     "pf": 75,
-     "ps": 29,
+     "sf": 6,
+     "ss": 1,
+     "pf": 165,
+     "ps": 120,
      "pen": 0
     },
     {
@@ -415,15 +415,15 @@
     },
     {
      "pos": 3,
-     "squadra": "ce-5467-aquila-volley-marcianise",
+     "squadra": "ce-3705-new-volley-san-potito",
      "punti": 3,
-     "g": 1,
+     "g": 2,
      "v": 1,
-     "p": 0,
+     "p": 1,
      "sf": 3,
-     "ss": 1,
-     "pf": 90,
-     "ps": 71,
+     "ss": 3,
+     "pf": 124,
+     "ps": 104,
      "pen": 0
     },
     {
@@ -685,6 +685,19 @@
     },
     {
      "pos": 3,
+     "squadra": "ce-1342-normanni-veritas-aversa",
+     "punti": 3,
+     "g": 2,
+     "v": 1,
+     "p": 1,
+     "sf": 3,
+     "ss": 3,
+     "pf": 116,
+     "ps": 130,
+     "pen": 0
+    },
+    {
+     "pos": 4,
      "squadra": "ce-3333-pallavolo-casaluce",
      "punti": 2,
      "g": 1,
@@ -697,29 +710,16 @@
      "pen": 0
     },
     {
-     "pos": 4,
+     "pos": 5,
      "squadra": "ce-3438-dreamvolley-san-cipriano",
      "punti": 0,
-     "g": 2,
+     "g": 3,
      "v": 0,
-     "p": 2,
+     "p": 3,
      "sf": 2,
-     "ss": 6,
-     "pf": 147,
-     "ps": 199,
-     "pen": 0
-    },
-    {
-     "pos": 5,
-     "squadra": "ce-1342-normanni-veritas-aversa",
-     "punti": 0,
-     "g": 1,
-     "v": 0,
-     "p": 1,
-     "sf": 0,
-     "ss": 3,
-     "pf": 41,
-     "ps": 75,
+     "ss": 9,
+     "pf": 202,
+     "ps": 274,
      "pen": 0
     }
    ],
@@ -1384,7 +1384,7 @@
   },
   "ce-5358-volley-club-maddaloni": {
    "nome": "VOLLEY CLUB MADDALONI",
-   "societa": null,
+   "societa": "VOLLEY CLUB MADDALONI",
    "societa_id": 5358,
    "virtus": false,
    "logo": "loghi/ce-5358.jpg"
@@ -1454,7 +1454,7 @@
   },
   "ce-x-asd-pallavolo-2000": {
    "nome": "ASD PALLAVOLO 2000",
-   "societa": null,
+   "societa": "PALLAVOLO 2000",
    "societa_id": null,
    "virtus": false,
    "logo": null
@@ -1876,6 +1876,15 @@
    "lat": null,
    "lon": null,
    "maps": "https://www.google.com/maps/search/?api=1&query=PALESTRA+SMS+DE+NICOLA+VIA+S.FRANCESCO+MADDALONI+CE"
+  },
+  "pal-palestra-sms-gramsci-impastato-giugliano-in-campania": {
+   "nome": "PALESTRA SMS GRAMSCI-IMPASTATO",
+   "citta": "GIUGLIANO IN CAMPANIA",
+   "prov": "NA",
+   "via": "VIA BARTOLO LONGO",
+   "lat": null,
+   "lon": null,
+   "maps": "https://www.google.com/maps/search/?api=1&query=PALESTRA+SMS+GRAMSCI-IMPASTATO+VIA+BARTOLO+LONGO+GIUGLIANO+IN+CAMPANIA+NA"
   },
   "pal-palestra-sms-novio-atellano-frattaminore": {
    "nome": "PALESTRA SMS. NOVIO ATELLANO",
@@ -4142,12 +4151,25 @@
    "casa": "ce-3438-dreamvolley-san-cipriano",
    "ospite": "ce-1342-normanni-veritas-aversa",
    "set": [
-    null,
-    null
+    0,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     21,
+     25
+    ],
+    [
+     18,
+     25
+    ],
+    [
+     16,
+     25
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-ic-de-mare-plesso-starza-san-cipriano-daversa-san-cipriano-d-aversa-san-cipriano-d-aversa",
@@ -4254,6 +4276,26 @@
    "url": null
   },
   {
+   "id": "ce-131675106",
+   "campionato": "ce-94233",
+   "numero": 600,
+   "giornata": 1,
+   "data": "2026-11-27T17:00:00+01:00",
+   "casa": "ce-2624-amici-del-volley-macerata",
+   "ospite": "ce-1429-volley-sessa",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare Arbitro designato",
+   "golden_set": false,
+   "arbitro": true,
+   "palestra": "pal-palestra-se-matteotti-macerata-campania",
+   "url": null
+  },
+  {
    "id": "ce-131675423",
    "campionato": "ce-94304",
    "numero": 695,
@@ -4291,46 +4333,6 @@
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-ic-mazzocchi-santa-maria-cv-santa-maria-capua-vetere-santa-maria-capua-vetere",
-   "url": null
-  },
-  {
-   "id": "ce-131675293",
-   "campionato": "ce-94301",
-   "numero": 655,
-   "giornata": 3,
-   "data": "2026-11-27T18:45:00+01:00",
-   "casa": "ce-5358-vcm",
-   "ospite": "ce-5467-aquila-marcianise-bianca",
-   "set": [
-    null,
-    null
-   ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
-   "golden_set": false,
-   "arbitro": true,
-   "palestra": "pal-palestra-sms-a-moro-maddaloni",
-   "url": null
-  },
-  {
-   "id": "ce-131675106",
-   "campionato": "ce-94233",
-   "numero": 600,
-   "giornata": 1,
-   "data": "2026-11-27T19:30:00+01:00",
-   "casa": "ce-2624-amici-del-volley-macerata",
-   "ospite": "ce-1429-volley-sessa",
-   "set": [
-    null,
-    null
-   ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
-   "golden_set": false,
-   "arbitro": true,
-   "palestra": "pal-palestra-se-matteotti-macerata-campania",
    "url": null
   },
   {
@@ -4574,12 +4576,12 @@
    "url": null
   },
   {
-   "id": "ce-131687343",
+   "id": "ce-131687344",
    "campionato": "ce-94865",
-   "numero": 775,
+   "numero": 776,
    "giornata": 1,
    "data": "2026-12-01T18:00:00+01:00",
-   "casa": "ce-1658-cusano-altavilla",
+   "casa": "ce-4926-giiugliano-volley",
    "ospite": "ce-5150-virtus-caserta",
    "set": [
     null,
@@ -4590,7 +4592,7 @@
    "stato_testo": "da disputare",
    "golden_set": false,
    "arbitro": false,
-   "palestra": "pal-palestra-itcg-m-carafa-cerreto-sannita",
+   "palestra": "pal-palestra-sms-gramsci-impastato-giugliano-in-campania",
    "url": null
   },
   {
@@ -4960,7 +4962,7 @@
    "giornata": 2,
    "data": "2026-12-09T18:00:00+01:00",
    "casa": "ce-5150-virtus-caserta",
-   "ospite": "ce-4926-giiugliano-volley",
+   "ospite": "ce-x-asd-pallavolo-2000",
    "set": [
     null,
     null
@@ -5174,6 +5176,26 @@
    "url": "https://www.fipavcampania.it/mobile/risultati.asp?CampionatoId=92747&GaraId=131621119"
   },
   {
+   "id": "ce-131687405",
+   "campionato": "ce-94865",
+   "numero": 781,
+   "giornata": 3,
+   "data": "2026-12-15T16:30:00+01:00",
+   "casa": "ce-1658-cusano-altavilla",
+   "ospite": "ce-5150-virtus-caserta",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-palestra-itcg-m-carafa-cerreto-sannita",
+   "url": null
+  },
+  {
    "id": "ce-131674501",
    "campionato": "ce-94396",
    "numero": 304,
@@ -5191,6 +5213,26 @@
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-palasport-walter-morelli-vairano-scalo-vairano-patenora",
+   "url": null
+  },
+  {
+   "id": "ce-131675293",
+   "campionato": "ce-94301",
+   "numero": 655,
+   "giornata": 3,
+   "data": "2026-12-15T18:45:00+01:00",
+   "casa": "ce-5358-vcm",
+   "ospite": "ce-5467-aquila-marcianise-bianca",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare Arbitro designato",
+   "golden_set": false,
+   "arbitro": true,
+   "palestra": "pal-palestra-sms-a-moro-maddaloni",
    "url": null
   },
   {
@@ -5594,6 +5636,26 @@
    "url": "https://www.fipavcampania.it/mobile/risultati.asp?CampionatoId=92747&GaraId=131621124"
   },
   {
+   "id": "ce-131687652",
+   "campionato": "ce-94865",
+   "numero": 783,
+   "giornata": 4,
+   "data": "2026-12-22T18:00:00+01:00",
+   "casa": "ce-5358-volley-club-maddaloni",
+   "ospite": "ce-5150-virtus-caserta",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-palestra-sms-a-moro-maddaloni",
+   "url": null
+  },
+  {
    "id": "ce-131674634",
    "campionato": "ce-94223",
    "numero": 423,
@@ -5851,6 +5913,26 @@
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-palestra-sms-pascoli-gricignano-di-aversa",
+   "url": null
+  },
+  {
+   "id": "ce-131687656",
+   "campionato": "ce-94865",
+   "numero": 787,
+   "giornata": 5,
+   "data": "2027-01-12T18:00:00+01:00",
+   "casa": "ce-1429-volley-sessa",
+   "ospite": "ce-5150-virtus-caserta",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-palestra-sm-f-de-sanctis-sessa-a-sessa-aurunca",
    "url": null
   },
   {
@@ -6211,6 +6293,26 @@
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-ic-de-mare-plesso-starza-san-cipriano-daversa-san-cipriano-d-aversa-san-cipriano-d-aversa",
+   "url": null
+  },
+  {
+   "id": "ce-131687752",
+   "campionato": "ce-94865",
+   "numero": 791,
+   "giornata": 6,
+   "data": "2027-01-19T18:00:00+01:00",
+   "casa": "ce-5150-virtus-caserta",
+   "ospite": "ce-4926-giiugliano-volley",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-palestra-isis-a-manzoni-caserta",
    "url": null
   },
   {
@@ -6594,6 +6696,26 @@
    "url": null
   },
   {
+   "id": "ce-131687754",
+   "campionato": "ce-94865",
+   "numero": 793,
+   "giornata": 7,
+   "data": "2027-01-26T18:00:00+01:00",
+   "casa": "ce-5150-virtus-caserta",
+   "ospite": "ce-x-asd-pallavolo-2000",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-palestra-isis-a-manzoni-caserta",
+   "url": null
+  },
+  {
    "id": "ce-131675322",
    "campionato": "ce-94302",
    "numero": 684,
@@ -6659,8 +6781,8 @@
    "numero": 665,
    "giornata": 8,
    "data": "2027-01-28T18:30:00+01:00",
-   "casa": "ce-5358-vcm",
-   "ospite": "ce-5467-aquila-marcianise-bianca",
+   "casa": "ce-5467-aquila-marcianise-bianca",
+   "ospite": "ce-5358-vcm",
    "set": [
     null,
     null
@@ -6854,6 +6976,26 @@
    "url": null
   },
   {
+   "id": "ce-131687757",
+   "campionato": "ce-94865",
+   "numero": 796,
+   "giornata": 8,
+   "data": "2027-02-02T18:00:00+01:00",
+   "casa": "ce-5150-virtus-caserta",
+   "ospite": "ce-1658-cusano-altavilla",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-palestra-isis-a-manzoni-caserta",
+   "url": null
+  },
+  {
    "id": "ce-131675828",
    "campionato": "ce-94397",
    "numero": 758,
@@ -6901,6 +7043,26 @@
    "data": "2027-02-07T11:00:00+01:00",
    "casa": "ce-5150-virtus-caserta",
    "ospite": "ce-2970-hidros",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-palestra-isis-a-manzoni-caserta",
+   "url": null
+  },
+  {
+   "id": "ce-131687759",
+   "campionato": "ce-94865",
+   "numero": 798,
+   "giornata": 9,
+   "data": "2027-02-09T18:00:00+01:00",
+   "casa": "ce-5150-virtus-caserta",
+   "ospite": "ce-5358-volley-club-maddaloni",
    "set": [
     null,
     null
@@ -7232,6 +7394,26 @@
    "arbitro": false,
    "palestra": "pal-palasport-elia-aliperti-marigliano-marigliano",
    "url": "https://www.fipavcampania.it/mobile/risultati.asp?CampionatoId=92747&GaraId=131621156"
+  },
+  {
+   "id": "ce-131687763",
+   "campionato": "ce-94865",
+   "numero": 802,
+   "giornata": 10,
+   "data": "2027-02-16T18:00:00+01:00",
+   "casa": "ce-5150-virtus-caserta",
+   "ospite": "ce-1429-volley-sessa",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-palestra-isis-a-manzoni-caserta",
+   "url": null
   },
   {
    "id": "ce-131675133",
