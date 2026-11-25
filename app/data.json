@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-25T01:09:27+01:00",
- "ultimo_giro_completo": "2026-11-25T01:09:27+01:00",
+ "aggiornato": "2026-11-25T09:56:05+01:00",
+ "ultimo_giro_completo": "2026-11-25T09:56:05+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -485,6 +485,96 @@
    "gruppo": "under-14-femminile",
    "tutte_le_gare": false,
    "url": "https://caserta.portalefipav.net/classifica.aspx?CId=94397",
+   "virtus": true
+  },
+  {
+   "id": "ce-94865",
+   "classifica": [
+    {
+     "pos": 1,
+     "squadra": "ce-x-asd-pallavolo-2000",
+     "punti": 0,
+     "g": 0,
+     "v": 0,
+     "p": 0,
+     "sf": 0,
+     "ss": 0,
+     "pf": 0,
+     "ps": 0,
+     "pen": 0
+    },
+    {
+     "pos": 2,
+     "squadra": "ce-1658-cusano-altavilla",
+     "punti": 0,
+     "g": 0,
+     "v": 0,
+     "p": 0,
+     "sf": 0,
+     "ss": 0,
+     "pf": 0,
+     "ps": 0,
+     "pen": 0
+    },
+    {
+     "pos": 3,
+     "squadra": "ce-4926-giiugliano-volley",
+     "punti": 0,
+     "g": 0,
+     "v": 0,
+     "p": 0,
+     "sf": 0,
+     "ss": 0,
+     "pf": 0,
+     "ps": 0,
+     "pen": 0
+    },
+    {
+     "pos": 4,
+     "squadra": "ce-5150-virtus-caserta",
+     "punti": 0,
+     "g": 0,
+     "v": 0,
+     "p": 0,
+     "sf": 0,
+     "ss": 0,
+     "pf": 0,
+     "ps": 0,
+     "pen": 0
+    },
+    {
+     "pos": 5,
+     "squadra": "ce-5358-volley-club-maddaloni",
+     "punti": 0,
+     "g": 0,
+     "v": 0,
+     "p": 0,
+     "sf": 0,
+     "ss": 0,
+     "pf": 0,
+     "ps": 0,
+     "pen": 0
+    },
+    {
+     "pos": 6,
+     "squadra": "ce-1429-volley-sessa",
+     "punti": 0,
+     "g": 0,
+     "v": 0,
+     "p": 0,
+     "sf": 0,
+     "ss": 0,
+     "pf": 0,
+     "ps": 0,
+     "pen": 0
+    }
+   ],
+   "fonte": "caserta",
+   "nome": "Under 14 Maschile Interritoriale",
+   "girone": "Unico",
+   "gruppo": "under-14-maschile-interritoriale",
+   "tutte_le_gare": false,
+   "url": "https://caserta.portalefipav.net/classifica.aspx?CId=94865",
    "virtus": true
   },
   {
@@ -1166,6 +1256,13 @@
    "virtus": false,
    "logo": "loghi/ce-1589.jpg"
   },
+  "ce-1658-cusano-altavilla": {
+   "nome": "CUSANO-ALTAVILLA",
+   "societa": "A.S.D.CUSANO VOLLEY",
+   "societa_id": 1658,
+   "virtus": false,
+   "logo": "loghi/ce-1658.jpg"
+  },
   "ce-1855-fmf-volalto-snc": {
    "nome": "FMF VOLALTO SNC",
    "societa": "VOLALTO S.NICOLA LA STRADA ASD",
@@ -1257,6 +1354,13 @@
    "virtus": false,
    "logo": "loghi/ce-4900.png"
   },
+  "ce-4926-giiugliano-volley": {
+   "nome": "GIIUGLIANO VOLLEY",
+   "societa": "GIUGLIANO VOLLEY",
+   "societa_id": 4926,
+   "virtus": false,
+   "logo": "loghi/ce-4926.jpeg"
+  },
   "ce-5150-virtus-caserta": {
    "nome": "VIRTUS CASERTA",
    "societa": "VIRTUS CASERTA",
@@ -1274,6 +1378,13 @@
   "ce-5358-vcm": {
    "nome": "VCM",
    "societa": "VOLLEY CLUB MADDALONI",
+   "societa_id": 5358,
+   "virtus": false,
+   "logo": "loghi/ce-5358.jpg"
+  },
+  "ce-5358-volley-club-maddaloni": {
+   "nome": "VOLLEY CLUB MADDALONI",
+   "societa": null,
    "societa_id": 5358,
    "virtus": false,
    "logo": "loghi/ce-5358.jpg"
@@ -1340,6 +1451,13 @@
    "societa_id": 731,
    "virtus": false,
    "logo": "loghi/ce-731.jpg"
+  },
+  "ce-x-asd-pallavolo-2000": {
+   "nome": "ASD PALLAVOLO 2000",
+   "societa": null,
+   "societa_id": null,
+   "virtus": false,
+   "logo": null
   },
   "ce-x-gladiatore-volley": {
    "nome": "GLADIATORE VOLLEY",
@@ -1614,6 +1732,15 @@
    "lat": null,
    "lon": null,
    "maps": "https://www.google.com/maps/search/?api=1&query=PALESTRA+IST.+COMPRENSIVO+STATALE+G.+PASCOLI+VIA+PUBLIO+OVIDIO+NASONE+AVERSA+CE"
+  },
+  "pal-palestra-itcg-m-carafa-cerreto-sannita": {
+   "nome": "Palestra ITCG \"M. CARAFA\"",
+   "citta": "CERRETO SANNITA",
+   "prov": "BN",
+   "via": "Piazza Luigi Sodo",
+   "lat": null,
+   "lon": null,
+   "maps": "https://www.google.com/maps/search/?api=1&query=Palestra+ITCG+%22M.+CARAFA%22+Piazza+Luigi+Sodo+CERRETO+SANNITA+BN"
   },
   "pal-palestra-itcg-v-bachelet-santa-maria-a-vico": {
    "nome": "PALESTRA ITCG V.BACHELET",
@@ -4447,6 +4574,26 @@
    "url": null
   },
   {
+   "id": "ce-131687343",
+   "campionato": "ce-94865",
+   "numero": 775,
+   "giornata": 1,
+   "data": "2026-12-01T18:00:00+01:00",
+   "casa": "ce-1658-cusano-altavilla",
+   "ospite": "ce-5150-virtus-caserta",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-palestra-itcg-m-carafa-cerreto-sannita",
+   "url": null
+  },
+  {
    "id": "ce-131675295",
    "campionato": "ce-94301",
    "numero": 657,
@@ -4804,6 +4951,26 @@
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-palestra-lp-novelli-marcianise",
+   "url": null
+  },
+  {
+   "id": "ce-131687402",
+   "campionato": "ce-94865",
+   "numero": 778,
+   "giornata": 2,
+   "data": "2026-12-09T18:00:00+01:00",
+   "casa": "ce-5150-virtus-caserta",
+   "ospite": "ce-4926-giiugliano-volley",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-palestra-isis-a-manzoni-caserta",
    "url": null
   },
   {
