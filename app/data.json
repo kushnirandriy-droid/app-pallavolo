@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-26T12:13:44+01:00",
- "ultimo_giro_completo": "2026-11-26T12:13:44+01:00",
+ "aggiornato": "2026-11-26T21:21:25+01:00",
+ "ultimo_giro_completo": "2026-11-26T21:21:25+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -736,6 +736,19 @@
    "classifica": [
     {
      "pos": 1,
+     "squadra": "ce-1315-italrobotvolalto-ic-p2000",
+     "punti": 6,
+     "g": 2,
+     "v": 2,
+     "p": 0,
+     "sf": 6,
+     "ss": 1,
+     "pf": 165,
+     "ps": 112,
+     "pen": 0
+    },
+    {
+     "pos": 2,
      "squadra": "ce-5358-vcm",
      "punti": 3,
      "g": 1,
@@ -745,19 +758,6 @@
      "ss": 0,
      "pf": 75,
      "ps": 54,
-     "pen": 0
-    },
-    {
-     "pos": 2,
-     "squadra": "ce-1315-italrobotvolalto-ic-p2000",
-     "punti": 3,
-     "g": 1,
-     "v": 1,
-     "p": 0,
-     "sf": 3,
-     "ss": 1,
-     "pf": 90,
-     "ps": 76,
      "pen": 0
     },
     {
@@ -790,13 +790,13 @@
      "pos": 5,
      "squadra": "ce-724-gs-aversa-volley",
      "punti": 0,
-     "g": 2,
+     "g": 3,
      "v": 0,
-     "p": 2,
+     "p": 3,
      "sf": 0,
-     "ss": 6,
-     "pf": 94,
-     "ps": 150,
+     "ss": 9,
+     "pf": 130,
+     "ps": 225,
      "pen": 0
     }
    ],
@@ -813,6 +813,19 @@
    "classifica": [
     {
      "pos": 1,
+     "squadra": "ce-3705-new-volley-san-potito",
+     "punti": 6,
+     "g": 2,
+     "v": 2,
+     "p": 0,
+     "sf": 6,
+     "ss": 0,
+     "pf": 150,
+     "ps": 61,
+     "pen": 0
+    },
+    {
+     "pos": 2,
      "squadra": "ce-x-gladiatore-volley",
      "punti": 6,
      "g": 2,
@@ -825,7 +838,7 @@
      "pen": 0
     },
     {
-     "pos": 2,
+     "pos": 3,
      "squadra": "ce-730-asd-sparanise-volley",
      "punti": 6,
      "g": 3,
@@ -835,19 +848,6 @@
      "ss": 3,
      "pf": 196,
      "ps": 173,
-     "pen": 0
-    },
-    {
-     "pos": 3,
-     "squadra": "ce-3705-new-volley-san-potito",
-     "punti": 3,
-     "g": 1,
-     "v": 1,
-     "p": 0,
-     "sf": 3,
-     "ss": 0,
-     "pf": 75,
-     "ps": 46,
      "pen": 0
     },
     {
@@ -867,13 +867,13 @@
      "pos": 5,
      "squadra": "ce-4900-carbat-matese",
      "punti": 0,
-     "g": 2,
+     "g": 3,
      "v": 0,
-     "p": 2,
+     "p": 3,
      "sf": 0,
-     "ss": 6,
-     "pf": 64,
-     "ps": 150,
+     "ss": 9,
+     "pf": 79,
+     "ps": 225,
      "pen": 0
     }
    ],
@@ -890,6 +890,19 @@
    "classifica": [
     {
      "pos": 1,
+     "squadra": "ce-731-folgore-vairano",
+     "punti": 6,
+     "g": 2,
+     "v": 2,
+     "p": 0,
+     "sf": 6,
+     "ss": 0,
+     "pf": 150,
+     "ps": 65,
+     "pen": 0
+    },
+    {
+     "pos": 2,
      "squadra": "ce-5467-aquila-volley-marcianise",
      "punti": 5,
      "g": 2,
@@ -902,33 +915,33 @@
      "pen": 0
     },
     {
-     "pos": 2,
-     "squadra": "ce-731-folgore-vairano",
-     "punti": 3,
-     "g": 1,
-     "v": 1,
-     "p": 0,
-     "sf": 3,
-     "ss": 0,
-     "pf": 75,
-     "ps": 36,
-     "pen": 0
-    },
-    {
      "pos": 3,
      "squadra": "ce-5150-virtus-caserta",
-     "punti": 3,
-     "g": 1,
+     "punti": 4,
+     "g": 2,
      "v": 1,
-     "p": 0,
-     "sf": 3,
-     "ss": 0,
-     "pf": 75,
-     "ps": 49,
+     "p": 1,
+     "sf": 5,
+     "ss": 3,
+     "pf": 155,
+     "ps": 157,
      "pen": 0
     },
     {
      "pos": 4,
+     "squadra": "ce-3812-virtus-aversa",
+     "punti": 2,
+     "g": 1,
+     "v": 1,
+     "p": 0,
+     "sf": 3,
+     "ss": 2,
+     "pf": 108,
+     "ps": 80,
+     "pen": 0
+    },
+    {
+     "pos": 5,
      "squadra": "ce-5358-vcm",
      "punti": 1,
      "g": 1,
@@ -941,7 +954,7 @@
      "pen": 0
     },
     {
-     "pos": 5,
+     "pos": 6,
      "squadra": "ce-2970-hidros",
      "punti": 0,
      "g": 1,
@@ -954,20 +967,20 @@
      "pen": 0
     },
     {
-     "pos": 6,
+     "pos": 7,
      "squadra": "ce-5361-ldi-alvignano",
      "punti": 0,
-     "g": 1,
+     "g": 2,
      "v": 0,
-     "p": 1,
+     "p": 2,
      "sf": 0,
-     "ss": 3,
-     "pf": 49,
-     "ps": 75,
+     "ss": 6,
+     "pf": 78,
+     "ps": 150,
      "pen": 0
     },
     {
-     "pos": 7,
+     "pos": 8,
      "squadra": "ce-1338-centro-volley",
      "punti": 0,
      "g": 1,
@@ -977,19 +990,6 @@
      "ss": 3,
      "pf": 36,
      "ps": 75,
-     "pen": 0
-    },
-    {
-     "pos": 8,
-     "squadra": "ce-3812-virtus-aversa",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
      "pen": 0
     }
    ],
@@ -1714,6 +1714,15 @@
    "lat": 40.934698,
    "lon": 14.278442,
    "maps": "https://www.google.com/maps/search/?api=1&query=PALESTRA+ISIS+G.+FILANGIERI+VIA+ROSSINI+FRATTAMAGGIORE+NA"
+  },
+  "pal-palestra-isis-manzoni-2-campo-caserta-caserta": {
+   "nome": "PALESTRA ISIS MANZONI - 2° CAMPO - CASERTA",
+   "citta": "CASERTA",
+   "prov": "CE",
+   "via": "VIA DE GASPERI",
+   "lat": null,
+   "lon": null,
+   "maps": "https://www.google.com/maps/search/?api=1&query=PALESTRA+ISIS+MANZONI+-+2%C2%B0+CAMPO+-+CASERTA+VIA+DE+GASPERI+CASERTA+CE"
   },
   "pal-palestra-ist-comprensivo-a-de-curtis-aversa": {
    "nome": "PALESTRA IST. COMPRENSIVO A. DE CURTIS",
@@ -4254,12 +4263,25 @@
    "casa": "ce-4900-carbat-matese",
    "ospite": "ce-3705-new-volley-san-potito",
    "set": [
-    null,
-    null
+    0,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     3,
+     25
+    ],
+    [
+     8,
+     25
+    ],
+    [
+     4,
+     25
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-tendostruttura-matese-piedimonte-matese-piedimonte-matese",
@@ -4274,12 +4296,33 @@
    "casa": "ce-3812-virtus-aversa",
    "ospite": "ce-5150-virtus-caserta",
    "set": [
-    null,
-    null
+    3,
+    2
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     25,
+     8
+    ],
+    [
+     25,
+     14
+    ],
+    [
+     20,
+     25
+    ],
+    [
+     23,
+     25
+    ],
+    [
+     15,
+     8
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-sms-parente-aversa",
@@ -4294,12 +4337,25 @@
    "casa": "ce-1315-italrobotvolalto-ic-p2000",
    "ospite": "ce-724-gs-aversa-volley",
    "set": [
-    null,
-    null
+    3,
+    0
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     25,
+     6
+    ],
+    [
+     25,
+     12
+    ],
+    [
+     25,
+     18
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-itc-terra-di-lavoro-caserta",
@@ -4986,26 +5042,6 @@
    "url": null
   },
   {
-   "id": "ce-131687402",
-   "campionato": "ce-94865",
-   "numero": 778,
-   "giornata": 2,
-   "data": "2026-12-09T18:00:00+01:00",
-   "casa": "ce-5150-virtus-caserta",
-   "ospite": "ce-x-asd-pallavolo-2000",
-   "set": [
-    null,
-    null
-   ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
-   "golden_set": false,
-   "arbitro": false,
-   "palestra": "pal-palestra-isis-a-manzoni-caserta",
-   "url": null
-  },
-  {
    "id": "ce-131675315",
    "campionato": "ce-94302",
    "numero": 677,
@@ -5103,6 +5139,46 @@
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-palestra-isis-a-manzoni-caserta",
+   "url": null
+  },
+  {
+   "id": "ce-131687402",
+   "campionato": "ce-94865",
+   "numero": 778,
+   "giornata": 2,
+   "data": "2026-12-13T11:00:00+01:00",
+   "casa": "ce-5150-virtus-caserta",
+   "ospite": "ce-x-asd-pallavolo-2000",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-palestra-isis-manzoni-2-campo-caserta-caserta",
+   "url": null
+  },
+  {
+   "id": "ce-131687405",
+   "campionato": "ce-94865",
+   "numero": 781,
+   "giornata": 3,
+   "data": "2026-12-13T11:00:00+01:00",
+   "casa": "ce-1658-cusano-altavilla",
+   "ospite": "ce-5150-virtus-caserta",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-palestra-itcg-m-carafa-cerreto-sannita",
    "url": null
   },
   {
@@ -5204,26 +5280,6 @@
    "arbitro": false,
    "palestra": "pal-palasport-elia-aliperti-marigliano-marigliano",
    "url": "https://www.fipavcampania.it/mobile/risultati.asp?CampionatoId=92747&GaraId=131621119"
-  },
-  {
-   "id": "ce-131687405",
-   "campionato": "ce-94865",
-   "numero": 781,
-   "giornata": 3,
-   "data": "2026-12-15T16:30:00+01:00",
-   "casa": "ce-1658-cusano-altavilla",
-   "ospite": "ce-5150-virtus-caserta",
-   "set": [
-    null,
-    null
-   ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
-   "golden_set": false,
-   "arbitro": false,
-   "palestra": "pal-palestra-itcg-m-carafa-cerreto-sannita",
-   "url": null
   },
   {
    "id": "ce-131674501",
