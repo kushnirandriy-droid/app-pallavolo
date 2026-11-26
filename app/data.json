@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-25T20:09:00+01:00",
- "ultimo_giro_completo": "2026-11-25T20:09:00+01:00",
+ "aggiornato": "2026-11-26T03:19:48+01:00",
+ "ultimo_giro_completo": "2026-11-26T03:19:48+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -286,6 +286,19 @@
    "classifica": [
     {
      "pos": 1,
+     "squadra": "ce-729-volley-san-marco",
+     "punti": 5,
+     "g": 2,
+     "v": 2,
+     "p": 0,
+     "sf": 6,
+     "ss": 3,
+     "pf": 207,
+     "ps": 158,
+     "pen": 0
+    },
+    {
+     "pos": 2,
      "squadra": "ce-5358-vcm",
      "punti": 3,
      "g": 1,
@@ -298,7 +311,7 @@
      "pen": 0
     },
     {
-     "pos": 2,
+     "pos": 3,
      "squadra": "ce-5150-virtus-caserta",
      "punti": 3,
      "g": 1,
@@ -308,19 +321,6 @@
      "ss": 0,
      "pf": 75,
      "ps": 24,
-     "pen": 0
-    },
-    {
-     "pos": 3,
-     "squadra": "ce-729-volley-san-marco",
-     "punti": 2,
-     "g": 1,
-     "v": 1,
-     "p": 0,
-     "sf": 3,
-     "ss": 2,
-     "pf": 107,
-     "ps": 100,
      "pen": 0
     },
     {
@@ -338,6 +338,19 @@
     },
     {
      "pos": 5,
+     "squadra": "ce-1429-volley-sessa",
+     "punti": 0,
+     "g": 1,
+     "v": 0,
+     "p": 1,
+     "sf": 1,
+     "ss": 3,
+     "pf": 58,
+     "ps": 100,
+     "pen": 0
+    },
+    {
+     "pos": 6,
      "squadra": "ce-1855-volalto-s-nicola-l-s",
      "punti": 0,
      "g": 2,
@@ -350,21 +363,8 @@
      "pen": 0
     },
     {
-     "pos": 6,
-     "squadra": "ce-2970-hidros",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
-     "pen": 0
-    },
-    {
      "pos": 7,
-     "squadra": "ce-1429-volley-sessa",
+     "squadra": "ce-2970-hidros",
      "punti": 0,
      "g": 0,
      "v": 0,
@@ -660,14 +660,14 @@
     {
      "pos": 1,
      "squadra": "ce-2970-hidros",
-     "punti": 6,
-     "g": 2,
-     "v": 2,
+     "punti": 9,
+     "g": 3,
+     "v": 3,
      "p": 0,
-     "sf": 6,
-     "ss": 1,
-     "pf": 173,
-     "ps": 95,
+     "sf": 9,
+     "ss": 2,
+     "pf": 270,
+     "ps": 184,
      "pen": 0
     },
     {
@@ -700,13 +700,13 @@
      "pos": 4,
      "squadra": "ce-3333-pallavolo-casaluce",
      "punti": 2,
-     "g": 1,
+     "g": 2,
      "v": 1,
-     "p": 0,
-     "sf": 3,
-     "ss": 2,
-     "pf": 107,
-     "ps": 95,
+     "p": 1,
+     "sf": 4,
+     "ss": 5,
+     "pf": 196,
+     "ps": 192,
      "pen": 0
     },
     {
@@ -826,6 +826,19 @@
     },
     {
      "pos": 2,
+     "squadra": "ce-730-asd-sparanise-volley",
+     "punti": 6,
+     "g": 3,
+     "v": 2,
+     "p": 1,
+     "sf": 6,
+     "ss": 3,
+     "pf": 196,
+     "ps": 173,
+     "pen": 0
+    },
+    {
+     "pos": 3,
      "squadra": "ce-3705-new-volley-san-potito",
      "punti": 3,
      "g": 1,
@@ -838,29 +851,16 @@
      "pen": 0
     },
     {
-     "pos": 3,
-     "squadra": "ce-730-asd-sparanise-volley",
-     "punti": 3,
-     "g": 2,
-     "v": 1,
-     "p": 1,
-     "sf": 3,
-     "ss": 3,
-     "pf": 121,
-     "ps": 116,
-     "pen": 0
-    },
-    {
      "pos": 4,
      "squadra": "ce-5361-ldi-alvignano",
      "punti": 0,
-     "g": 1,
+     "g": 2,
      "v": 0,
-     "p": 1,
+     "p": 2,
      "sf": 0,
-     "ss": 3,
-     "pf": 57,
-     "ps": 75,
+     "ss": 6,
+     "pf": 114,
+     "ps": 150,
      "pen": 0
     },
     {
@@ -2854,8 +2854,8 @@
      25
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-lp-novelli-marcianise",
@@ -2891,8 +2891,8 @@
      27
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-ic-de-mare-plesso-starza-san-cipriano-daversa-san-cipriano-d-aversa-san-cipriano-d-aversa",
@@ -2924,8 +2924,8 @@
      25
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-sm-vitale-ingresso-v-caruso-piedimonte-matese",
@@ -2957,8 +2957,8 @@
      21
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-sms-a-moro-maddaloni",
@@ -2990,8 +2990,8 @@
      10
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-tendostruttura-comunale-san-potito-sannitico",
@@ -3023,8 +3023,8 @@
      7
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-ic-mazzocchi-santa-maria-cv-santa-maria-capua-vetere-santa-maria-capua-vetere",
@@ -3056,8 +3056,8 @@
      25
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-sm-cimarosa-aversa",
@@ -3093,8 +3093,8 @@
      25
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-ic-mazzocchi-santa-maria-cv-santa-maria-capua-vetere-santa-maria-capua-vetere",
@@ -3163,8 +3163,8 @@
      17
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-sms-beethoven-casaluce",
@@ -3196,8 +3196,8 @@
      25
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palavolley-franco-papa-succivo",
@@ -3410,8 +3410,8 @@
      9
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-sms-pascoli-gricignano-di-aversa",
@@ -3443,8 +3443,8 @@
      13
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-tendostruttura-comunale-san-potito-sannitico",
@@ -3484,8 +3484,8 @@
      15
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-ls-emilio-segre-san-cipriano-d-aversa",
@@ -3521,8 +3521,8 @@
      25
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-ist-comprensivo-a-de-curtis-aversa",
@@ -3554,8 +3554,8 @@
      25
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-ic-de-mare-plesso-starza-san-cipriano-daversa-san-cipriano-d-aversa-san-cipriano-d-aversa",
@@ -3587,8 +3587,8 @@
      25
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-sm-f-de-sanctis-sessa-a-sessa-aurunca",
@@ -3620,8 +3620,8 @@
      15
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palasport-sparanise-sparanise",
@@ -3653,8 +3653,8 @@
      25
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-se-einaudi-san-nicola-la-strada",
@@ -3686,8 +3686,8 @@
      21
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-sms-pascoli-gricignano-di-aversa",
@@ -3719,8 +3719,8 @@
      21
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-ls-garofano-capua",
@@ -3752,8 +3752,8 @@
      25
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-lic-sport-jommelli-aversa",
@@ -3785,8 +3785,8 @@
      14
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "documenti_mancanti",
+   "stato_testo": "documenti gara mancanti",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-ic-mazzocchi-santa-maria-cv-santa-maria-capua-vetere-santa-maria-capua-vetere",
@@ -3818,8 +3818,8 @@
      23
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "omologata",
+   "stato_testo": "gara omologata",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-isis-a-manzoni-caserta",
@@ -3855,8 +3855,8 @@
      25
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "documenti_mancanti",
+   "stato_testo": "documenti gara mancanti",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-isis-a-manzoni-caserta",
@@ -3888,8 +3888,8 @@
      7
     ]
    ],
-   "stato": "altro",
-   "stato_testo": "risultato ufficioso",
+   "stato": "documenti_mancanti",
+   "stato_testo": "documenti gara mancanti",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-isis-a-manzoni-caserta",
@@ -4184,12 +4184,29 @@
    "casa": "ce-3333-pallavolo-casaluce",
    "ospite": "ce-2970-hidros",
    "set": [
-    null,
-    null
+    1,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     25,
+     21
+    ],
+    [
+     19,
+     25
+    ],
+    [
+     21,
+     25
+    ],
+    [
+     24,
+     26
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-sms-beethoven-casaluce",
@@ -4204,12 +4221,25 @@
    "casa": "ce-5361-ldi-alvignano",
    "ospite": "ce-730-asd-sparanise-volley",
    "set": [
-    null,
-    null
+    0,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     19,
+     25
+    ],
+    [
+     18,
+     25
+    ],
+    [
+     20,
+     25
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-comunale-via-calvario-dragoni-dragoni",
