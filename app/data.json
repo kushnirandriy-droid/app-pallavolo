@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-27T03:59:46+01:00",
- "ultimo_giro_completo": "2026-11-27T03:59:46+01:00",
+ "aggiornato": "2026-11-27T13:01:59+01:00",
+ "ultimo_giro_completo": "2026-11-27T13:01:59+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -3794,8 +3794,8 @@
      14
     ]
    ],
-   "stato": "documenti_mancanti",
-   "stato_testo": "documenti gara mancanti",
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-ic-mazzocchi-santa-maria-cv-santa-maria-capua-vetere-santa-maria-capua-vetere",
@@ -4642,6 +4642,26 @@
    "url": "https://www.fipavcampania.it/mobile/risultati.asp?CampionatoId=92747&GaraId=131621107"
   },
   {
+   "id": "ce-131675314",
+   "campionato": "ce-94302",
+   "numero": 676,
+   "giornata": 4,
+   "data": "2026-12-01T17:00:00+01:00",
+   "casa": "ce-730-asd-sparanise-volley",
+   "ospite": "ce-x-gladiatore-volley",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-palasport-sparanise-sparanise",
+   "url": null
+  },
+  {
    "id": "ce-131675172",
    "campionato": "ce-94300",
    "numero": 636,
@@ -4699,26 +4719,6 @@
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-sms-a-moro-maddaloni",
-   "url": null
-  },
-  {
-   "id": "ce-131675314",
-   "campionato": "ce-94302",
-   "numero": 676,
-   "giornata": 4,
-   "data": "2026-12-01T19:00:00+01:00",
-   "casa": "ce-730-asd-sparanise-volley",
-   "ospite": "ce-x-gladiatore-volley",
-   "set": [
-    null,
-    null
-   ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
-   "golden_set": false,
-   "arbitro": false,
-   "palestra": "pal-palasport-sparanise-sparanise",
    "url": null
   },
   {
