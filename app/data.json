@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-26T21:21:25+01:00",
- "ultimo_giro_completo": "2026-11-26T21:21:25+01:00",
+ "aggiornato": "2026-11-27T03:59:46+01:00",
+ "ultimo_giro_completo": "2026-11-27T03:59:46+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -389,6 +389,19 @@
    "classifica": [
     {
      "pos": 1,
+     "squadra": "ce-x-volaltoic-pallavolo2000-a",
+     "punti": 6,
+     "g": 2,
+     "v": 2,
+     "p": 0,
+     "sf": 6,
+     "ss": 0,
+     "pf": 151,
+     "ps": 87,
+     "pen": 0
+    },
+    {
+     "pos": 2,
      "squadra": "ce-5467-aquila-volley-marcianise",
      "punti": 6,
      "g": 2,
@@ -398,19 +411,6 @@
      "ss": 1,
      "pf": 165,
      "ps": 120,
-     "pen": 0
-    },
-    {
-     "pos": 2,
-     "squadra": "ce-x-volaltoic-pallavolo2000-a",
-     "punti": 3,
-     "g": 1,
-     "v": 1,
-     "p": 0,
-     "sf": 3,
-     "ss": 0,
-     "pf": 75,
-     "ps": 36,
      "pen": 0
     },
     {
@@ -430,13 +430,13 @@
      "pos": 4,
      "squadra": "ce-2624-amici-del-volley-macerata",
      "punti": 0,
-     "g": 1,
+     "g": 2,
      "v": 0,
-     "p": 1,
+     "p": 2,
      "sf": 1,
-     "ss": 3,
-     "pf": 71,
-     "ps": 90,
+     "ss": 6,
+     "pf": 122,
+     "ps": 166,
      "pen": 0
     },
     {
