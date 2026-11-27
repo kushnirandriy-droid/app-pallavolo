@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-27T13:01:59+01:00",
- "ultimo_giro_completo": "2026-11-27T13:01:59+01:00",
+ "aggiornato": "2026-11-27T22:06:10+01:00",
+ "ultimo_giro_completo": "2026-11-27T22:06:10+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -608,19 +608,32 @@
     },
     {
      "pos": 3,
-     "squadra": "ce-1429-volley-sessa",
-     "punti": 0,
+     "squadra": "ce-2624-amici-del-volley-macerata",
+     "punti": 3,
      "g": 1,
-     "v": 0,
-     "p": 1,
-     "sf": 0,
-     "ss": 3,
-     "pf": 57,
-     "ps": 75,
+     "v": 1,
+     "p": 0,
+     "sf": 3,
+     "ss": 0,
+     "pf": 79,
+     "ps": 53,
      "pen": 0
     },
     {
      "pos": 4,
+     "squadra": "ce-1429-volley-sessa",
+     "punti": 0,
+     "g": 2,
+     "v": 0,
+     "p": 2,
+     "sf": 0,
+     "ss": 6,
+     "pf": 110,
+     "ps": 154,
+     "pen": 0
+    },
+    {
+     "pos": 5,
      "squadra": "ce-1855-volalto-s-nicola-l-s",
      "punti": 0,
      "g": 2,
@@ -630,19 +643,6 @@
      "ss": 6,
      "pf": 63,
      "ps": 150,
-     "pen": 0
-    },
-    {
-     "pos": 5,
-     "squadra": "ce-2624-amici-del-volley-macerata",
-     "punti": 0,
-     "g": 0,
-     "v": 0,
-     "p": 0,
-     "sf": 0,
-     "ss": 0,
-     "pf": 0,
-     "ps": 0,
      "pen": 0
     }
    ],
@@ -942,6 +942,19 @@
     },
     {
      "pos": 5,
+     "squadra": "ce-1338-centro-volley",
+     "punti": 2,
+     "g": 2,
+     "v": 1,
+     "p": 1,
+     "sf": 3,
+     "ss": 5,
+     "pf": 147,
+     "ps": 174,
+     "pen": 0
+    },
+    {
+     "pos": 6,
      "squadra": "ce-5358-vcm",
      "punti": 1,
      "g": 1,
@@ -954,20 +967,20 @@
      "pen": 0
     },
     {
-     "pos": 6,
+     "pos": 7,
      "squadra": "ce-2970-hidros",
-     "punti": 0,
-     "g": 1,
+     "punti": 1,
+     "g": 2,
      "v": 0,
-     "p": 1,
-     "sf": 1,
-     "ss": 3,
-     "pf": 71,
-     "ps": 88,
+     "p": 2,
+     "sf": 3,
+     "ss": 6,
+     "pf": 170,
+     "ps": 199,
      "pen": 0
     },
     {
-     "pos": 7,
+     "pos": 8,
      "squadra": "ce-5361-ldi-alvignano",
      "punti": 0,
      "g": 2,
@@ -977,19 +990,6 @@
      "ss": 6,
      "pf": 78,
      "ps": 150,
-     "pen": 0
-    },
-    {
-     "pos": 8,
-     "squadra": "ce-1338-centro-volley",
-     "punti": 0,
-     "g": 1,
-     "v": 0,
-     "p": 1,
-     "sf": 0,
-     "ss": 3,
-     "pf": 36,
-     "ps": 75,
      "pen": 0
     }
    ],
@@ -1096,7 +1096,7 @@
    "classifica": [
     {
      "pos": 1,
-     "squadra": "ce-5150-virtus-caserta",
+     "squadra": "ce-1589-volleytime-casagiove",
      "punti": 6,
      "g": 2,
      "v": 2,
@@ -1104,20 +1104,20 @@
      "sf": 6,
      "ss": 0,
      "pf": 150,
-     "ps": 50,
+     "ps": 79,
      "pen": 0
     },
     {
      "pos": 2,
-     "squadra": "ce-1589-volleytime-casagiove",
-     "punti": 3,
-     "g": 1,
-     "v": 1,
-     "p": 0,
-     "sf": 3,
-     "ss": 0,
-     "pf": 75,
-     "ps": 24,
+     "squadra": "ce-5150-virtus-caserta",
+     "punti": 6,
+     "g": 3,
+     "v": 2,
+     "p": 1,
+     "sf": 6,
+     "ss": 3,
+     "pf": 205,
+     "ps": 125,
      "pen": 0
     },
     {
@@ -1187,27 +1187,27 @@
     {
      "pos": 3,
      "squadra": "ce-724-gs-aversa-volley",
-     "punti": 1,
-     "g": 2,
-     "v": 0,
+     "punti": 4,
+     "g": 3,
+     "v": 1,
      "p": 2,
-     "sf": 3,
+     "sf": 6,
      "ss": 6,
-     "pf": 183,
-     "ps": 207,
+     "pf": 258,
+     "ps": 239,
      "pen": 0
     },
     {
      "pos": 4,
      "squadra": "ce-5150-virtus-caserta-academy",
      "punti": 0,
-     "g": 2,
+     "g": 3,
      "v": 0,
-     "p": 2,
+     "p": 3,
      "sf": 1,
-     "ss": 6,
-     "pf": 110,
-     "ps": 168,
+     "ss": 9,
+     "pf": 142,
+     "ps": 243,
      "pen": 0
     }
    ],
@@ -4370,12 +4370,25 @@
    "casa": "ce-2624-amici-del-volley-macerata",
    "ospite": "ce-1429-volley-sessa",
    "set": [
-    null,
-    null
+    3,
+    0
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     29,
+     27
+    ],
+    [
+     25,
+     8
+    ],
+    [
+     25,
+     18
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-se-matteotti-macerata-campania",
@@ -4410,12 +4423,25 @@
    "casa": "ce-5150-virtus-caserta",
    "ospite": "ce-1589-volleytime-casagiove",
    "set": [
-    null,
-    null
+    0,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     21,
+     25
+    ],
+    [
+     18,
+     25
+    ],
+    [
+     16,
+     25
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-ic-mazzocchi-santa-maria-cv-santa-maria-capua-vetere-santa-maria-capua-vetere",
@@ -4430,12 +4456,25 @@
    "casa": "ce-5150-virtus-caserta-academy",
    "ospite": "ce-724-gs-aversa-volley",
    "set": [
-    null,
-    null
+    0,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
+   "parziali": [
+    [
+     7,
+     25
+    ],
+    [
+     11,
+     25
+    ],
+    [
+     14,
+     25
+    ]
+   ],
+   "stato": "altro",
+   "stato_testo": "risultato ufficioso",
    "golden_set": false,
    "arbitro": true,
    "palestra": "pal-palestra-ic-mazzocchi-santa-maria-cv-santa-maria-capua-vetere-santa-maria-capua-vetere",
