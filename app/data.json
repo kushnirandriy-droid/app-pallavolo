@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-28T04:15:59+01:00",
- "ultimo_giro_completo": "2026-11-28T04:15:59+01:00",
+ "aggiornato": "2026-11-28T13:04:32+01:00",
+ "ultimo_giro_completo": "2026-11-28T13:04:32+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -1813,6 +1813,15 @@
    "lat": 41.058931,
    "lon": 14.334797,
    "maps": "https://www.google.com/maps/search/?api=1&query=PALESTRA+SE+EINAUDI+VIA+EINAUDI+SAN+NICOLA+LA+STRADA+CE"
+  },
+  "pal-palestra-se-g-rodari-cesa": {
+   "nome": "PALESTRA SE \"G.RODARI\"",
+   "citta": "CESA",
+   "prov": "CE",
+   "via": "VIA CAMPOSTRINO, SNC",
+   "lat": null,
+   "lon": null,
+   "maps": "https://www.google.com/maps/search/?api=1&query=PALESTRA+SE+%22G.RODARI%22+VIA+CAMPOSTRINO%2C+SNC+CESA+CE"
   },
   "pal-palestra-se-matteotti-macerata-campania": {
    "nome": "PALESTRA SE MATTEOTTI",
@@ -4395,26 +4404,6 @@
    "url": null
   },
   {
-   "id": "ce-131675423",
-   "campionato": "ce-94304",
-   "numero": 695,
-   "giornata": 2,
-   "data": "2026-11-27T17:00:00+01:00",
-   "casa": "ce-2970-hidros",
-   "ospite": "ce-5150-virtus-caserta",
-   "set": [
-    null,
-    null
-   ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
-   "golden_set": false,
-   "arbitro": true,
-   "palestra": "pal-palestra-sms-pascoli-gricignano-di-aversa",
-   "url": null
-  },
-  {
    "id": "ce-131674586",
    "campionato": "ce-94222",
    "numero": 405,
@@ -4558,9 +4547,9 @@
    "campionato": "ce-94397",
    "numero": 737,
    "giornata": 2,
-   "data": "2026-11-29T10:00:00+01:00",
-   "casa": "ce-5150-virtus-caserta-academy",
-   "ospite": "ce-4900-carbat-matese",
+   "data": "2026-11-29T11:00:00+01:00",
+   "casa": "ce-4900-carbat-matese",
+   "ospite": "ce-5150-virtus-caserta-academy",
    "set": [
     null,
     null
@@ -4570,27 +4559,7 @@
    "stato_testo": "da disputare Arbitro designato",
    "golden_set": false,
    "arbitro": true,
-   "palestra": "pal-palestra-isis-a-manzoni-caserta",
-   "url": null
-  },
-  {
-   "id": "ce-131675112",
-   "campionato": "ce-94233",
-   "numero": 606,
-   "giornata": 3,
-   "data": "2026-11-29T11:30:00+01:00",
-   "casa": "ce-5150-virtus-caserta",
-   "ospite": "ce-2624-amici-del-volley-macerata",
-   "set": [
-    null,
-    null
-   ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare Arbitro designato",
-   "golden_set": false,
-   "arbitro": true,
-   "palestra": "pal-palestra-isis-a-manzoni-caserta",
+   "palestra": "pal-tendostruttura-matese-piedimonte-matese-piedimonte-matese",
    "url": null
   },
   {
@@ -5114,6 +5083,26 @@
    "url": null
   },
   {
+   "id": "ce-131675423",
+   "campionato": "ce-94304",
+   "numero": 695,
+   "giornata": 2,
+   "data": "2026-12-11T18:30:00+01:00",
+   "casa": "ce-2970-hidros",
+   "ospite": "ce-5150-virtus-caserta",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-palestra-se-g-rodari-cesa",
+   "url": null
+  },
+  {
    "id": "ce-131674498",
    "campionato": "ce-94396",
    "numero": 301,
@@ -5152,6 +5141,26 @@
    "arbitro": false,
    "palestra": "pal-palasport-walter-morelli-vairano-scalo-vairano-patenora",
    "url": "https://www.fipavcampania.it/mobile/risultati.asp?CampionatoId=92747&GaraId=131621117"
+  },
+  {
+   "id": "ce-131675112",
+   "campionato": "ce-94233",
+   "numero": 606,
+   "giornata": 3,
+   "data": "2026-12-12T17:30:00+01:00",
+   "casa": "ce-5150-virtus-caserta",
+   "ospite": "ce-2624-amici-del-volley-macerata",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-palestra-isis-a-manzoni-caserta",
+   "url": null
   },
   {
    "id": "ce-131674333",
@@ -7134,26 +7143,6 @@
    "url": null
   },
   {
-   "id": "ce-131675828",
-   "campionato": "ce-94397",
-   "numero": 758,
-   "giornata": 9,
-   "data": "2027-02-02T18:30:00+01:00",
-   "casa": "ce-4900-carbat-matese",
-   "ospite": "ce-5150-virtus-caserta-academy",
-   "set": [
-    null,
-    null
-   ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
-   "golden_set": false,
-   "arbitro": false,
-   "palestra": "pal-tendostruttura-matese-piedimonte-matese-piedimonte-matese",
-   "url": null
-  },
-  {
    "id": "ce-131674520",
    "campionato": "ce-94396",
    "numero": 323,
@@ -7171,6 +7160,26 @@
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-palestra-sms-a-moro-maddaloni",
+   "url": null
+  },
+  {
+   "id": "ce-131675828",
+   "campionato": "ce-94397",
+   "numero": 758,
+   "giornata": 9,
+   "data": "2027-02-06T18:00:00+01:00",
+   "casa": "ce-5150-virtus-caserta-academy",
+   "ospite": "ce-4900-carbat-matese",
+   "set": [
+    null,
+    null
+   ],
+   "parziali": [],
+   "stato": "da_disputare",
+   "stato_testo": "da disputare",
+   "golden_set": false,
+   "arbitro": false,
+   "palestra": "pal-palestra-ic-mazzocchi-santa-maria-cv-santa-maria-capua-vetere-santa-maria-capua-vetere",
    "url": null
   },
   {
