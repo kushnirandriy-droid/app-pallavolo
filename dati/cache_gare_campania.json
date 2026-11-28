@@ -1386,7 +1386,7 @@
   }
  },
  "cr-131621103": {
-  "letto": "2026-11-27T04:00:10+01:00",
+  "letto": "2026-11-28T04:16:23+01:00",
   "set": [
    null,
    null
@@ -1408,16 +1408,29 @@
   }
  },
  "cr-131621104": {
-  "letto": "2026-11-27T04:00:10+01:00",
+  "letto": "2026-11-28T04:16:23+01:00",
   "set": [
-   null,
-   null
+   0,
+   3
   ],
   "dati": {
    "numero": 1038,
    "giornata": 7,
    "data": "2026-11-27T21:00:00+01:00",
-   "parziali": [],
+   "parziali": [
+    [
+     23,
+     25
+    ],
+    [
+     22,
+     25
+    ],
+    [
+     22,
+     25
+    ]
+   ],
    "palestra": {
     "nome": "PALASPORT \"WALTER MORELLI\"",
     "citta": "VAIRANO SCALO VAIRANO PATENORA",

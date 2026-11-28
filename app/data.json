@@ -1,7 +1,7 @@
 {
  "versione": 1,
- "aggiornato": "2026-11-27T22:06:10+01:00",
- "ultimo_giro_completo": "2026-11-27T22:06:10+01:00",
+ "aggiornato": "2026-11-28T04:15:59+01:00",
+ "ultimo_giro_completo": "2026-11-28T04:15:59+01:00",
  "stagione": "2026/27",
  "societa_principale": {
   "nome": "VIRTUS CASERTA",
@@ -93,6 +93,19 @@
     },
     {
      "pos": 7,
+     "squadra": "cr-casapane-san-marco-volley",
+     "punti": 10,
+     "g": 6,
+     "v": 3,
+     "p": 3,
+     "sf": 12,
+     "ss": 10,
+     "pf": 451,
+     "ps": 457,
+     "pen": 0
+    },
+    {
+     "pos": 8,
      "squadra": "cr-asd-pallavolo-marigliano",
      "punti": 9,
      "g": 6,
@@ -105,29 +118,16 @@
      "pen": 0
     },
     {
-     "pos": 8,
+     "pos": 9,
      "squadra": "cr-folgore-vairano",
      "punti": 8,
-     "g": 6,
+     "g": 7,
      "v": 3,
-     "p": 3,
+     "p": 4,
      "sf": 10,
-     "ss": 12,
-     "pf": 443,
-     "ps": 501,
-     "pen": 0
-    },
-    {
-     "pos": 9,
-     "squadra": "cr-casapane-san-marco-volley",
-     "punti": 7,
-     "g": 5,
-     "v": 2,
-     "p": 3,
-     "sf": 9,
-     "ss": 10,
-     "pf": 376,
-     "ps": 390,
+     "ss": 15,
+     "pf": 510,
+     "ps": 576,
      "pen": 0
     },
     {
@@ -1122,28 +1122,28 @@
     },
     {
      "pos": 3,
-     "squadra": "ce-3438-dreamvolley-san-cipriano",
-     "punti": 0,
+     "squadra": "ce-5773-fmf-volalto-snc",
+     "punti": 3,
      "g": 2,
-     "v": 0,
-     "p": 2,
-     "sf": 0,
-     "ss": 6,
-     "pf": 55,
-     "ps": 150,
+     "v": 1,
+     "p": 1,
+     "sf": 3,
+     "ss": 4,
+     "pf": 123,
+     "ps": 171,
      "pen": 0
     },
     {
      "pos": 4,
-     "squadra": "ce-5773-fmf-volalto-snc",
+     "squadra": "ce-3438-dreamvolley-san-cipriano",
      "punti": 0,
-     "g": 1,
+     "g": 3,
      "v": 0,
-     "p": 1,
-     "sf": 0,
-     "ss": 3,
-     "pf": 19,
-     "ps": 75,
+     "p": 3,
+     "sf": 1,
+     "ss": 9,
+     "pf": 151,
+     "ps": 254,
      "pen": 0
     }
    ],
@@ -4489,12 +4489,25 @@
    "casa": "cr-folgore-vairano",
    "ospite": "cr-casapane-san-marco-volley",
    "set": [
-    null,
-    null
+    0,
+    3
    ],
-   "parziali": [],
-   "stato": "da_disputare",
-   "stato_testo": "da disputare",
+   "parziali": [
+    [
+     23,
+     25
+    ],
+    [
+     22,
+     25
+    ],
+    [
+     22,
+     25
+    ]
+   ],
+   "stato": "disputata",
+   "stato_testo": "disputata",
    "golden_set": false,
    "arbitro": false,
    "palestra": "pal-palasport-walter-morelli-vairano-scalo-vairano-patenora",
